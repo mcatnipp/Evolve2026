@@ -246,48 +246,55 @@
       "name": "Solutions",
       "url": "/solutions/",
       "title": "Data Center Solutions | Evolve",
-      "decision": "READY AFTER APPROVAL (NEW DRAFT 2026-09-08)"
+      "decision": "READY (APPROVED 2026-09-08 by M. Atnipp"
     },
     {
       "id": "PAGE-910",
       "name": "AI / HPC Data Centers",
       "url": "/solutions/ai-hpc-data-centers/",
       "title": "AI and HPC Data Center Solutions | Evolve",
-      "decision": "READY AFTER APPROVAL (NEW DRAFT 2026-09-08)"
+      "decision": "READY (APPROVED 2026-09-08 by M. Atnipp"
     },
     {
       "id": "PAGE-920",
       "name": "Edge Data Centers",
       "url": "/solutions/edge-data-centers/",
       "title": "Edge Data Center Solutions | Evolve",
-      "decision": "READY AFTER APPROVAL (NEW DRAFT 2026-09-08)"
+      "decision": "READY (APPROVED 2026-09-08 by M. Atnipp"
     },
     {
       "id": "PAGE-930",
       "name": "Modular Data Centers",
       "url": "/solutions/modular-data-centers/",
       "title": "Modular Data Center Solutions | Evolve",
-      "decision": "READY AFTER APPROVAL (NEW DRAFT 2026-09-08)"
+      "decision": "READY (APPROVED 2026-09-08 by M. Atnipp"
     },
     {
       "id": "PAGE-940",
       "name": "Colocation Data Centers",
       "url": "/solutions/colocation-data-centers/",
       "title": "Colocation Capacity Solutions | Evolve",
-      "decision": "READY AFTER APPROVAL (NEW DRAFT 2026-09-08)"
+      "decision": "READY (APPROVED 2026-09-08 by M. Atnipp"
     },
     {
       "id": "PAGE-950",
       "name": "Greenfield New Builds",
       "url": "/solutions/greenfield-new-builds/",
       "title": "Greenfield Data Center New Builds | Evolve",
-      "decision": "READY AFTER APPROVAL (NEW DRAFT 2026-09-08)"
+      "decision": "READY (APPROVED 2026-09-08 by M. Atnipp"
     },
     {
       "id": "PAGE-960",
       "name": "Brownfield & Retrofit",
       "url": "/solutions/brownfield-retrofit/",
       "title": "Brownfield and Retrofit Data Center Solutions | Evolve",
+      "decision": "READY (APPROVED 2026-09-08 by M. Atnipp"
+    },
+    {
+      "id": "PAGE-710",
+      "name": "Leadership",
+      "url": "/about/leadership/",
+      "title": "Leadership Team | Evolve Data Center Solutions",
       "decision": "READY AFTER APPROVAL (NEW DRAFT 2026-09-08)"
     }
   ],
@@ -315,7 +322,8 @@
     "/solutions/greenfield/": "/solutions/greenfield-new-builds/",
     "/solutions/brownfield/": "/solutions/brownfield-retrofit/",
     "/company-news/": "/insights/",
-    "/leadership/": "/about/"
+    "/leadership/": "/about/leadership/",
+    "/leadership/*": "/about/leadership/"
   },
   "excluded": [
     {

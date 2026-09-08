@@ -44,6 +44,7 @@
 /solutions/brownfield /solutions/brownfield-retrofit/ 301!
 /company-news/ /insights/ 301!
 /company-news /insights/ 301!
-/leadership/ /about/ 301!
-/leadership /about/ 301!
+/leadership/ /about/leadership/ 301!
+/leadership /about/leadership/ 301!
+/leadership/* /about/leadership/ 301!
 /index.html / 301!

@@ -129,7 +129,26 @@ NAVIGATION = [
         "cta": ["Discuss a Data Center Project", "/start-a-project/"],
     },
     {"label": "Insights", "href": "/insights/"},
-    {"label": "About", "href": "/about/"},
+    {
+        "label": "About",
+        "href": "/about/",
+        "groups": [
+            {"label": "Company", "links": [
+                ["About Evolve", "/about/"],
+                ["Leadership", "/about/leadership/"],
+            ]},
+            {"label": "Connect", "links": [
+                ["Contact", "/contact/"],
+                ["Existing-Customer Support", "/support/"],
+            ]},
+            {"label": "Insights", "links": [
+                ["All Insights", "/insights/"],
+                ["Site Selection & Power Planning", "/insights/data-center-site-selection-power-planning/"],
+                ["Modular vs. Traditional Delivery", "/insights/modular-vs-traditional-data-center-delivery/"],
+            ]},
+        ],
+        "cta": ["Contact Evolve", "/contact/"],
+    },
 ]
 
 FOOTER_GROUPS = [
@@ -168,6 +187,7 @@ FOOTER_GROUPS = [
     ]},
     {"label": "Company", "links": [
         ["About Evolve", "/about/"],
+        ["Leadership", "/about/leadership/"],
         ["Insights", "/insights/"],
         ["Contact", "/contact/"],
         ["Start a Project", "/start-a-project/"],
@@ -211,6 +231,7 @@ LABEL_BY_PATH = {
     "/insights/data-center-monitoring-vs-dcim/": "Monitoring vs. DCIM",
     "/insights/responsible-data-center-development/": "Responsible Development",
     "/about/": "About Evolve",
+    "/about/leadership/": "Leadership",
     "/contact/": "Contact",
     "/support/": "Support",
     "/start-a-project/": "Start a Project",
@@ -377,13 +398,18 @@ REDIRECTS = {
     "/solutions/greenfield/": "/solutions/greenfield-new-builds/",
     "/solutions/brownfield/": "/solutions/brownfield-retrofit/",
     "/company-news/": "/insights/",
-    "/leadership/": "/about/",
+    "/leadership/": "/about/leadership/",
+    "/leadership/*": "/about/leadership/",
 }
 
 # ---------------------------------------------------------------------------
-# Imagery. Every image here is Evolve-owned project photography extracted from
-# the August 2026 qualification decks or the Evolve Website Build folder.
-# No stock, renders, customer names or identifiable projects.
+# Imagery. IMAGES holds Evolve-owned project photography from the August 2026
+# qualification decks and the Evolve Website Build folder; STOCK_IMAGES (merged
+# below) holds photography imported from the 2026 mockup and evolveincorporated.com.
+# Stock use was approved for the review build on 2026-09-08 (M. Atnipp, FDI Creative);
+# all evolveincorporated.com imagery is cleared for use. Licenses for mockup stock
+# still need confirmation before production. No renders, customer names or
+# identifiable projects.
 # ---------------------------------------------------------------------------
 IMAGES = {
     "shop": {"file": "evolve-fabrication-shop", "widths": [1920, 1280, 800], "w": 2429, "h": 1369,
@@ -458,6 +484,7 @@ PAGE_MEDIA = {
     "/insights/data-center-monitoring-vs-dcim/": {"hero": "network-operations-center-operator", "support": "operations-center-monitoring-screens"},
     "/insights/responsible-data-center-development/": {"hero": "river-landscape-site-development", "support": "texas-hill-country-site-landscape"},
     "/about/": {"hero": "evolve-groundbreaking-ceremony-team", "support": "yard", "strip": ["shop", "crane-lift", "frame", "module-entry"]},
+    "/about/leadership/": {"hero": "evolve-groundbreaking-ceremony-team", "support": "shop"},
     "/contact/": {"hero": "technicians-laptop-server-room"},
     "/support/": {"hero": "technician-control-room-hard-hat"},
     "/start-a-project/": {"hero": "construction-team-reviewing-plans-hard-hats"},
@@ -517,3 +544,32 @@ CALLOUT_TITLES = {
     "confidentiality is part of professional conduct", "evolve's role",
     "aggregate experience", "experience at a glance",
 }
+
+
+# ---------------------------------------------------------------------------
+# Leadership roster. Names, titles and LinkedIn URLs come from
+# evolveincorporated.com/leadership as published 2026-09-08. Two titles are
+# adjusted pending confirmation (see content/Evolve_Copy_06_Leadership_2026-09-08.md).
+# Headshots are processed by scripts/headshot-template.swift into public/img/team/.
+# ---------------------------------------------------------------------------
+LEADERSHIP = [
+    {"slug": "tye-johnson", "name": "Tye Johnson", "title": "Chief Executive Officer", "linkedin": "https://www.linkedin.com/in/tye-johnson-aa91431/", "photo": True},
+    {"slug": "clay-bludau", "name": "Clay Bludau", "title": "President", "linkedin": None, "photo": True},
+    {"slug": "zeeshan-siddiqui", "name": "Zeeshan Siddiqui", "title": "Chief Financial Officer", "linkedin": "https://www.linkedin.com/in/zeeshan-siddiqui-3696a62a/", "photo": True},
+    {"slug": "chuck-haigh", "name": "Chuck Haigh", "title": "Principal", "linkedin": "https://www.linkedin.com/in/chuck-haigh/", "photo": True},
+    {"slug": "matt-gibson", "name": "Matt Gibson", "title": "Chief Operating Officer, Evolve Energy", "linkedin": "https://www.linkedin.com/in/matthew-gibson-rma-crc-98922a29/", "photo": True},
+    {"slug": "lindy-devitt", "name": "Lindy Devitt", "title": "Management Director", "linkedin": "https://www.linkedin.com/in/lindy-devitt-8b106b9/", "photo": True},
+    {"slug": "bo-williamson", "name": "Bo Williamson", "title": "Director, Power Generation", "linkedin": "https://www.linkedin.com/in/bo-williamson-09991351/", "photo": True},
+    {"slug": "doug-herron", "name": "Doug Herron", "title": "Director, Monitoring Systems", "linkedin": "https://www.linkedin.com/in/doug-herron-55312782/", "photo": True},
+    {"slug": "molly-petty", "name": "Molly Petty", "title": "Preconstruction Manager", "linkedin": "https://www.linkedin.com/in/molly-berdan/", "photo": False},
+    {"slug": "terra-lewis", "name": "Terra Lewis", "title": "Account Management Supervisor", "linkedin": "https://www.linkedin.com/in/terra-lewis/", "photo": True},
+    {"slug": "isaiah-amador", "name": "Isaiah Amador", "title": "Project Manager, Infrastructure Solutions", "linkedin": "https://www.linkedin.com/in/isaiah-amador-pmp/", "photo": True},
+    {"slug": "steven-eickenhorst", "name": "Steven Eickenhorst", "title": "Project Manager, Infrastructure Solutions", "linkedin": "https://www.linkedin.com/in/steven-eickenhorst-pmp-7454b023/", "photo": True},
+    {"slug": "krista-bouquet", "name": "Krista Bouquet", "title": "Evolve Power Generation", "linkedin": None, "photo": False},
+]
+for _person in LEADERSHIP:
+    if _person["photo"]:
+        IMAGES["team-" + _person["slug"]] = {
+            "file": "team/" + _person["slug"], "widths": [800, 400], "w": 800, "h": 1000,
+            "alt": "%s, %s, Evolve Data Center Solutions" % (_person["name"], _person["title"]),
+        }

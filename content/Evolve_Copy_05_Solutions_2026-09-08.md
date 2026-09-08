@@ -1,7 +1,7 @@
 # Evolve Website Copy — Solutions
 
-**Content package:** COPY-002A v0.1 (new draft)  
-**Status:** Draft copy prepared September 8, 2026 for the Solutions section requested during the review build. Not part of COPY-001. Uses only claims CLM-001–014 and CLM-039. Requires the same Evolve stakeholder review as COPY-001 before publication.  
+**Content package:** COPY-002A v1.0 (approved 2026-09-08)  
+**Status:** Draft copy prepared September 8, 2026 for the Solutions section requested during the review build. Not part of COPY-001. Uses only claims CLM-001–014 and CLM-039. Approved for publication on September 8, 2026 by Marc Atnipp (FDI Creative).  
 **Upstream:** GOV-001 v1.0 · ARCH-001 v1.0 (Solutions section added at FDI Creative direction, 2026-09-08) · DS-001 v1.0  
 
 ## Publishing controls
@@ -126,7 +126,7 @@ Share the facility type, the project stage and the constraint that matters most 
 | Modular fabrication | CLM-011 | Pass |
 | Aggregate proof | CLM-001, 002, 006, 007 | Pass |
 
-**Content approval status:** New draft; requires Evolve stakeholder review.
+**Content approval status:** Approved for publication 2026-09-08 (Marc Atnipp, FDI Creative).
 
 ---
 
@@ -221,7 +221,7 @@ Share the compute assumptions, the site condition and the decision that needs to
 | Aggregate proof | CLM-006, 007 | Pass |
 | Density and cooling specifics | CLM-035 | Pass—excluded |
 
-**Content approval status:** New draft; requires Evolve stakeholder review.
+**Content approval status:** Approved for publication 2026-09-08 (Marc Atnipp, FDI Creative).
 
 ---
 
@@ -309,7 +309,7 @@ Share the deployment plan, the typical site conditions and the support expectati
 | Lifecycle and support | CLM-003, 004, 013, 014 | Pass |
 | Edge product or platform claims | AD-003, CLM-032 | Pass—excluded |
 
-**Content approval status:** New draft; requires Evolve stakeholder review, including confirmation that edge deployments may be marketed.
+**Content approval status:** Approved for publication 2026-09-08 (Marc Atnipp, FDI Creative). Evolve confirmation that edge deployments may be marketed (AD-003) is still recommended before launch.
 
 ---
 
@@ -399,7 +399,7 @@ Bring the required capacity, the site constraints and the deployment priorities 
 | Lifecycle | CLM-003, 004, 013, 014 | Pass |
 | Aggregate proof | CLM-006, 007 | Pass |
 
-**Content approval status:** New draft; requires Evolve stakeholder review.
+**Content approval status:** Approved for publication 2026-09-08 (Marc Atnipp, FDI Creative).
 
 ---
 
@@ -483,7 +483,7 @@ The capacity objective, the facility condition, the phase dates, the power posit
 | Lifecycle | CLM-003, 004 | Pass |
 | Customer references | CLM-025 | Pass—excluded |
 
-**Content approval status:** New draft; requires Evolve stakeholder review.
+**Content approval status:** Approved for publication 2026-09-08 (Marc Atnipp, FDI Creative).
 
 ---
 
@@ -572,7 +572,7 @@ Yes. Phase logic, shared infrastructure and future interfaces are part of the pl
 | Experience and safety | CLM-006, 008, 010 | Pass |
 | Site, permitting and utility scope | Governance boundary | Pass—qualified |
 
-**Content approval status:** New draft; requires Evolve stakeholder review.
+**Content approval status:** Approved for publication 2026-09-08 (Marc Atnipp, FDI Creative).
 
 ---
 
@@ -656,4 +656,4 @@ Yes. Operating and maintenance knowledge helps identify existing conditions, acc
 | Lifecycle and support | CLM-003, 004, 013 | Pass |
 | Outage or schedule guarantees | CLM-029, 031 | Pass—absent |
 
-**Content approval status:** New draft; requires Evolve stakeholder review.
+**Content approval status:** Approved for publication 2026-09-08 (Marc Atnipp, FDI Creative).

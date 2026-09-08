@@ -752,8 +752,33 @@ def render_address(sec, top, page):
 def render_links(sec, top, page):
     lead, subs = split_subs(sec, top)
     links = collect_links(lead)
+    if page["url"] == "/about/" and (sec["title"] or "").lower().startswith("related"):
+        links = list(links) + [("Leadership", "/about/leadership/")]
     extra = "".join(para_html(b[1]) for b in lead if b[0] == "p")
     return section_head(sec["title"], []) + extra + links_grid(links)
+
+
+LINKEDIN_ICON = ('<svg aria-hidden="true" viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>')
+
+
+def render_leaders(sec, top, page):
+    """Leadership grid from D.LEADERSHIP: templated black-and-white headshot, name, title, LinkedIn."""
+    lead, subs = split_subs(sec, top)
+    cards = []
+    for p in D.LEADERSHIP:
+        if p["photo"]:
+            photo = '<figure class="leader-photo">%s</figure>' % img_tag("team-" + p["slug"], "(min-width: 64rem) 18rem, (min-width: 40rem) 45vw, 100vw")
+        else:
+            initials = "".join(w[0] for w in p["name"].split()[:2])
+            photo = ('<div class="leader-photo leader-placeholder" role="img" aria-label="Portrait of %s to come"><span>%s</span><small>Portrait to come</small></div>'
+                     % (esc(p["name"]), esc(initials)))
+        link = ""
+        if p.get("linkedin"):
+            link = ('<a class="leader-link" href="%s" target="_blank" rel="noopener noreferrer">%s<span>LinkedIn</span>'
+                    '<span class="sr-only"> profile of %s (opens in a new tab)</span></a>' % (p["linkedin"], LINKEDIN_ICON, esc(p["name"])))
+        cards.append('<article class="leader" id="%s">%s<div class="leader-body"><h3>%s</h3><p class="leader-title">%s</p>%s</div></article>'
+                     % (p["slug"], photo, esc(p["name"]), esc(p["title"]), link))
+    return section_head(sec["title"], lead) + '<div class="leaders">%s</div>' % "".join(cards)
 
 
 def render_prose(sec, top, page):
@@ -798,6 +823,8 @@ def classify(sec, top, page):
     media = D.PAGE_MEDIA.get(page["url"], {})
     if title in media.get("bands", {}):
         return "split"
+    if page["url"] == "/about/leadership/" and t == "leadership team":
+        return "leaders"
     if not title:
         return "prose"
     if not subs and link_desc_list(lead):
@@ -860,6 +887,8 @@ def render_sections(page, pages_by_url):
             inner = render_linkcards(sec, top, page)
         elif kind == "insight-cards":
             inner = render_insight_cards(sec, top, page, pages_by_url)
+        elif kind == "leaders":
+            inner = render_leaders(sec, top, page)
         elif kind == "steps":
             inner = render_steps(sec, top, page)
         elif kind == "points":
@@ -972,13 +1001,26 @@ def schema_for(page):
               "description": page["description"], "isPartOf": {"@id": base + "/#website"}}]
     if url == "/":
         graph.append({"@type": "WebSite", "@id": base + "/#website", "url": base + "/", "name": D.SITE["name"], "publisher": {"@id": base + "/#organization"}})
-    if url in ("/", "/about/", "/contact/"):
+    if url in ("/", "/about/", "/contact/", "/about/leadership/"):
         graph.append({"@type": "Organization", "@id": base + "/#organization", "name": D.SITE["name"], "url": base,
                       "logo": base + "/assets/Evolve_Logo_Full_Black_RedE.png", "telephone": D.SITE["phone_href"], "foundingDate": "2004",
                       "address": {"@type": "PostalAddress", "streetAddress": "10555 Cossey Road", "addressLocality": "Houston", "addressRegion": "TX", "postalCode": "77070", "addressCountry": "US"}})
     if re.match(r"^/(design-build|power-generation|maintenance|data-center-markets|solutions)/.+", url) or url in ("/design-build/", "/power-generation/", "/maintenance/"):
         graph.append({"@type": "Service", "name": page["h1"], "description": page["description"], "provider": {"@id": base + "/#organization"},
                       "areaServed": {"@type": "Country", "name": "United States"}})
+    if url == "/about/leadership/":
+        people = []
+        for p in D.LEADERSHIP:
+            node = {"@type": "Person", "@id": base + url + "#" + p["slug"], "name": p["name"], "jobTitle": p["title"],
+                    "worksFor": {"@id": base + "/#organization"}}
+            if p["photo"]:
+                node["image"] = base + "/img/team/%s-800.jpg" % p["slug"]
+            if p.get("linkedin"):
+                node["sameAs"] = [p["linkedin"]]
+            people.append(node)
+        graph.append({"@type": "ItemList", "name": "Evolve Data Center Solutions leadership team",
+                      "itemListElement": [{"@type": "ListItem", "position": i + 1, "item": {"@id": n["@id"]}} for i, n in enumerate(people)]})
+        graph.extend(people)
     bc = breadcrumbs(url)
     if bc:
         graph.append({"@type": "BreadcrumbList", "itemListElement": [

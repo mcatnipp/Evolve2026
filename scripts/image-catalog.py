@@ -123,6 +123,73 @@ BRIEFS = {
     },
 }
 
+HEADSHOT_TEMPLATE = ("Leadership headshot template (scripts/headshot-template.swift): 4:5 portrait, face about one third of the frame height with headroom, "
+                     "subject lifted onto a neutral gray studio backdrop, black-and-white grade, delivered at 800x1000 and 400x500. "
+                     "Wardrobe standard: collared shirt and sports coat with no tie for men; professional business wear for women.")
+RETOUCH = ("Retouch brief (Photoshop Generative Fill, Firefly or a retoucher), keep the face, expression and lighting untouched, photorealistic, no AI look: ")
+
+HEADSHOTS = {
+    "tye-johnson": {"file": "Tye-intro.jpg", "size": "598 x 598", "priority": "High",
+                    "issue": "Source is a tight, casual outdoor crop; no jacket or collar visible; little headroom.",
+                    "need": "Wardrobe to the standard and a looser crop, or a new studio headshot.",
+                    "prompt": RETOUCH + "add a charcoal sports coat over an open-collar white dress shirt, extend the canvas for headroom and shoulders.",
+                    "source": "Preferred: reshoot on the template spec. " + HEADSHOT_TEMPLATE},
+    "clay-bludau": {"file": "Clay-intro.jpg", "size": "551 x 551", "priority": "High",
+                    "issue": "Wearing a baseball cap; casual outdoor photo; tight crop.",
+                    "need": "Cap removed and wardrobe to the standard, or a new studio headshot.",
+                    "prompt": RETOUCH + "remove the baseball cap and reconstruct natural short hair, add a navy sports coat over an open-collar light blue shirt, extend headroom.",
+                    "source": "Preferred: reshoot on the template spec."},
+    "zeeshan-siddiqui": {"file": "zeeshan-siddiqui.jpg", "size": "800 x 800", "priority": "Medium",
+                         "issue": "Studio headshot in a suit with a tie; the standard is no tie.",
+                         "need": "Tie removed with an open collar.",
+                         "prompt": RETOUCH + "remove the necktie, open the top collar button naturally, keep the suit jacket.",
+                         "source": "Retouch is sufficient; no reshoot needed."},
+    "chuck-haigh": {"file": "b2ap3_large_Haigh_Chuck.jpg (blog version, 791 x 1200)", "size": "791 x 1200", "priority": "Low",
+                    "issue": "Meets the standard: studio portrait, gray sports coat, open-collar plaid shirt.",
+                    "need": "None; higher-resolution original if available.",
+                    "prompt": "No retouch required.", "source": "Reference example for the template."},
+    "matt-gibson": {"file": "matt-gibson.jpg", "size": "389 x 389", "priority": "Medium",
+                    "issue": "Meets the standard (dark jacket, open collar) but only 389 px; slightly soft at card size.",
+                    "need": "Higher-resolution original from Evolve.",
+                    "prompt": "No wardrobe retouch required.", "source": "Request the original file."},
+    "lindy-devitt": {"file": "lindy-devitt.jpg", "size": "400 x 400", "priority": "Low",
+                     "issue": "Meets the standard (professional black top with Evolve mark); 400 px source.",
+                     "need": "Higher-resolution original if available.",
+                     "prompt": "No retouch required.", "source": "Request the original file."},
+    "bo-williamson": {"file": "bo-williamson.jpg", "size": "791 x 791", "priority": "High",
+                      "issue": "Wearing a white Evolve cap and a polo shirt; outdoor photo.",
+                      "need": "Cap removed and wardrobe to the standard, or a new studio headshot.",
+                      "prompt": RETOUCH + "remove the cap and reconstruct natural hair, replace the polo with an open-collar white shirt and charcoal sports coat.",
+                      "source": "Preferred: reshoot on the template spec."},
+    "doug-herron": {"file": "doug-herron.jpg", "size": "298 x 298", "priority": "High",
+                    "issue": "Casual indoor photo, 298 px only; collared shirt but no jacket; tight crop.",
+                    "need": "Sports coat added and a higher-resolution photo, or a new studio headshot.",
+                    "prompt": RETOUCH + "add a navy sports coat over the existing light collared shirt, extend headroom and shoulders.",
+                    "source": "Preferred: reshoot on the template spec."},
+    "molly-petty": {"missing": True, "priority": "High",
+                    "issue": "No photograph exists on the current site or in the Drive folders; a placeholder tile is shown.",
+                    "need": "New headshot to the template spec.",
+                    "prompt": "No generation: request a photograph. " + HEADSHOT_TEMPLATE,
+                    "source": "Request from Evolve marketing or schedule with the leadership photo session."},
+    "terra-lewis": {"file": "terra-lewis.jpg", "size": "278 x 278", "priority": "Medium",
+                    "issue": "Professional business wear meets the standard, but the source is a 278 px indoor phone photo.",
+                    "need": "Higher-resolution photo or a new studio headshot.",
+                    "prompt": "No wardrobe retouch required.", "source": "Preferred: reshoot on the template spec."},
+    "isaiah-amador": {"file": "isaiah-amador.jpg", "size": "640 x 640", "priority": "Low",
+                      "issue": "Meets the standard: studio portrait, gray jacket, open collar.",
+                      "need": "None.", "prompt": "No retouch required.", "source": "Reference example for the template."},
+    "steven-eickenhorst": {"file": "steven-eickenhorst.jpg", "size": "235 x 235", "priority": "High",
+                           "issue": "Wearing an Astros cap and a dark T-shirt; 235 px phone photo.",
+                           "need": "New studio headshot to the template spec.",
+                           "prompt": RETOUCH + "remove the cap and reconstruct natural hair, add an open-collar shirt and charcoal sports coat; resolution will remain limited.",
+                           "source": "Reshoot required; retouch is a stopgap only."},
+    "krista-bouquet": {"missing": True, "priority": "High",
+                       "issue": "No photograph exists on the current site or in the Drive folders; a placeholder tile is shown. Listed title is a department name.",
+                       "need": "New headshot to the template spec and a confirmed title.",
+                       "prompt": "No generation: request a photograph. " + HEADSHOT_TEMPLATE,
+                       "source": "Request from Evolve marketing or schedule with the leadership photo session."},
+}
+
 # Pages that currently have no dedicated hero photograph.
 PAGE_NEEDS = [
     ("/design-build/planning-feasibility/", "Planning & Feasibility", "2x2 mosaic of existing photos",
@@ -194,6 +261,8 @@ def usage_index():
                 roles.append("photo strip")
             if re.search(r'<figure>\s*<img src="/img/%s' % base, html):
                 roles.append("section image")
+            if re.search(r'class="leader-photo">\s*<img src="/img/%s' % base, html):
+                roles.append("headshot")
             label = D.LABEL_BY_PATH.get(rel, rel)
             uses.setdefault(key, []).append("%s (%s)" % (label, ", ".join(roles) or "inline"))
     return uses
@@ -207,18 +276,46 @@ def main():
     n = 0
     for key, im in D.IMAGES.items():
         n += 1
+        if key.startswith("team-"):
+            slug = key[5:]
+            h = HEADSHOTS.get(slug, {})
+            rows.append([n, key, "public/img/%s-*.jpg" % im["file"], "Leadership headshot (template applied)",
+                         "; ".join(sorted(set(uses.get(key, [])))) or "unused",
+                         "evolveincorporated.com/images/leadership (cleared for use 2026-09-08); source file %s" % h.get("file", "?"),
+                         h.get("size", "?"), h.get("issue", ""), h.get("need", ""), h.get("prompt", ""), h.get("source", "Request a new headshot from Evolve if retouching is not acceptable."), h.get("priority", "Medium")])
+            continue
         stock = key not in BRIEFS
-        b = BRIEFS.get(key, {
-            "issue": "Imported stock; license unconfirmed.",
-            "need": "License confirmation or an Evolve-owned photo of the same subject.",
-            "prompt": STYLE + " " + im["alt"] + ", landscape 3:2.",
-            "source": "Confirm the license or reshoot.",
-            "priority": "Medium",
-        })
-        rows.append([n, key, "public/img/%s-*.jpg" % im["file"], "Stock photograph (imported)" if stock else "Photograph",
+        origin = im.get("source", "")
+        if stock and origin == "current":
+            default = {"issue": "Photo from the current Evolve site; cleared for use 2026-09-08. Resolution and provenance still worth confirming with Evolve.",
+                       "need": "Original file from Evolve if a larger version exists.",
+                       "prompt": STYLE + " " + im["alt"] + ", landscape 3:2.",
+                       "source": "Request the original from Evolve marketing.", "priority": "Low"}
+            src_label = "Current site evolveincorporated.com (cleared for use 2026-09-08)"
+        elif stock and origin == "both":
+            default = {"issue": "Appears on both the current site and the mockup; stock use approved for review 2026-09-08, license to confirm before production.",
+                       "need": "License confirmation or an Evolve-owned photo of the same subject.",
+                       "prompt": STYLE + " " + im["alt"] + ", landscape 3:2.",
+                       "source": "Confirm the license or reshoot.", "priority": "Medium"}
+            src_label = "Both sites (2026-09-08 import)"
+        else:
+            default = {"issue": "Imported mockup stock; approved for review use 2026-09-08 (M. Atnipp). License must be confirmed before production.",
+                       "need": "License confirmation or an Evolve-owned photo of the same subject.",
+                       "prompt": STYLE + " " + im["alt"] + ", landscape 3:2.",
+                       "source": "Confirm the license or reshoot.", "priority": "Medium"}
+            src_label = "Mockup site (stock, 2026-09-08 import)"
+        b = BRIEFS.get(key, default)
+        rows.append([n, key, "public/img/%s-*.jpg" % im["file"],
+                     ("Evolve site photograph (imported)" if origin == "current" else "Stock photograph (imported)") if stock else "Photograph",
                      "; ".join(sorted(set(uses.get(key, [])))) or "unused",
-                     ("Mockup or current site (2026-09-08 import)" if stock else "Evolve qualification decks (Aug 2026) and Evolve Website Build folder"),
+                     (src_label if stock else "Evolve qualification decks (Aug 2026) and Evolve Website Build folder"),
                      "%d x %d" % (im["w"], im["h"]), b["issue"], b["need"], b["prompt"], b["source"], b["priority"]])
+    for slug, h in HEADSHOTS.items():
+        if h.get("missing"):
+            n += 1
+            rows.append([n, "team-" + slug, "(none)", "Leadership headshot (missing)", "Leadership (placeholder tile)",
+                         "No photograph on evolveincorporated.com or in the Drive asset folders", "n/a", h["issue"], h["need"], h["prompt"],
+                         h["source"], h["priority"]])
     n += 1
     rows.append([n, "Approved logos", "public/assets/Evolve_Logo_* and Evolve_Wordmark_*", "Logo",
                  "Header, footer, 404 (all pages)", "APPROVED - Evolve Brand Assets and Sales Materials",
