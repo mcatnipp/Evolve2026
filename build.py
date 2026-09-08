@@ -461,8 +461,8 @@ def nav_markup(current_url):
             if item.get("cta"):
                 cta = '<div class="mega-cta"><p class="mega-label">Next step</p><a class="button button-primary" href="%s">%s</a></div>' % (item["cta"][1], esc(item["cta"][0]))
             out.append(
-                '<li class="%s"><a class="nav-link" href="%s"%s>%s</a>'
-                '<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-%d"><span class="sr-only">Open %s menu</span></button>'
+                '<li class="%s"><div class="nav-trigger"><a class="nav-link" href="%s"%s>%s</a>'
+                '<button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu-%d"><span class="sr-only">Open %s menu</span></button></div>'
                 '<div class="mega" id="menu-%d"><div class="shell mega-inner">%s%s</div></div></li>'
                 % (cls, item["href"], cur_attr, esc(item["label"]), i, esc(item["label"]), i, groups, cta))
         else:
