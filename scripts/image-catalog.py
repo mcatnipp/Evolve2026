@@ -229,7 +229,9 @@ def main():
         n += 1
         media = D.PAGE_MEDIA.get(url, {})
         if media.get("hero"):
-            current = "stock hero '%s'%s (imported 2026-09-08, license unconfirmed)" % (media["hero"], (" with support image '%s'" % media["support"]) if media.get("support") else "")
+            kind = "Evolve deck photo" if media["hero"] in BRIEFS else "imported photo"
+            current = "%s '%s'%s%s" % (kind, media["hero"], (" with support image '%s'" % media["support"]) if media.get("support") else "",
+                                       "" if media["hero"] in BRIEFS else " (imported 2026-09-08, license unconfirmed)")
         rows.append([n, "REPLACE WITH EVOLVE PHOTO: %s" % name, "", "Evolve-owned replacement wanted", "%s (%s)" % (name, url), "n/a", "n/a",
                      "Currently: %s" % current, need, prompt,
                      "Prefer Evolve-owned photography; the brand guideline bans stock and renders. Use generated images only as review placeholders labeled conceptual.",
