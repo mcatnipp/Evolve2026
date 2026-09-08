@@ -28,12 +28,12 @@
 
 **Eyebrow:** Evolve Data Center Solutions
 
-# Data centers, handled across the full lifecycle.
+# Stop handing your data center from firm to firm. Plan, design, build, power and maintain it with one team.
 
-Evolve specializes in data centers. We connect planning, design, construction, power and long-term support so owners and technical teams can address critical decisions as one coordinated program.
+Evolve builds data centers and nothing else. Founded in 2004, we have planned, designed, built, powered and maintained mission-critical facilities nationwide: 2,200+ projects, 5.3+ GW of power deployed and zero injuries recorded since 2010. Here is what that means for the program in front of you.
 
-**Primary CTA:** Start a Project  
-**Secondary CTA:** Explore Design & Build
+**Primary CTA:** Tell Us About Your Facility
+**Secondary CTA:** See How Design & Build Works
 
 ### Proof bar
 
@@ -46,115 +46,113 @@ Power deployed
 **20+ years**  
 In business
 
-### One facility. Five connected stages.
+### Five stages. One team that answers for all of them.
 
-A data center does not become operational through a series of isolated handoffs. Site assumptions affect design. Design affects procurement and construction. Power decisions affect the path to operation. Turnover decisions shape the work required to maintain the facility.
-
-Evolve organizes that work around five connected stages.
+Data centers are not delivered in handoffs. The design drives what you buy and build. Power sets the day you energize. Turnover decides what your operators inherit. Break the chain and the bill arrives as change orders. Evolve keeps all five stages in one team. Start at the one you are in.
 
 #### Plan
 
-Establish requirements, identify constraints and define the decisions that must be resolved before the project advances.
+Know what can be built, powered and paid for before you commit.
 
 [Explore Planning & Feasibility](/design-build/planning-feasibility/)
 
 #### Design
 
-Translate operational and technical requirements into a coordinated, buildable direction.
+A buildable design from the team that has to build it.
 
 [Explore Data Center Design & Engineering](/design-build/design-engineering/)
 
 #### Build
 
-Move from preconstruction and procurement through field execution, commissioning and turnover.
+Preconstruction, procurement, field work and commissioning under one accountable team.
 
 [Explore Data Center Construction](/design-build/data-center-construction/)
 
 #### Power
 
-Address generation and critical-power requirements as part of the larger facility plan.
+Generation and critical power decided with the facility, not after it.
 
 [Explore Power Generation](/power-generation/)
 
 #### Maintain
 
-Carry operating knowledge forward through monitoring, maintenance and long-term support.
+Monitoring, maintenance and support from the people who built it.
 
 [Explore Service & Maintenance](/maintenance/)
 
-### Design & Build for the way capacity is being developed
+### Modular, hyperscale or AI. The first decision is different for each.
 
-The right delivery approach depends on the facility, workload, site, power strategy and expansion plan. Evolve's Design & Build practice includes three priority data-center types.
+Workload, site, power and expansion plan decide the delivery approach. Each page starts with the decision to settle first.
 
-#### Modular Data Centers
+#### Modular: built in our shop, set on your site
 
-Factory-built assemblies can change how work is coordinated, fabricated and set in the field. Evolve provides self-performed modular fabrication and connects the modules to the wider design, construction, power and commissioning plan.
+Evolve self-performs modular fabrication and designs the site, power and commissioning interfaces with the modules, so nothing is left to settle at the crane.
 
 [Explore Modular Data Centers](/design-build/modular-data-centers/)
 
-#### Hyperscale Data Centers
+#### Hyperscale: the interfaces decided before they multiply
 
-Large programs require clear decisions about phasing, infrastructure, procurement, construction interfaces and operational handoff. Evolve brings those decisions into one lifecycle framework.
+Phasing, utility strategy, procurement and handoff interlock. Evolve settles them together, so phase one does not box in phase two.
 
 [Explore Hyperscale Data Centers](/design-build/hyperscale-data-centers/)
 
-#### AI Data Centers
+#### AI: power, cooling and building as one system
 
-AI infrastructure puts electrical, thermal, structural, controls and operational decisions under greater pressure. Evolve helps teams coordinate those requirements from planning through construction and long-term support.
+AI workloads stress electrical, thermal, structural, controls and operating decisions at once. Evolve coordinates them from planning through support, so the facility fits the workload.
 
 [Explore AI Data Centers](/design-build/ai-data-centers/)
 
 ### Power cannot be treated as a late-stage package
 
-The power strategy affects site viability, equipment decisions, facility design, construction sequencing, commissioning and ongoing maintenance. Evolve brings power into the project conversation alongside Design & Build—not after the major assumptions have already been fixed.
+If the utility queue sets your energization date, it sets your revenue date. Power decides site viability, equipment, design, sequencing, commissioning and maintenance, so Evolve brings it to the table with Design & Build, before the assumptions are fixed.
 
-Evolve has deployed more than 5.3 GW of power across its aggregate mission-critical work.
+Evolve has deployed 5.3+ GW of power across its mission-critical work.
 
 [Discuss a Power Requirement](/power-generation/)
 
 ### The work continues after turnover
 
-Operating teams inherit every choice made during planning, design and construction. Evolve remains engaged after turnover through monitoring, maintenance and long-term support. That continuity gives owners a direct path from the facility that was delivered to the facility that must operate.
+Your operators inherit every choice made in planning, design and construction, including the ones nobody wrote down. Evolve stays engaged after turnover through monitoring, maintenance and long-term support, because the people who built the facility know where the decisions are buried.
 
 [Explore Service & Maintenance](/maintenance/)
 
 ### Experience without exposing confidential work
 
-Data-center programs often require discretion. Evolve does not rely on public project histories or customer-logo displays to establish credibility. We use approved aggregate experience, a clearly defined scope and direct technical conversations.
+You will not find a logo wall here. Most owners do not want their data-center program discussed in public, and we honor that. Instead you get the aggregate record, a defined scope and a direct technical conversation with the people who will do the work.
 
-Across more than 20 years in business, Evolve has completed more than 2,200 mission-critical projects and deployed more than 5.3 GW of power.
+2,200+ mission-critical projects. 5.3+ GW deployed. 20+ years in business.
 
 ### Direct answers
 
 #### What does Evolve do?
 
-Evolve specializes in data centers and supports the lifecycle from planning through ongoing monitoring, maintenance and long-term support. The work is organized around Plan, Design, Build, Power and Maintain.
+Data centers, and nothing else. Evolve plans, designs, builds, powers and maintains them, then stays engaged through monitoring, maintenance and long-term support. The work runs as Plan, Design, Build, Power, Maintain.
 
 #### Does Evolve work nationwide?
 
-Yes. Evolve serves a nationwide market. Project fit still depends on scope, location, schedule and technical requirements, which are reviewed through the project-intake process.
+Yes. Evolve serves a nationwide market from Houston, Texas. Fit still depends on scope, location, schedule and technical requirements, which is what project intake is for.
 
 #### What types of data centers does Evolve design and build?
 
-Evolve's Design & Build practice includes Modular Data Centers, Hyperscale Data Centers and AI Data Centers. Evolve also supports colocation, enterprise, expansion and retrofit requirements through the appropriate service and market paths.
+Modular, Hyperscale and AI Data Centers, within Evolve's Design & Build practice. Colocation, enterprise, expansion and retrofit programs run through the matching market and service pages.
 
-#### Can Evolve remain involved after construction?
+#### Does Evolve stay involved after construction?
 
-Yes. Evolve remains engaged after turnover through monitoring, maintenance and long-term support. The exact service scope is defined for each engagement.
+Yes. Evolve stays engaged after turnover through monitoring, maintenance and long-term support. The scope is set in each engagement before turnover, not after.
 
 ### Final CTA
 
-## Bring the critical decisions into one conversation.
+## Put the whole program on one table before the schedule, the utility or the change orders decide it for you.
 
-Tell us what you are planning, what is already known and where the program is constrained. Evolve will route the discussion to the appropriate Design & Build, power or operations team.
+Send the facility type, target capacity, site status and timeline. You get a straight answer on fit, scope and the next decision.
 
-**Primary CTA:** Start a Project  
+**Primary CTA:** Tell Us About Your Facility
 **Secondary CTA:** Contact Evolve
 
 ## Metadata recommendation
 
 **Title:** Data Center Design, Build, Power & Maintenance | Evolve  
-**Meta description:** Evolve specializes in data centers, connecting Plan, Design, Build, Power and Maintain for owners, developers and operators nationwide.  
+**Meta description:** Data centers and nothing else. Evolve plans, designs, builds, powers and maintains mission-critical facilities nationwide. 2,200+ projects, 5.3+ GW.  
 **Open Graph title:** Full-Lifecycle Data Center Solutions | Evolve  
 **Open Graph description:** Plan, design, build, power and maintain data-center infrastructure with one data-center-focused partner.
 
@@ -194,9 +192,9 @@ Tell us what you are planning, what is already known and where the program is co
 
 **Eyebrow:** Design & Build
 
-# Coordinate the data-center program before the interfaces become problems.
+# Design-build for data centers, run by people who also have to power and maintain what they build.
 
-Evolve connects planning, design, preconstruction, procurement, construction, commissioning and turnover within one data-center-focused delivery framework.
+Most delivery problems are interface problems: design handed to procurement, procurement handed to the field, the field handed to commissioning. Evolve keeps planning, design, preconstruction, construction, commissioning and turnover inside one data-center-only team, so the handoffs stop costing you weeks.
 
 **Primary CTA:** Discuss a Data Center Project  
 **Secondary CTA:** Explore Data Center Types
@@ -207,113 +205,114 @@ Evolve connects planning, design, preconstruction, procurement, construction, co
 **20+ years in business**  
 **Zero injuries recorded since 2010**
 
-### A data center is a system of dependencies
+### A change in one discipline is a change order in three others
 
-The building, electrical systems, thermal strategy, controls, equipment, commissioning plan and operating model cannot be developed in isolation. A decision made in one discipline can change cost, constructability, procurement or readiness elsewhere.
+The building, electrical system, thermal strategy, controls, equipment, commissioning plan and operating model are one system. Move a decision in any of them and cost, constructability, procurement or readiness moves somewhere else, at a higher price.
 
-That is the practical reason to connect Plan, Design and Build. The objective is not simply to place more scope under one heading. It is to create a clear line between owner requirements, technical decisions, field execution and the facility the operating team receives.
+So Evolve connects Plan, Design and Build: not to put more scope under one heading, but to hold one line from what you need the facility to do, through design and field work, to the facility your operators inherit.
 
-### Where Evolve supports the program
+### What each stage settles, before it can cost you
 
 #### Planning & Feasibility
 
-Organize requirements, assumptions and constraints early enough to influence the direction of the project.
+What is fact, what is assumption and what still has to be decided, before design starts.
 
 [Planning & Feasibility](/design-build/planning-feasibility/)
 
 #### Data Center Design & Engineering
 
-Develop a coordinated, buildable direction around the facility's approved technical and operational requirements.
+A coordinated, buildable design from the team that has to build and maintain it.
 
 [Design & Engineering](/design-build/design-engineering/)
 
 #### Preconstruction & Procurement
 
-Connect scope development, constructability, procurement and delivery planning before field work accelerates.
+Scope, lead times and constructability resolved before the first purchase order goes out.
 
 [Preconstruction & Procurement](/design-build/preconstruction-procurement/)
 
 #### Data Center Construction
 
-Execute new construction, upgrades, expansions, power conversions and work in live environments with the coordination mission-critical facilities demand.
+New builds, upgrades, expansions, power conversions and live-environment work, with the coordination a mission-critical floor demands.
 
 [Data Center Construction](/design-build/data-center-construction/)
 
 #### Commissioning & Turnover
 
-Carry requirements and issue resolution into readiness, documentation and operating handoff.
+Readiness proven against the requirement, and a handoff operators can use.
 
 [Commissioning & Turnover](/design-build/commissioning-turnover/)
 
 #### Expansions & Retrofits
 
-Plan and execute facility changes where existing systems, active operations and future capacity must be considered together.
+Changes to a live facility planned around the systems and people that must keep running.
 
 [Expansions & Retrofits](/design-build/expansions-retrofits/)
 
-### Data-center types
+### Data-center types: which one are you building?
 
-Evolve's Design & Build practice includes Modular, Hyperscale and AI Data Centers. Each page addresses a distinct buyer decision without separating the facility from power, commissioning or long-term support.
+Modular, Hyperscale and AI Data Centers. Each page opens with the decision that type forces first, and keeps power, commissioning and support in view.
 
-- [Modular Data Centers](/design-build/modular-data-centers/) — for teams evaluating factory-built assemblies and site integration.
-- [Hyperscale Data Centers](/design-build/hyperscale-data-centers/) — for large, phased programs with extensive delivery interfaces.
-- [AI Data Centers](/design-build/ai-data-centers/) — for facilities where compute requirements intensify power, thermal and operational planning.
+- [Modular Data Centers](/design-build/modular-data-centers/) — built in our own shop; the module boundary comes first.
+- [Hyperscale Data Centers](/design-build/hyperscale-data-centers/) — phased campuses where phase one must not foreclose phase two.
+- [AI Data Centers](/design-build/ai-data-centers/) — where the workload sets power, cooling and building at once.
 
-### The Evolve approach
+### Four steps, in the order that prevents rework
 
-#### 1. Define the decision basis
+#### 1. Settle the decision basis
 
-Confirm what the owner needs the facility to do, what is known, what remains uncertain and which decisions control the next commitment.
+What the facility must do, what is known, what is assumed and which decision gates the next commitment.
 
-#### 2. Coordinate the interfaces
+#### 2. Put every interface on the table
 
-Connect design, procurement, construction, power, commissioning and operating requirements so scope boundaries are visible.
+Design, procurement, construction, power, commissioning and operations connected, so every scope boundary is visible before pricing.
 
-#### 3. Build against an approved direction
+#### 3. Build against the agreed direction
 
-Carry the requirements into field execution, document changes and keep readiness in view as systems come together.
+Requirements carried into the field, changes documented as they happen, readiness tracked throughout.
 
-#### 4. Prepare for operation
+#### 4. Hand over an operable facility
 
-Connect commissioning and turnover to the maintenance and monitoring needs that follow.
+Commissioning and turnover tied to the maintenance that follows, because the same team stays.
 
-### Power and maintainability belong in Design & Build decisions
+### Power and maintenance are Design & Build decisions. Make them while they are still cheap to change.
 
-Power is not a disconnected equipment package. Maintenance is not a problem that begins after turnover. Evolve's five-stage lifecycle keeps both in the conversation while planning, design and construction decisions are still being made.
+Power is not an equipment package added at the end, and maintenance does not start at turnover. Both get decided while the plan is set, deliberately or by default. Evolve keeps them in the room.
 
-[Explore Power Generation](/power-generation/)  
+[Explore Power Generation](/power-generation/)
 [Explore Service & Maintenance](/maintenance/)
 
 ### Direct answers
 
 #### What is data center design-build?
 
-Data center design-build is a delivery approach that coordinates design and construction responsibilities around one project program. The exact contractual model can vary. For Evolve, the practical focus is aligning Plan, Design and Build with Power, commissioning and Maintain requirements.
+One team responsible for both design and construction of the facility. Contract forms vary. At Evolve the point is that Plan, Design and Build run alongside Power, commissioning and Maintain, so no problem gets handed across a contract line.
 
-#### When should Evolve become involved?
+#### When should Evolve get involved?
 
-Earlier involvement gives the team more opportunity to identify assumptions and interfaces before they become field constraints. Evolve can also support expansions, retrofits and live-environment work after a facility is operating.
+Before the first major commitment, because assumptions are cheapest to change before they become site constraints. If the facility is already operating, Evolve also takes on expansions, retrofits and live-environment work.
 
-#### Does Evolve provide construction only?
+#### Is Evolve a construction-only contractor?
 
-Evolve's approved capability extends beyond construction to planning, design, procurement, commissioning, power, monitoring, maintenance and long-term support. The contracted scope is defined for each project.
+No. Evolve's capability runs from planning, design and procurement through construction, commissioning, power, monitoring, maintenance and long-term support. Your contracted scope can be any part of that range.
 
 #### How does Evolve show experience without project case studies?
 
-Evolve uses approved aggregate proof and clear capability descriptions. The company has completed more than 2,200 mission-critical projects across more than 20 years in business. Customer and project histories remain confidential.
+With the aggregate record: 2,200+ mission-critical projects across 20+ years in business. Customer and project histories stay confidential, which is what most owners want for their own program.
 
 ### Final CTA
 
-## Define the scope before the project defines it for you.
+## Define the scope now, or let the project define it for you at change-order prices.
 
-Share the facility type, project stage, known constraints and immediate decisions. Evolve will identify the right starting point within Plan, Design, Build, Power or Maintain.
+Bring the facility type, capacity target and the constraint you are most worried about. We will tell you which decisions have to be made first and what they will cost you if they slip.
 
-**CTA:** Discuss a Data Center Project
+**CTA:** Discuss a Data Center Project  
+**Secondary CTA:** Contact Evolve
 
 ## Metadata recommendation
 
 **Title:** Data Center Design-Build Services | Evolve  
-**Meta description:** Coordinate data-center planning, design, preconstruction, construction, commissioning and turnover with Evolve's lifecycle approach.  
+**Meta description:** Data-center design-build by one team that also powers and maintains what it builds: planning, design, preconstruction, construction and commissioning.  
 **Open Graph title:** Data Center Design & Build | Evolve  
 **Open Graph description:** A coordinated path from early project decisions through construction, commissioning and operational handoff.
 
@@ -349,100 +348,101 @@ Share the facility type, project stage, known constraints and immediate decision
 
 **Eyebrow:** Design & Build · Modular Data Centers
 
-# Modular delivery works when the interfaces are designed with the modules.
+# Modular data centers built in our own Houston shop, then connected to your site, your power and your commissioning plan.
 
-Evolve provides self-performed modular fabrication and connects factory-built systems to site planning, facility design, construction, power, commissioning and long-term support.
+Evolve self-performs modular fabrication. That means the module, the pad, the power feed and the acceptance test are planned by one team instead of negotiated between three vendors. If you need capacity on a controlled schedule, start here.
 
 **Primary CTA:** Discuss a Modular Project  
 **Secondary CTA:** Compare Delivery Approaches
 
-### What “modular” should mean in the project conversation
+### Modular is a delivery decision, not a product you order from a catalog
 
-Modular is not a single product or a promise that every project will move faster. It is a method of shifting defined work into a controlled fabrication setting, then coordinating transport, setting, connection, testing and turnover at the site.
+Modular is not a product or a promise that every project moves faster. It is a decision to shift work into a controlled fabrication setting, then coordinate transport, setting, connection, testing and turnover on site.
 
-The decision should begin with the program—not with a catalog. Owners need to determine what belongs in a module, what remains site-built, where the interfaces sit and how the modular strategy affects design maturity, procurement, logistics, commissioning and future expansion.
+Start with the program, not the catalog. What belongs in a module, what stays site-built, where the interfaces sit and how that affects design maturity, procurement, logistics, commissioning and expansion have to be settled first. Get them wrong and you pay again in the field.
 
-### Evolve's applicable capability
+### Built in our own shop, designed with your site
 
-Evolve provides self-performed modular fabrication. Modular systems can be factory-built and site-set in days, depending on the project and approved plan. Evolve also supports the surrounding work that makes the system functional: planning, design, procurement, construction, commissioning, power, monitoring and maintenance.
+Evolve self-performs modular fabrication in its own shop. Modular systems can be factory-built and site-set in days, depending on the project and the plan. The same team handles planning, design, procurement, construction, commissioning, power, monitoring and maintenance around it.
 
-This allows the modular conversation to stay connected to the whole facility rather than ending at the module boundary.
+So the pad, the feed and the acceptance test are decided with the module, not after it ships.
 
-### Questions to resolve before selecting modular delivery
+### Seven decisions to make before you let anyone quote a module
 
-- Which systems or assemblies are appropriate to fabricate away from the site?
-- How mature must the design be before fabrication begins?
-- What transportation, access, lifting and setting constraints affect the concept?
-- Which civil, structural, electrical, mechanical and controls interfaces remain at the site?
-- How will factory work and site work be inspected, documented and commissioned together?
-- How should future phases connect to the initial deployment?
-- Who owns the system after turnover, and what access is required for maintenance?
+- Which assemblies belong in the shop, and which on site.
+- How mature the design must be before fabrication starts.
+- What transport, access, lifting and setting limits do to the concept.
+- Which civil, structural, electrical, mechanical and controls interfaces stay on site.
+- How shop work and site work are inspected and commissioned as one system.
+- How the next phase connects without reworking this one.
+- Who owns the system after turnover, and what access maintenance needs.
 
-These questions do not have one universal answer. They form the decision basis for a modular program.
+None has a universal answer. Together they are the decision basis for a modular program, and where we start.
 
-### The modular delivery sequence
+### The modular delivery sequence, and what each step locks in
 
-#### Plan the boundaries
+#### Draw the boundary first
 
-Define the operational requirement, module scope, site interfaces, transportation assumptions and acceptance criteria.
+Operational requirement, module scope, site interfaces, transport assumptions and acceptance criteria, agreed before fabrication.
 
-#### Design the complete system
+#### Design the whole system, not the box
 
-Coordinate the module with the building, site, power, controls and other facility systems. Freeze only what has been resolved.
+The module coordinated with the building, site, power and controls. Freeze only what is resolved.
 
-#### Fabricate and prepare the site
+#### Fabricate while the site gets ready
 
-Advance controlled fabrication while the site team completes the work required to receive and connect the modules.
+Controlled fabrication runs while the site team prepares to receive and connect the modules.
 
-#### Set, connect and commission
+#### Set, connect and prove it
 
-Place the modules, complete field interfaces and verify the assembled system against the approved requirements.
+Modules placed, field interfaces completed and the assembled system verified against the agreed requirements.
 
-#### Support the operating facility
+#### Keep supporting it after turnover
 
-Carry equipment information, access needs and operating considerations into monitoring and maintenance planning.
+Equipment data, access needs and operating considerations carried into monitoring and maintenance.
 
-### Modular, AI and hyperscale are related—but not interchangeable
+### Modular is how you deliver. AI and hyperscale are what you deliver.
 
-Modular describes a delivery approach. AI and hyperscale describe facility and workload contexts. A modular strategy may support an AI or hyperscale program, but it must be evaluated against that facility's actual requirements.
+A modular strategy can serve an AI or hyperscale program, but only after it is tested against that facility's power, thermal and phasing requirements. Pick the facility first, then decide whether modular fits.
 
-[Explore AI Data Centers](/design-build/ai-data-centers/)  
+[Explore AI Data Centers](/design-build/ai-data-centers/)
 [Explore Hyperscale Data Centers](/design-build/hyperscale-data-centers/)
 
 ### Proof without project disclosure
 
-Evolve has completed more than 2,200 mission-critical projects and deployed more than 5.3 GW of power. Project-specific customer and facility histories remain confidential.
+2,200+ mission-critical projects completed. 5.3+ GW of power deployed. Customer and facility histories stay confidential, as most owners want for their own program.
 
 ### Direct answers
 
 #### What is a modular data center?
 
-A modular data center uses factory-built assemblies or systems that are transported to the site, set in place, connected and commissioned as part of the larger facility. The exact module boundary varies by project.
+A data center built from factory-fabricated assemblies, transported to the site, set, connected and commissioned as part of the larger facility. The module boundary is set per project, and it comes first.
 
 #### Is a modular data center always faster to deliver?
 
-No universal schedule should be assumed. Modular delivery can allow fabrication and site work to proceed in parallel, but design maturity, procurement, logistics, permitting, site readiness and field interfaces still control the outcome.
+No, and be wary of anyone who says so. Modular lets fabrication and site work run in parallel, but design maturity, procurement, logistics, permitting and site readiness decide the schedule.
 
 #### What should an owner compare before choosing modular delivery?
 
-Compare technical fit, interface complexity, design-freeze timing, transport and setting requirements, site constraints, commissioning approach, expansion strategy and long-term maintenance access.
+Technical fit, interface complexity, design-freeze timing, transport and setting requirements, site constraints, commissioning approach, expansion strategy and maintenance access, measured against the site-built alternative.
 
-#### Does Evolve fabricate modular systems?
+#### Does Evolve fabricate the modules itself?
 
-Yes. Evolve provides self-performed modular fabrication. The final scope and delivery sequence are established for the individual project.
+Yes. Evolve self-performs modular fabrication in its own shop. Scope and delivery sequence are set for each project.
 
 ### Final CTA
 
-## Start with the module boundaries and the site reality.
+## Tell us the capacity, the site and the date. We will tell you what modular delivery can and cannot do for it.
 
-Bring Evolve the required capacity, site constraints, project stage and deployment priorities. We will help frame the modular decision within the complete facility program.
+A straight answer on module boundaries, site work and schedule, before anyone orders steel.
 
-**CTA:** Discuss a Modular Project
+**CTA:** Discuss a Modular Project  
+**Secondary CTA:** Compare Delivery Approaches
 
 ## Metadata recommendation
 
 **Title:** Modular Data Center Design & Build | Evolve  
-**Meta description:** Evaluate and deliver modular data-center systems with self-performed fabrication connected to site work, power, commissioning and support.  
+**Meta description:** Modular data centers fabricated in Evolve's own shop and designed with the site, power and commissioning interfaces, so nothing is settled at the crane.  
 **Open Graph title:** Modular Data Centers | Evolve  
 **Open Graph description:** A coordinated modular approach from system boundaries and fabrication through site integration and turnover.
 
@@ -479,62 +479,60 @@ Bring Evolve the required capacity, site constraints, project stage and deployme
 
 **Eyebrow:** Design & Build · Hyperscale Data Centers
 
-# Large capacity depends on disciplined decisions at every phase.
+# Phase one on schedule. Phases two through four still possible. That is the hyperscale job.
 
-Evolve brings Plan, Design, Build, Power and Maintain into one framework for hyperscale data-center programs where phasing, interfaces and operational readiness must stay connected.
+Large campuses fail on interfaces, not on ambition. Evolve carries Plan, Design, Build, Power and Maintain as one framework so phasing, utility strategy and operational readiness are decided together, by a team with 2,200+ mission-critical projects behind it.
 
 **Primary CTA:** Discuss a Hyperscale Project  
 **Secondary CTA:** Review Planning & Power
 
-### Scale multiplies interfaces
+### Scale does not just add capacity. It multiplies the interfaces that can fail.
 
-Hyperscale programs involve more than a larger version of the same building. Capacity may be planned and delivered in phases. Site infrastructure must support the immediate program without closing off later decisions. Procurement, construction sequencing, commissioning and turnover must work across multiple systems and work packages.
+A hyperscale program is not a bigger version of one building. Capacity arrives in phases. Site infrastructure has to carry phase one without foreclosing the rest. Procurement, sequencing, commissioning and turnover run across many systems at once, and every boundary between them can lose a month.
 
-The buyer's central question is not simply, “Can this be built?” It is, “Can the program remain coordinated as requirements, phases and operating priorities move forward?”
+So the real question is not “Can this be built?” It is “Can the program stay coordinated as requirements, phases and operating priorities move?”
 
-### Evolve's applicable capability
+### One lifecycle, so the phase-one decisions reach the phase-four operators
 
-Evolve supports planning, design, procurement, construction, commissioning, power, monitoring, maintenance and long-term support for data centers. Its construction capability includes new builds, upgrades, expansions, retrofits, power conversions and work in live environments.
+Evolve's capability runs from planning, design and procurement through construction, commissioning, power, monitoring, maintenance and long-term support, including new builds, expansions, upgrades, retrofits, power conversions and live-environment work. For a hyperscale team, that keeps the early program decisions and the later operating responsibilities with one accountable team, not whoever arrives for phase two.
 
-That lifecycle range gives hyperscale teams a way to connect early program decisions with delivery and the operating responsibilities that follow.
+### Six decisions that have to be made together, or made twice
 
-### Decisions that belong together
+#### Phase one, without foreclosing phase two
 
-#### Capacity and phasing
+The first delivery, what later phases depend on and which choices stay flexible.
 
-Define what must be delivered first, what future phases depend on and which infrastructure choices should remain flexible.
+#### Power, before the site is fixed
 
-#### Power strategy
+Electrical and generation requirements settled in planning, before they drift from site, design and schedule.
 
-Bring electrical and generation requirements into planning before they become disconnected from site, design or schedule assumptions.
+#### Drawn as buildable packages
 
-#### Design and constructability
+Systems and phases with clear boundaries between them.
 
-Coordinate the facility as a set of buildable systems, with visible boundaries between packages and phases.
+#### Long-lead equipment, found before the field does
 
-#### Procurement and field execution
+The decisions, equipment and interfaces that can stall the program, identified before construction ramps.
 
-Identify the decisions, equipment and interfaces that can constrain the program before construction activity increases.
+#### Readiness as delivery work
 
-#### Commissioning and turnover
+Readiness, documentation and handoff planned as delivery, not as a closing administrative step.
 
-Plan readiness, documentation and operating handoff as part of delivery—not as a final administrative step.
+#### Maintenance access, before the walls close
 
-#### Long-term support
+Monitoring, maintenance access and future change considered while the facility is still on paper.
 
-Consider monitoring, maintenance access and future changes while the facility is still being planned and built.
+### The five stages, applied to a phased campus
 
-### The Evolve lifecycle for hyperscale programs
-
-**Plan:** Establish requirements, phase logic, constraints and decision gates.  
-**Design:** Coordinate approved facility, power and operating requirements.  
-**Build:** Connect preconstruction, procurement, construction and commissioning.  
-**Power:** Address generation and critical-power needs within the program.  
-**Maintain:** Carry facility knowledge into monitoring, maintenance and support.
+**Plan:** Requirements, phase logic, constraints and decision gates.
+**Design:** Facility, power and operating requirements coordinated as one.
+**Build:** Preconstruction, procurement, construction and commissioning, one team.
+**Power:** Generation and critical power decided inside the program.
+**Maintain:** Facility knowledge carried into monitoring and maintenance.
 
 ### Approved aggregate experience
 
-Evolve has completed more than 2,200 mission-critical projects and deployed more than 5.3 GW of power. These are aggregate company figures; Evolve does not publish customer or project histories.
+2,200+ mission-critical projects completed. 5.3+ GW of power deployed. Those are company-wide figures; Evolve does not publish customer or project histories, and yours will not be published either.
 
 ### Related decisions
 
@@ -549,32 +547,33 @@ Evolve has completed more than 2,200 mission-critical projects and deployed more
 
 #### What makes hyperscale data-center delivery different?
 
-Hyperscale delivery increases the number and consequence of decisions involving power, phasing, procurement, construction interfaces, commissioning and operations. The work must be managed as a program, not only as a collection of buildings or equipment packages.
+The number and consequence of the decisions. Power, phasing, procurement, construction interfaces, commissioning and operations multiply with scale, so the work has to run as one program, not a collection of buildings and equipment packages.
 
 #### Can a hyperscale program use modular delivery?
 
-It can, when modular fabrication fits the program's technical requirements, logistics, design maturity and site-integration plan. Modular is a delivery method that must be evaluated within the larger hyperscale strategy.
+Yes, when modular fabrication fits the program's technical requirements, logistics, design maturity and site-integration plan. Modular is a delivery method; it has to earn its place in the hyperscale strategy.
 
-#### When should power be addressed?
+#### When should power be settled?
 
-Power should be addressed during planning because it influences site viability, facility design, equipment decisions, phasing and the path to operation. The specific solution depends on the approved project requirements.
+During planning, because power decides site viability, design, equipment, phasing and the date phase one can operate. Leave it and the utility queue decides for you.
 
 #### Does Evolve publish hyperscale project histories?
 
-No. Evolve protects confidential customer and project information. Capability is presented through approved aggregate experience, defined scope and direct project qualification.
+No. Customer and project information stays confidential, and your program gets the same discretion. Capability is shown through aggregate experience, defined scope and project qualification.
 
 ### Final CTA
 
-## Put the phase plan, power strategy and delivery path on the same table.
+## Put the phase plan, the power strategy and the delivery path on the same table, this month.
 
-Tell Evolve what capacity is being considered, where the program stands and which decisions are controlling progress.
+Share the campus target, the utility position and the first-phase date. We will show you where the plan is exposed.
 
-**CTA:** Discuss a Hyperscale Project
+**CTA:** Discuss a Hyperscale Project  
+**Secondary CTA:** Contact Evolve
 
 ## Metadata recommendation
 
 **Title:** Hyperscale Data Center Design & Build | Evolve  
-**Meta description:** Coordinate hyperscale planning, design, construction, power, commissioning and long-term support through one lifecycle framework.  
+**Meta description:** Hyperscale data-center delivery that protects phase one without boxing in the next phases: planning, power, construction, commissioning, support.  
 **Open Graph title:** Hyperscale Data Centers | Evolve  
 **Open Graph description:** Connect capacity phasing, power, delivery and operational readiness across the hyperscale program.
 
@@ -609,93 +608,94 @@ Tell Evolve what capacity is being considered, where the program stands and whic
 
 **Eyebrow:** Design & Build · AI Data Centers
 
-# AI infrastructure is a whole-facility decision.
+# AI data centers: get the power, cooling and building decided as one system before the GPUs are ordered.
 
-Evolve coordinates the planning, design, construction, power, commissioning and long-term support work surrounding AI data-center requirements.
+AI infrastructure is a whole-facility decision. Evolve coordinates the planning, design, construction, power, commissioning and long-term support around your compute assumptions, so the facility is built to the workload instead of to a template.
 
 **Primary CTA:** Discuss an AI Data Center  
 **Secondary CTA:** Review AI Infrastructure Planning
 
-### Compute requirements reach far beyond the rack
+### The rack is the smallest problem in an AI data center
 
-AI workloads can intensify electrical, thermal, structural, controls and operating requirements at the same time. The right answer cannot be selected by looking at one system alone. Each decision changes interfaces elsewhere in the facility.
+AI workloads push electrical, thermal, structural, controls and operating requirements at the same time. No system can be sized on its own, because every choice moves an interface somewhere else in the facility.
 
-Owners need an explicit basis for the workload, deployment plan, site, power, cooling strategy, redundancy expectations, commissioning approach and operating model. Those inputs should be examined together before the project locks into equipment, space or schedule assumptions.
+You need an explicit basis for the workload, deployment plan, site, power, cooling strategy, redundancy expectation, commissioning approach and operating model, examined together, before the project locks in equipment, space or schedule it cannot change.
 
-### What Evolve brings to the work
+### One team for the whole facility, not one vendor per system
 
-Evolve specializes in data centers and supports planning, design, procurement, construction, commissioning, power, monitoring, maintenance and long-term support. AI Data Centers are a defined part of Evolve's Design & Build practice.
+Evolve does data centers only, from planning through construction, commissioning, power, monitoring and maintenance. AI Data Centers are part of that practice, so every discipline works from one basis.
 
 Evolve does not publish a universal rack-density range, cooling capability or performance guarantee. The technical basis must come from the approved requirements for the individual program.
 
-### The critical decision sequence
+### The decision sequence that keeps the GPUs from waiting on the building
 
-#### Define the compute and deployment assumptions
+#### Pin down the compute and deployment assumptions
 
-Document what the facility must support, when capacity is needed, how it may change and which inputs are confirmed versus provisional.
+What the facility must support, when capacity is needed, how it may change and which inputs are still provisional.
 
-#### Establish the power and thermal basis together
+#### Set the power and thermal basis together
 
-Evaluate electrical and thermal requirements as connected facility systems. Avoid fixing one side of the problem before the other is understood.
+Electrical and thermal requirements sized as one system; fix one side first and you will re-engineer both.
 
-#### Coordinate design and procurement
+#### Coordinate design with procurement
 
-Translate the approved basis into a buildable design direction and identify decisions that affect equipment, interfaces and field work.
+The basis turned into a buildable design, with decisions that drive equipment, interfaces and field work flagged before anything is ordered.
 
 #### Plan commissioning around the operating requirement
 
-Define how readiness will be demonstrated and how issues, documentation and handoff will be managed.
+How readiness is proven and how issues, documentation and handoff are handled, settled before testing.
 
-#### Prepare for long-term operation
+#### Decide operability while the design is open
 
-Consider monitoring, maintenance, access and change management while design and construction decisions are still open.
+Monitoring, maintenance, access and change management considered while design and construction decisions can still move.
 
-### Where modular delivery may fit
+### Where a module earns its place in an AI program
 
-Factory-built assemblies can be relevant to an AI program, but modular should be selected for technical and program reasons—not as a default answer. Evolve provides self-performed modular fabrication and can evaluate the module boundaries within the full facility plan.
+Factory-built assemblies can serve an AI program, but only for technical and program reasons, never as a default. Evolve self-performs modular fabrication, so it tests the module boundary against the whole facility plan rather than selling you one.
 
 [Explore Modular Data Centers](/design-build/modular-data-centers/)
 
-### Keep power inside the AI facility conversation
+### Power can stall an AI program before the design is finished
 
-Power availability and the path to energization can control the project before the building design is complete. Evolve connects power requirements with planning, design, construction, commissioning and maintenance.
+Power availability and the path to energization can set the schedule before the building is drawn. Evolve carries the power requirement through planning, design, construction, commissioning and maintenance.
 
 [Explore Power Generation](/power-generation/)
 
 ### Approved aggregate experience
 
-Evolve has completed more than 2,200 mission-critical projects and deployed more than 5.3 GW of power. Customer identities and project histories remain confidential.
+2,200+ mission-critical projects completed. 5.3+ GW of power deployed. Customer identities and project histories stay confidential.
 
 ### Direct answers
 
 #### What is different about planning an AI data center?
 
-AI planning requires early coordination of compute assumptions with electrical, thermal, structural, controls, space, commissioning and operating requirements. The facility should be designed around an approved system basis, not a collection of isolated equipment decisions.
+The compute assumptions have to be coordinated with electrical, thermal, structural, controls, space, commissioning and operating requirements early, not after the equipment is chosen. Design then works from one agreed basis, not a pile of equipment decisions.
 
-#### Does every AI data center require the same cooling approach?
+#### Does every AI data center need the same cooling approach?
 
-No. Cooling strategy depends on the approved workload, equipment, density, environmental conditions, operating requirements and facility design. Evolve-specific density and cooling limits are not represented as universal claims.
+No. Cooling strategy follows the workload, equipment, density, site conditions, operating requirement and facility design. Anyone proposing one before those are defined is guessing.
 
 #### Can modular systems be used for AI infrastructure?
 
-They can be considered when the modular boundaries, fabrication plan, logistics, site interfaces and commissioning approach fit the program. Evolve provides self-performed modular fabrication.
+Yes, when the module boundaries, fabrication plan, logistics, site interfaces and commissioning approach fit the program. Evolve self-performs modular fabrication and tests that fit.
 
-#### How early should the power strategy be addressed?
+#### How early should the power strategy be settled?
 
-It should be addressed during planning because power affects site viability, design, equipment, phasing, commissioning and the path to operation.
+In planning. Power decides site viability, design, equipment, phasing and the operating date. Leave it and the utility sets your schedule.
 
 ### Final CTA
 
-## Start with the approved technical basis—not an assumed template.
+## Start with an approved technical basis, not an assumed template.
 
-Share the workload requirements, project stage, site condition, power position and decisions that need to be made next.
+Send the compute assumptions, the site and the date you need capacity. We will lay out the decisions that control the schedule.
 
-**CTA:** Discuss an AI Data Center
+**CTA:** Discuss an AI Data Center  
+**Secondary CTA:** Review AI Infrastructure Planning
 
 ## Metadata recommendation
 
 **Title:** AI Data Center Design & Build | Evolve  
-**Meta description:** Coordinate AI data-center planning, design, construction, power, commissioning and long-term support around one approved technical basis.  
+**Meta description:** AI data centers designed around your compute assumptions: power, cooling and building decided as one system before the GPUs are ordered.  
 **Open Graph title:** AI Data Centers | Evolve  
 **Open Graph description:** Connect workload assumptions to the electrical, thermal, construction and operating decisions around the facility.
 
@@ -731,92 +731,92 @@ Share the workload requirements, project stage, site condition, power position a
 
 **Eyebrow:** Plan
 
-# Resolve the decisions that determine whether the data-center plan can move forward.
+# Find out whether your data-center plan can actually be built, powered and paid for, before you commit to it.
 
-Evolve helps organize early data-center requirements, assumptions and constraints so design, construction, power and operating decisions begin from a common basis.
+Evolve organizes the early requirements, assumptions and constraints so design, construction, power and operating decisions start from one basis. You leave with a clear picture of what is known, what is assumed and what still has to be resolved.
 
 **CTA:** Request a Planning Discussion
 
-### Feasibility is more than a site question
+### Feasibility is not a site question. It is a list of decisions.
 
-A viable data-center plan must account for the workload, capacity, site, power, infrastructure, approvals, delivery sequence and operating expectations. These subjects are connected. An assumption that looks reasonable in isolation can become a major constraint when the program is evaluated as a whole.
+A viable plan has to hold across workload, capacity, site, power, infrastructure, approvals, delivery sequence and operating expectations at once. An assumption that looks reasonable alone becomes the constraint that stalls the program once the pieces meet, and by then the money is committed.
 
-The purpose of the Plan stage is to make those dependencies visible before the project commits to a direction it cannot support.
+The Plan stage exposes those dependencies before you commit to a direction the site, the utility or the budget cannot support.
 
-### What the planning discussion should establish
+### What the planning conversation settles
 
-- The facility type, workload and initial capacity requirement.
-- What must be delivered first and how future phases may develop.
-- The known site and infrastructure conditions.
-- The current power position and unresolved electrical decisions.
-- The design, procurement and construction assumptions already in place.
-- The commissioning and operating expectations that affect the program.
-- The decisions, owners and evidence required before the next commitment.
+- The facility type, workload and first capacity requirement.
+- What ships first and how later phases follow.
+- Which site and infrastructure conditions are known, and which are assumed.
+- The power position and the electrical decisions still open.
+- The design, procurement and construction assumptions already made.
+- The commissioning and operating expectations that shape the program.
+- The decisions, owners and evidence needed before the next commitment.
 
-This is a decision framework, not a promise that every discipline or approval is included in Evolve's contracted scope. Responsibilities are defined for the engagement.
+This is a decision framework, not a claim that every discipline or approval sits inside Evolve's contracted scope. Responsibilities are set per engagement.
 
 ### Evolve's role
 
-Evolve supports data-center planning as part of the Plan, Design, Build, Power and Maintain lifecycle. Its approved capability includes planning, design, procurement, construction, commissioning, monitoring, maintenance, new builds, upgrades, expansions, retrofits and power conversions.
+Evolve supports data-center planning as the first stage of Plan, Design, Build, Power and Maintain, with capability spanning design, procurement, construction, commissioning, monitoring and maintenance for new builds, upgrades, expansions, retrofits and power conversions.
 
-That range allows the early conversation to reflect what later teams will need to design, build, commission and operate the facility.
+That is why the conversation is worth having: the people in it later design, build, commission and maintain what gets decided.
 
-### A practical planning sequence
+### Five planning steps, in the order that saves the rework
 
-#### 1. Confirm the objective
+#### 1. Name the objective
 
-Define what the owner is trying to place into operation and which business or technical requirement controls the decision.
+What you are trying to put into operation, and which business or technical requirement controls the decision.
 
 #### 2. Separate facts from assumptions
 
-Record what has been verified, what remains provisional and who owns the unanswered questions.
+What has been verified, what is still provisional and who owns each open question.
 
-#### 3. Map dependencies
+#### 3. Map the dependencies
 
-Connect the site, power, design, procurement, construction, commissioning and operating decisions that affect one another.
+Site, power, design, procurement, construction, commissioning and operations connected, so a change in one shows everywhere.
 
-#### 4. Establish decision gates
+#### 4. Set decision gates
 
-Identify what must be resolved before design advances, equipment is committed or field work begins.
+What must be resolved before design advances, equipment is committed or field work begins.
 
 #### 5. Carry the basis forward
 
-Keep approved requirements and open risks visible as the work moves into Design and Build.
+Agreed requirements and open risks kept visible as the work moves into Design and Build.
 
 ### Direct answers
 
 #### What should be evaluated during data-center feasibility?
 
-The evaluation should cover the workload and capacity plan, site and infrastructure constraints, power, approvals, delivery and phasing assumptions, commissioning expectations and long-term operating requirements. The responsible party for each item must be defined.
+The workload and capacity plan, site and infrastructure constraints, power, approvals, delivery and phasing assumptions, commissioning expectations and long-term operating requirements. Each item needs a named owner, or it is not evaluated.
 
-#### Why address operations during planning?
+#### Why bring operations into planning?
 
-Operating teams inherit access, maintainability, monitoring and change-management decisions made during design and construction. Including those requirements early can make the final operating model more explicit.
+Because your operators inherit every access, maintainability, monitoring and change-management decision made in design and construction. Raising them in planning costs less than discovering them at turnover.
 
-#### Does Evolve guarantee that a site is feasible?
+#### Can Evolve promise that a site is feasible?
 
-No universal conclusion should be assumed. Feasibility depends on the approved evidence, jurisdiction, infrastructure, scope and requirements for the specific program.
+No. Feasibility depends on the evidence, jurisdiction, infrastructure, scope and requirements of the program. You get the decision list that leads there.
 
 ### Related paths
 
-[Data Center Design & Engineering](/design-build/design-engineering/)  
-[Preconstruction & Procurement](/design-build/preconstruction-procurement/)  
-[Power Generation](/power-generation/)  
-[Hyperscale Data Centers](/design-build/hyperscale-data-centers/)  
+[Data Center Design & Engineering](/design-build/design-engineering/)
+[Preconstruction & Procurement](/design-build/preconstruction-procurement/)
+[Power Generation](/power-generation/)
+[Hyperscale Data Centers](/design-build/hyperscale-data-centers/)
 [AI Data Centers](/design-build/ai-data-centers/)
 
 ### Final CTA
 
-## Bring the knowns, assumptions and open questions.
+## Bring the knowns, the assumptions and the open questions. Leave with a decision list.
 
-Evolve will help frame the decisions that need to be addressed before the program advances.
+A planning discussion costs you an hour. An unexamined assumption costs you a quarter.
 
 **CTA:** Request a Planning Discussion
 
 ## Metadata recommendation
 
 **Title:** Data Center Planning & Feasibility | Evolve  
-**Meta description:** Organize data-center requirements, constraints, power considerations and decision gates before design and construction commitments advance.  
+**Meta description:** Find out whether your data-center plan can be built, powered and paid for. Evolve sets requirements, constraints and decision gates before you commit.  
 
 ## Schema recommendation
 
@@ -848,89 +848,89 @@ Evolve will help frame the decisions that need to be addressed before the progra
 
 **Eyebrow:** Design
 
-# Turn operating requirements into a coordinated, buildable direction.
+# Data-center design that the same company has to procure, build, commission and maintain.
 
-Evolve connects data-center design and engineering decisions to procurement, construction, power, commissioning and long-term support.
+Evolve connects design and engineering decisions to procurement, construction, power, commissioning and long-term support. When the designer and the builder are the same team, the drawings reflect what can be bought, built and operated.
 
 **CTA:** Review Project Requirements
 
-### The design has to work as one facility
+### The facility does not care which discipline owned the drawing
 
-Data-center systems do not fail at discipline boundaries. Electrical, mechanical, structural, architectural, controls, equipment and operating requirements interact throughout the project. When those interfaces remain unclear, the consequences usually appear during procurement, construction, commissioning or operation.
+Electrical, mechanical, structural, architectural, controls, equipment and operating requirements interact throughout the project. Leave an interface unclear and the bill shows up in procurement, construction, commissioning or operation, later and larger than fixing it on paper.
 
-The Design stage creates a controlled basis for those systems to move forward together.
+The Design stage gives those systems one controlled basis to move forward together.
 
-### Evolve's applicable capability
+### Design and engineering from inside the build, not beside it
 
-Evolve supports data-center design and engineering within a broader scope that includes planning, procurement, construction, commissioning, power, monitoring and maintenance. The objective is a design direction that can be built, commissioned and supported—not a set of isolated documents.
+Evolve's design and engineering sits inside a scope that also covers planning, procurement, construction, commissioning, power, monitoring and maintenance. The output is a design that can be bought, built, commissioned and supported, not a document set that looks finished.
 
-### Design decisions that require coordination
+### The decisions one discipline cannot make alone
 
-- Owner and operating requirements.
-- Capacity, phasing and expansion assumptions.
-- Electrical and power interfaces.
-- Thermal strategy and equipment requirements defined by the program.
-- Structural and spatial coordination.
-- Constructability and field access.
-- Controls, monitoring and commissioning expectations.
-- Maintenance access and turnover documentation.
+- Owner requirements stated, not assumed.
+- Capacity, phasing and expansion, one plan.
+- Power interfaces sized with the building.
+- Thermal strategy set by the program.
+- Structural fit resolved before steel ships.
+- Constructability tested on paper.
+- Controls and commissioning designed in.
+- Maintenance access decided before walls close.
 
-The exact disciplines and deliverables included in Evolve's scope are confirmed for each engagement.
+Disciplines and deliverables in Evolve's scope are confirmed per engagement.
 
-### The design approach
+### The design approach: five steps that keep the drawings buildable
 
-#### Establish the basis
+#### Fix the basis first
 
-Confirm the approved requirements, unresolved assumptions, responsibilities and criteria that will guide the work.
+Requirements, open assumptions, responsibilities and acceptance criteria, confirmed before drawing.
 
-#### Coordinate the interfaces
+#### Coordinate every interface
 
-Review how each system affects adjacent disciplines, procurement, construction and operation.
+How each system affects adjacent disciplines, procurement, construction and operation.
 
-#### Test constructability
+#### Test constructability on paper
 
-Bring field execution, modular fabrication where applicable, access and sequencing into the design conversation.
+Field execution, modular fabrication where it applies, access and sequencing designed in, not discovered.
 
-#### Control change
+#### Control change, do not absorb it
 
-Document decisions and evaluate changes against the approved basis rather than allowing them to move informally between teams.
+Decisions documented and changes evaluated against the basis, not passed informally between teams.
 
-#### Prepare for commissioning and maintenance
+#### Design for commissioning and maintenance
 
-Carry acceptance, documentation, access and long-term support requirements into the design.
+Acceptance, documentation, access and support requirements carried into the design.
 
-### Design for the facility type
+### The facility type changes what the design has to settle first
 
-- [Modular Data Centers](/design-build/modular-data-centers/) require precise module and site-interface decisions.
-- [Hyperscale Data Centers](/design-build/hyperscale-data-centers/) require coordination across phases and program boundaries.
-- [AI Data Centers](/design-build/ai-data-centers/) require whole-system review of compute, power, thermal and operating assumptions.
+- [Modular Data Centers](/design-build/modular-data-centers/) need the module boundary fixed before fabrication.
+- [Hyperscale Data Centers](/design-build/hyperscale-data-centers/) need phase boundaries that keep phase two open.
+- [AI Data Centers](/design-build/ai-data-centers/) need compute, power, thermal and operating assumptions reviewed as one.
 
 ### Direct answers
 
 #### What makes data-center design different from ordinary building design?
 
-The facility must coordinate mission-critical electrical, thermal, controls, equipment, commissioning and operating requirements. The consequences of unclear interfaces can extend beyond construction into readiness and ongoing operation.
+Mission-critical electrical, thermal, controls and equipment systems have to run as one. An unclear interface in an office is an inconvenience; in a data center it reaches operations.
 
-#### How does constructability enter the design process?
+#### When does constructability enter the design?
 
-Constructability reviews the design against field conditions, access, sequencing, fabrication, installation and package interfaces. It should happen while meaningful decisions can still be adjusted.
+While decisions can still move. The design is checked against field conditions, access, sequencing and package interfaces by the people who will build it.
 
 #### Why consider maintenance during design?
 
-Access, isolation, documentation and system interfaces affect how the facility can be maintained after turnover. The Maintain stage begins with choices made during Design.
+Because Maintain starts in Design. Access, isolation, documentation and interfaces decide how the facility is maintained, and they cost little to change on paper.
 
 ### Final CTA
 
-## Put the full facility requirements behind the design.
+## Put the full facility requirement behind the design, not just the load letter.
 
-Share the current basis, project stage and unresolved technical decisions with Evolve.
+Share the operating requirements, the site and the schedule. We will show you what the design has to resolve first.
 
-**CTA:** Review Project Requirements
+**CTA:** Start a Project
 
 ## Metadata recommendation
 
 **Title:** Data Center Design & Engineering | Evolve  
-**Meta description:** Coordinate data-center design and engineering with constructability, power, commissioning and long-term operating requirements.  
+**Meta description:** Data-center design and engineering from the team that has to procure, build, commission and maintain it, so the drawings reflect what can be built.  
 
 ## Schema recommendation
 
@@ -962,86 +962,86 @@ Share the current basis, project stage and unresolved technical decisions with E
 
 **Eyebrow:** Plan · Build
 
-# Make scope, procurement and field constraints visible before construction accelerates.
+# Preconstruction that finds the long-lead equipment, the scope gaps and the field constraints while they are still cheap to fix.
 
-Evolve connects data-center preconstruction and procurement to the approved design direction, delivery plan, power requirements and commissioning needs.
+Evolve ties preconstruction and procurement to the approved design, the delivery plan, the power requirement and the commissioning needs. Scope, lead times and site constraints get resolved before construction accelerates and the cost of change climbs.
 
 **CTA:** Submit a Project Brief
 
-### Unresolved scope becomes delivery risk
+### The scope you leave vague is the scope you pay for twice
 
-Budgets and schedules are only as useful as the assumptions behind them. When scope boundaries, equipment decisions, field conditions or package interfaces remain unclear, teams may discover the consequences after procurement or construction has already moved forward.
+A budget is only as good as the assumptions under it. Leave scope boundaries, equipment decisions, field conditions or package interfaces vague and the consequences surface after procurement or construction has moved, when every fix costs more.
 
-Preconstruction is where the program should expose those dependencies, assign responsibility and determine what must be decided next.
+Preconstruction is where the program exposes those dependencies, gives each an owner and decides what is settled next.
 
-### Evolve's applicable capability
+### Preconstruction by the people who will also have to build it
 
-Evolve's approved construction capability includes planning, procurement, construction and commissioning across new builds, expansions, upgrades, retrofits, power conversions and live-environment work. Preconstruction connects that field perspective to the decisions made before execution.
+Evolve's construction capability covers planning, procurement, construction and commissioning across new builds, expansions, upgrades, retrofits, power conversions and live-environment work. Preconstruction puts that field experience behind the decisions made before execution.
 
-### What the process should control
+### What has to be pinned down before a package is released
 
-- The approved project requirements and current design basis.
-- Scope boundaries and responsibility between packages.
-- Constructability, access and sequencing assumptions.
-- Procurement decisions that affect design or field execution.
+- The requirements and current design basis, agreed.
+- Scope boundaries between packages, with no gaps.
+- Constructability, access and sequencing tested before pricing.
+- Procurement decisions that change the design or the field plan.
 - Module and site interfaces when modular fabrication is used.
-- Power and commissioning requirements that must be carried into delivery.
-- Changes, open questions and the decision owner for each item.
+- Power and commissioning requirements carried into delivery.
+- Every change and open question with a named owner.
 
-Exact estimating, procurement and contracting deliverables are defined by the engagement.
+Estimating, procurement and contracting deliverables are defined per engagement.
 
-### The preconstruction sequence
+### The preconstruction sequence, and what each step retires
 
-#### Confirm the basis
+#### Agree on the basis
 
-Align the team on the documents, requirements, assumptions and current decisions being used.
+Everyone working from the same documents, requirements, assumptions and decisions.
 
-#### Expose interfaces
+#### Find every interface
 
-Review where design, procurement, construction, power, modular work and commissioning responsibilities meet.
+Where design, procurement, construction, power, modular work and commissioning meet, mapped before they collide.
 
-#### Identify decision gates
+#### Set the decision gates
 
-Determine what must be resolved before a package is released or work advances.
+What must be resolved before a package is released or work advances.
 
-#### Carry decisions into execution
+#### Carry decisions into the field
 
-Provide a clear path from approved scope and procurement actions to field work and turnover.
+A clear line from agreed scope and purchase orders to field work and turnover.
 
 ### Direct answers
 
 #### What should preconstruction accomplish on a data-center project?
 
-It should make the delivery basis explicit: scope, assumptions, interfaces, constructability, procurement decisions, sequencing and the unresolved issues that can affect construction or commissioning.
+Scope, assumptions, interfaces, constructability, procurement decisions, sequencing and the open issues that can hit construction or commissioning, listed. If not, it is not finished.
 
 #### Why connect procurement to design and commissioning?
 
-Equipment and package decisions can change space, interfaces, sequence, acceptance and maintenance requirements. Treating procurement as a separate transaction can hide those effects.
+Equipment and package decisions change space, interfaces, sequence, acceptance and maintenance. Treat procurement as a separate transaction and the effects hide until they cost money.
 
-#### Does Evolve publish a standard schedule or savings claim?
+#### Will Evolve promise a schedule or savings figure?
 
-No. Schedule and cost depend on the project basis, site, scope, equipment and external constraints. Evolve does not present a universal outcome as a substitute for project-specific planning.
+No. Schedule and cost depend on the basis, site, scope, equipment and external constraints. A number quoted before those are known is a guess; preconstruction replaces it with a basis.
 
 ### Related paths
 
-[Planning & Feasibility](/design-build/planning-feasibility/)  
-[Data Center Construction](/design-build/data-center-construction/)  
-[Modular Data Centers](/design-build/modular-data-centers/)  
-[Hyperscale Data Centers](/design-build/hyperscale-data-centers/)  
+[Planning & Feasibility](/design-build/planning-feasibility/)
+[Data Center Construction](/design-build/data-center-construction/)
+[Modular Data Centers](/design-build/modular-data-centers/)
+[Hyperscale Data Centers](/design-build/hyperscale-data-centers/)
 [Commissioning & Turnover](/design-build/commissioning-turnover/)
 
 ### Final CTA
 
-## Give the project team a common delivery basis.
+## Give the project team one delivery basis before the first purchase order goes out.
 
-Send Evolve the current scope, project stage, procurement concerns and construction constraints.
+Send the design status, the equipment list and the date you need to break ground.
 
 **CTA:** Submit a Project Brief
 
 ## Metadata recommendation
 
 **Title:** Data Center Preconstruction & Procurement | Evolve  
-**Meta description:** Connect data-center scope, constructability, procurement, field execution and commissioning before construction accelerates.  
+**Meta description:** Data-center preconstruction that finds long-lead equipment, scope gaps and field constraints while they are still cheap to fix.  
 
 ## Schema recommendation
 
@@ -1073,86 +1073,84 @@ Send Evolve the current scope, project stage, procurement concerns and construct
 
 **Eyebrow:** Build
 
-# Build the data center against a controlled technical and operating basis.
+# The construction team that also has to make the facility pass commissioning.
 
-Evolve provides data-center construction capability for new builds, expansions, upgrades, retrofits, power conversions and work in live environments.
+Evolve builds new data centers and works inside operating ones: expansions, upgrades, retrofits, power conversions and live-environment work. Every scope is built against a defined technical and operating basis, not a set of assumptions.
 
 **CTA:** Discuss Construction Scope
 
-### Field execution reveals every unresolved interface
+### The field finds every interface you did not resolve, at field prices
 
-Construction is where design assumptions, procurement decisions, site conditions, trade boundaries and equipment requirements meet. A mission-critical project needs more than activity tracking. It needs a visible line from approved requirements to installation, issue resolution, commissioning and turnover.
+Construction is where design assumptions, procurement decisions, site conditions, trade boundaries and equipment requirements meet. On a mission-critical project, tracking activity is not enough. You need a visible line from requirement to installation, issue resolution, commissioning and turnover.
 
-Evolve keeps the Build stage connected to the Plan and Design decisions that came before it and the Power and Maintain responsibilities that follow.
+Evolve keeps the Build stage tied to the Plan and Design decisions that came before it and the Power and Maintain responsibilities that follow.
 
-### Evolve's applicable capability
+### New ground or a live floor, built against a defined basis
 
-Evolve's construction scope includes new builds, upgrades, expansions, retrofits, power conversions and work in live environments. Evolve also supports planning, procurement, commissioning, monitoring and maintenance as part of the wider lifecycle.
+Evolve's construction scope covers new builds, upgrades, expansions, retrofits, power conversions and work in live environments, with planning, procurement, commissioning, monitoring and maintenance in the same lifecycle. Scope, delivery model, responsibilities and acceptance requirements are set for each project.
 
-The exact construction scope, delivery model, responsibilities and acceptance requirements are established for each project.
+### A construction approach built around the requirement, not the activity report
 
-### A disciplined construction approach
+#### Build from the agreed basis
 
-#### Build from the approved basis
+Requirements, design direction and scope boundaries are the reference for every installation decision.
 
-Use the current requirements, design direction and scope boundaries as the reference for execution.
+#### Keep every package visible
 
-#### Coordinate work packages
+Interfaces between site work, power, equipment, modular assemblies and controls stay in view.
 
-Keep interfaces between site work, building systems, power, equipment, modular assemblies and controls visible.
+#### Handle changes in daylight
 
-#### Manage changes directly
+Document the issue, evaluate its effect on adjacent systems and get the decision before it moves downstream.
 
-Document the issue, evaluate its effect on adjacent systems and obtain the required decision before the change moves downstream.
+#### Treat readiness as progress
 
-#### Prepare for commissioning
+Inspection, documentation, system readiness and issue closure count as construction progress, not closeout chores.
 
-Treat inspection, documentation, system readiness and issue closure as part of construction progress.
+#### Hand over a facility that runs
 
-#### Turn over an operable facility
-
-Connect final documentation and operating requirements to the teams responsible for monitoring, maintenance and long-term support.
+Documentation and operating requirements handed to the monitoring, maintenance and long-term support that follow.
 
 ### Experience and safety
 
-Evolve has completed more than 2,200 mission-critical projects across more than 20 years in business. Evolve has recorded zero injuries since 2010.
+2,200+ mission-critical projects completed across 20+ years in business. Zero injuries recorded since 2010.
 
-These are aggregate company claims. Evolve does not publish customer identities or project histories.
+Company-wide figures; Evolve does not publish customer identities or project histories, and will not publish yours.
 
 ### Direct answers
 
 #### What types of data-center construction does Evolve support?
 
-Evolve's approved capability includes new builds, upgrades, expansions, retrofits, power conversions and work in live environments. It also includes planning, procurement and commissioning within the broader project lifecycle.
+New builds, upgrades, expansions, retrofits, power conversions and live-environment work, with planning, procurement and commissioning alongside. A running facility is a constraint the plan is built around.
 
-#### Can Evolve support an operating facility?
+#### Can Evolve work inside an operating facility?
 
-Yes. Live-environment work and retrofits are within Evolve's approved construction capability. The operating constraints and exact method must be defined for the facility.
+Yes. Live-environment work and retrofits are within Evolve's construction capability. The operating constraints come first; the method is built around what cannot go down.
 
 #### How does construction connect to long-term support?
 
-Turnover information, access, system interfaces and unresolved issues affect future maintenance and monitoring. Evolve remains engaged after turnover through monitoring, maintenance and long-term support when included in the engagement.
+Turnover information, access, interfaces and open issues shape every maintenance task. When the engagement includes it, Evolve stays on through monitoring and maintenance, so the knowledge does not leave with the crews.
 
 ### Related paths
 
-[Preconstruction & Procurement](/design-build/preconstruction-procurement/)  
-[Commissioning & Turnover](/design-build/commissioning-turnover/)  
-[Expansions & Retrofits](/design-build/expansions-retrofits/)  
-[Service & Maintenance](/maintenance/)  
+[Preconstruction & Procurement](/design-build/preconstruction-procurement/)
+[Commissioning & Turnover](/design-build/commissioning-turnover/)
+[Expansions & Retrofits](/design-build/expansions-retrofits/)
+[Service & Maintenance](/maintenance/)
 [Data Center Markets](/data-center-markets/)
 
 ### Final CTA
 
-## Bring the construction scope into the full facility plan.
+## Bring the construction scope into the full facility plan before the crews mobilize.
 
-Tell Evolve what is being built, changed or protected and where the program stands today.
+Tell us the scope, the site condition and the operating constraint. We will tell you how it gets built without surprising the systems around it.
 
-**CTA:** Discuss Construction Scope
+**CTA:** Start a Project
 
 ## Metadata recommendation
 
 **Title:** Data Center Construction Services | Evolve  
-**Meta description:** Data-center construction for new builds, expansions, upgrades, retrofits, power conversions and live operating environments.  
+**Meta description:** Data-center construction by a team with 2,200+ mission-critical projects and zero injuries recorded since 2010: new builds, retrofits, live environments.  
 
 ## Schema recommendation
 
@@ -1184,83 +1182,83 @@ Tell Evolve what is being built, changed or protected and where the program stan
 
 **Eyebrow:** Build · Maintain
 
-# Commissioning should prove readiness—not simply record completion.
+# A signed test log is not readiness. Here is what commissioning has to prove before you accept the facility.
 
-Evolve includes commissioning within its approved data-center construction capability and connects turnover to the operating responsibilities that follow.
+Evolve includes commissioning within its documented construction capability and connects turnover to the operating responsibilities that follow. Readiness is defined before the acceptance line, so nobody discovers the gaps at 2 a.m. on the first live weekend.
 
 **CTA:** Discuss Commissioning Scope
 
-### The handoff begins before the final test
+### Readiness is decided long before the final test
 
-Commissioning is most useful when requirements, responsibilities, documentation and issue resolution are defined before systems reach final acceptance. If the process is treated only as an end-of-project event, the team may discover unclear criteria or incomplete information when the facility is already expected to operate.
+Commissioning earns its keep when the requirements, the responsibilities, the documentation and the issue process are set before systems reach final acceptance. Treat it as an end-of-project event and you find the unclear criteria and the missing information when the facility is already supposed to be running.
 
-Turnover has the same dependency. The operating team needs a clear record of the facility it is receiving, not just a collection of disconnected closeout documents.
+Turnover works the same way. Your operators need a clear record of the facility they are receiving, not a box of unrelated closeout documents.
 
-### Evolve's applicable capability
+### Commissioned by the company that built it and stays engaged after turnover
 
-Commissioning is part of Evolve's approved construction capability, alongside planning, procurement, monitoring and maintenance. Evolve can connect commissioning and turnover to the design, construction, power and long-term support work within the engagement.
+Commissioning sits inside Evolve's construction capability, alongside planning, procurement, monitoring and maintenance. So commissioning and turnover connect to the design, construction, power and support work in the same engagement, and the people proving readiness live with the result.
 
-The detailed test levels, systems, deliverables, certifications and acceptance procedures are project-specific and must be confirmed in the approved scope.
+Test levels, systems, deliverables, certifications and acceptance procedures are confirmed in the contracted scope.
 
-### A practical commissioning and turnover framework
+### The commissioning and turnover framework, in five steps
 
-#### Start with approved requirements
+#### Start from the requirement
 
-Identify the basis against which readiness will be evaluated and who has authority to accept each result.
+The basis readiness is judged against, and who can accept each result.
 
-#### Define systems and interfaces
+#### Draw the system and interface boundaries
 
-Make the test boundary, prerequisites, responsibilities and dependencies visible.
+Test boundary, prerequisites, responsibilities and dependencies made visible.
 
-#### Track readiness and issues
+#### Track readiness, not just activity
 
-Document what is ready, what is not and what must be resolved before the next activity.
+What is ready, what is not and what must close before the next activity.
 
-#### Preserve the record
+#### Keep the record
 
-Organize approved results, changes, outstanding items and operating information for turnover.
+Accepted results, changes, outstanding items and operating information organized for turnover.
 
-#### Connect to Maintain
+#### Hand it to Maintain
 
-Carry relevant facility knowledge into monitoring, maintenance and long-term support.
+Facility knowledge carried into monitoring, maintenance and long-term support.
 
 ### Direct answers
 
 #### What is the purpose of data-center commissioning?
 
-Commissioning establishes a structured process for evaluating whether the defined systems and interfaces meet the approved project requirements. The exact activities and acceptance criteria depend on the contracted scope.
+To prove, system by system, that the facility meets the project requirements before anyone depends on it. The activities and acceptance criteria are set in the contracted scope.
 
 #### When should commissioning planning begin?
 
-It should begin early enough to influence requirements, design, documentation, construction readiness and turnover—not only when final testing is about to start.
+Early enough to shape requirements, design, documentation and construction readiness. Started when final testing is near, it only records what already happened.
 
 #### What should the operations team receive at turnover?
 
-The turnover package should reflect the approved scope and provide the information the operating team needs to understand the delivered facility, accepted results, remaining issues and support responsibilities.
+A record that matches the contracted scope and tells operators what was delivered, what was accepted, what is still open and who supports it. Not a box of closeout documents.
 
-#### Does this page define Evolve's detailed test levels?
+#### Which commissioning levels does Evolve deliver?
 
-No. Specific testing stages, systems, deliverables and certifications require separate scope approval and are not presented as universal Evolve capabilities here.
+Those set in your contracted scope. Testing stages, systems, deliverables and certifications are agreed per project, not offered as a universal package.
 
 ### Related paths
 
-[Data Center Construction](/design-build/data-center-construction/)  
-[Power Generation](/power-generation/)  
-[Service & Maintenance](/maintenance/)  
+[Data Center Construction](/design-build/data-center-construction/)
+[Power Generation](/power-generation/)
+[Service & Maintenance](/maintenance/)
 [Data Center Commissioning Checklist](/insights/data-center-commissioning-checklist/)
 
 ### Final CTA
 
 ## Define readiness before the facility reaches the acceptance line.
 
-Share the project stage, system boundaries, current requirements and commissioning responsibility model.
+Share the system list, the schedule and who owns operations on day one. We will show you what still has to be proven.
 
 **CTA:** Discuss Commissioning Scope
 
 ## Metadata recommendation
 
 **Title:** Data Center Commissioning & Turnover | Evolve  
-**Meta description:** Connect data-center commissioning, issue resolution, documentation and turnover to construction and long-term facility support.  
+**Meta description:** Data-center commissioning that proves the facility is ready before the acceptance line, with turnover tied to the maintenance that follows.  
 
 ## Schema recommendation
 
@@ -1292,80 +1290,78 @@ Share the project stage, system boundaries, current requirements and commissioni
 
 **Eyebrow:** Plan · Design · Build
 
-# Change the facility without losing sight of the system already operating.
+# Expand or retrofit a live data center without putting the systems that are already running at risk.
 
-Evolve supports data-center expansions, retrofits, upgrades, power conversions and work in live environments across the Plan, Design, Build, Power and Maintain lifecycle.
+Evolve supports expansions, retrofits, upgrades, power conversions and work in live environments across Plan, Design, Build, Power and Maintain. The existing condition and the operating constraint come first; the construction plan is built around them.
 
 **CTA:** Discuss an Existing Facility
 
-### Existing conditions are part of the design basis
+### On a live floor, the existing condition is the design basis
 
-An operating data center brings constraints that do not exist on an empty site. Existing capacity, access, documentation, equipment condition, active loads, operating procedures and change windows can affect every decision.
+An operating data center carries constraints an empty site never has. Capacity, access, documentation, equipment condition, active loads, procedures and change windows shape every decision, and the running systems do not pause.
 
-The work must account for the facility as it exists today, the change being introduced and the operating condition that must remain after turnover.
+The work has to account for the facility as it stands, the change being introduced and the condition that must survive turnover.
 
-### Evolve's applicable capability
+### Retrofits, conversions and expansions from a team that also does the maintenance
 
-Evolve's approved construction capability includes retrofits, live-environment work, power conversions, upgrades and expansions. Evolve also supports planning, design, procurement, commissioning, monitoring and maintenance.
+Evolve's construction capability includes retrofits, live-environment work, power conversions, upgrades and expansions, with planning, design, procurement, commissioning, monitoring and maintenance in the same lifecycle. So the planned change is designed around the systems and the people that have to keep operating through it.
 
-This allows the existing-facility conversation to connect the planned change with the systems and people that must continue operating around it.
+### A change process that protects what is already running
 
-### A controlled change process
+#### Learn the facility as it is
 
-#### Understand the current condition
+Documentation, operating requirements, known constraints and the reason for the change, gathered first.
 
-Gather available documentation, operating requirements, known constraints and the specific reason for the change.
+#### Define what the change must achieve
 
-#### Define the future requirement
+What the expansion, retrofit, upgrade or conversion must deliver, and which interfaces it touches.
 
-Establish what the expansion, retrofit, upgrade or conversion must accomplish and which existing interfaces it will affect.
+#### Draw the work boundary
 
-#### Plan the work boundary
+Scope, access, sequence, responsibilities, commissioning and operating coordination, settled first.
 
-Clarify scope, access, sequence, responsibilities, commissioning needs and operating coordination.
+#### Execute and document every step
 
-#### Execute and document the change
+The plan carried into the field, with issues and decisions recorded as they happen.
 
-Carry the approved plan into the field and maintain a clear record of issues and decisions.
+#### Return the knowledge to operations
 
-#### Return knowledge to operations
-
-Connect turnover information to monitoring, maintenance and future facility decisions.
+Turnover information carried into monitoring, maintenance and the next decision.
 
 ### Where existing-facility work commonly connects
 
-[Enterprise Data Centers](/data-center-markets/enterprise/)  
-[Colocation Data Centers](/data-center-markets/colocation/)  
-[Power Generation](/power-generation/)  
-[Service & Maintenance](/maintenance/)  
+[Enterprise Data Centers](/data-center-markets/enterprise/)
+[Colocation Data Centers](/data-center-markets/colocation/)
+[Power Generation](/power-generation/)
+[Service & Maintenance](/maintenance/)
 [Data Center Design & Engineering](/design-build/design-engineering/)
 
 ### Direct answers
 
 #### What types of existing-facility work can Evolve support?
 
-Evolve's approved capability includes retrofits, live-environment work, power conversions, upgrades and expansions. The exact systems, boundaries and operating constraints are defined for each engagement.
+Retrofits, live-environment work, power conversions, upgrades and expansions. Systems, boundaries and operating constraints are defined per engagement, starting with what cannot stop.
 
 #### Why does planning matter more in a live environment?
 
-The team must account for active operations, existing interfaces, access, documentation and the condition that must be preserved while the change is made.
+Because the margin for surprise is gone. Active loads, existing interfaces, access and the condition that must survive must be understood before the change starts.
 
-#### Can maintenance information support an expansion or retrofit?
+#### Can maintenance records improve an expansion or retrofit?
 
-Yes. Operating and maintenance knowledge can help identify existing conditions, access needs and recurring issues that should be considered when the facility changes.
+Yes. Maintenance records reveal existing conditions, access needs and recurring issues that should shape the change, one reason Evolve stays engaged after turnover.
 
 ### Final CTA
 
-## Start with the existing condition and the operating constraint.
+## Start with the existing condition and the operating constraint, then plan the change.
 
-Tell Evolve what must change, what must remain in service and which decision needs to be made next.
+Tell us what is running, what has to change and what cannot be interrupted.
 
 **CTA:** Discuss an Existing Facility
 
 ## Metadata recommendation
 
 **Title:** Data Center Expansions & Retrofits | Evolve  
-**Meta description:** Plan and execute data-center expansions, retrofits, upgrades and power conversions with live operating conditions in view.  
+**Meta description:** Expand or retrofit a live data center without putting the running systems at risk: retrofits, upgrades, power conversions and live-environment work.  
 
 ## Schema recommendation
 

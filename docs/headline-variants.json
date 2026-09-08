@@ -1,0 +1,212 @@
+{
+  "/": [
+    "One accountable team for your data center, from the first plan to the last maintenance visit.",
+    "2,200+ mission-critical projects and 5.3+ GW deployed. One team from plan to maintain.",
+    "Stop handing your data center from firm to firm. Plan, design, build, power and maintain it with one team."
+  ],
+  "/design-build/": [
+    "Design-build for data centers, run by people who also have to power and maintain what they build.",
+    "The data-center design-build partner that stays on the hook after turnover.",
+    "Why data-center owners hand Evolve the plan, the build and the power in one contract."
+  ],
+  "/design-build/modular-data-centers/": [
+    "Modular data centers built in our own Houston shop, then connected to your site, your power and your commissioning plan.",
+    "Factory-built capacity that arrives ready for the site because the same team designed the site.",
+    "Modular only works when the interfaces are designed with the modules. We design both."
+  ],
+  "/design-build/hyperscale-data-centers/": [
+    "Hyperscale delivery that protects the first operating phase without boxing in the next three.",
+    "Phase one on schedule. Phases two through four still possible. That is the hyperscale job.",
+    "If your campus phase plan lives in three different vendors' spreadsheets, read this first."
+  ],
+  "/design-build/ai-data-centers/": [
+    "AI data centers: get the power, cooling and building decided as one system before the GPUs are ordered.",
+    "The GPU order is the easy part. The facility around it is where AI programs lose a year.",
+    "Building for AI density? Here is what has to be settled before design starts."
+  ],
+  "/design-build/planning-feasibility/": [
+    "Find out whether your data-center plan can actually be built, powered and paid for, before you commit to it.",
+    "The decisions that make or break a data-center plan are made in the first ninety days. Make them on purpose.",
+    "Feasibility is not a report. It is the list of decisions that decide whether your site ever energizes."
+  ],
+  "/design-build/design-engineering/": [
+    "Data-center design that the same company has to procure, build, commission and maintain.",
+    "Design decisions are cheap on paper and expensive in the field. Make them with the builder in the room.",
+    "Turn operating requirements into a design your contractor will not have to re-engineer."
+  ],
+  "/design-build/preconstruction-procurement/": [
+    "Preconstruction that finds the long-lead equipment, the scope gaps and the field constraints while they are still cheap to fix.",
+    "Every surprise in the field was visible in preconstruction. Here is how we look for them.",
+    "Buy the right equipment early, sequence the site correctly and stop paying for the gap between them."
+  ],
+  "/design-build/data-center-construction/": [
+    "Data-center construction by a team with 2,200+ mission-critical projects and zero injuries recorded since 2010.",
+    "New builds, expansions, retrofits and live-environment work, built against a controlled technical basis.",
+    "The construction team that also has to make the facility pass commissioning."
+  ],
+  "/design-build/commissioning-turnover/": [
+    "Commissioning that proves the facility is ready, not paperwork that says it is finished.",
+    "A signed test log is not readiness. Here is what commissioning has to prove before you accept the facility.",
+    "The questions to settle before final testing, from the team that will maintain the systems afterward."
+  ],
+  "/design-build/expansions-retrofits/": [
+    "Expand or retrofit a live data center without putting the systems that are already running at risk.",
+    "The facility is running. The change still has to happen. Here is how it gets done safely.",
+    "Live-environment expansions and retrofits, planned around the operating constraint first."
+  ],
+  "/power-generation/": [
+    "5.3+ GW deployed. Bring power into the data-center plan on day one, not after the utility says no.",
+    "Power is the schedule. Plan it with the facility, not after it.",
+    "The generation and critical-power team that has deployed 5.3+ GW for mission-critical facilities."
+  ],
+  "/power-generation/backup-power-systems/": [
+    "Backup power designed as part of the facility, so it performs when the facility needs it.",
+    "A generator on a pad is not a backup power system. The integration is.",
+    "Backup power that is designed, built, commissioned and maintained by the same team."
+  ],
+  "/maintenance/": [
+    "Data-center maintenance from the team that stays engaged after turnover, because the work does not end at acceptance.",
+    "The facility is live. Now the real work starts. Keep it that way with a team that knows the systems.",
+    "Monitoring, maintenance and long-term support built around the facility that is actually operating."
+  ],
+  "/maintenance/preventive-maintenance/": [
+    "Preventive maintenance that produces decisions, not just a stamp that says the task was done.",
+    "A maintenance visit should tell you something. Ours is built to.",
+    "Build the maintenance plan around the equipment you actually run, not a template."
+  ],
+  "/data-center-markets/": [
+    "Colocation, enterprise, hyperscale, AI or modular: the facility type changes the decisions. The discipline does not.",
+    "Every data-center market has its own failure points. Here is how Evolve plans for each.",
+    "One lifecycle, applied to the facility you actually operate."
+  ],
+  "/data-center-markets/colocation/": [
+    "Add colocation capacity without interrupting the customers already paying for the floor.",
+    "Colocation expansions planned around the tenants, not just the equipment.",
+    "New halls, power upgrades and retrofits inside a live colocation facility. Done with the operating floor in view."
+  ],
+  "/data-center-markets/enterprise/": [
+    "Modernize the enterprise data center around the systems that are already keeping the business running.",
+    "Your enterprise facility is not a greenfield site. Plan the upgrade like it matters.",
+    "Enterprise data-center upgrades, retrofits and power conversions, planned around uptime first."
+  ],
+  "/insights/": [
+    "Straight answers to the data-center questions that cost the most when they are answered late.",
+    "Practical guidance for data-center decisions, written by people who have to build what they recommend.",
+    "Read this before the site visit, the RFP or the design kickoff."
+  ],
+  "/about/": [
+    "Data centers are the work. They have been for more than 20 years.",
+    "Founded in Houston in 2004. 2,200+ mission-critical projects. 5.3+ GW deployed. Still specialized in one thing.",
+    "Why a company that only builds data centers is worth a conversation before your next one."
+  ],
+  "/about/leadership/": [
+    "The people accountable for the work.",
+    "Meet the team that stays on the hook from the first plan to the last maintenance visit.",
+    "Thirteen leaders. One accountable team. Here is who carries your program."
+  ],
+  "/contact/": [
+    "Reach the right Evolve team the first time.",
+    "Contact Evolve Data Center Solutions",
+    "Tell us what you need. We route it to the people who can act on it."
+  ],
+  "/support/": [
+    "Existing-customer support, routed to the people who know your facility.",
+    "Existing-customer support",
+    "Already an Evolve customer? Start here."
+  ],
+  "/start-a-project/": [
+    "Tell us about the facility. Get a straight answer on fit, scope and the next decision.",
+    "Start a data-center project discussion",
+    "Five minutes here saves the first three meetings."
+  ],
+  "/request-service/": [
+    "Request service for a data center that is already running.",
+    "Request a data-center service discussion",
+    "Something needs service. Tell us the facility and the system, and we route it today."
+  ],
+  "/thank-you/": [
+    "Received. Here is what happens next.",
+    "Thank you. Your information has been received.",
+    "Got it. Your brief is on its way to the right team."
+  ],
+  "/sitemap/": [
+    "Website sitemap",
+    "Every Evolve page in one place.",
+    "Find the service, market or guide you need."
+  ],
+  "/solutions/": [
+    "Start from the facility you have to deliver. We will show you the decisions that come with it.",
+    "AI, edge, modular, colocation, greenfield or retrofit: pick the program, see the path.",
+    "Six ways a data-center program begins. One lifecycle that carries all of them."
+  ],
+  "/solutions/ai-hpc-data-centers/": [
+    "AI and HPC facilities built for the workload, not for a template.",
+    "Build the facility to the GPUs you are actually deploying, and the ones you will deploy next.",
+    "High-density halls take a whole-facility plan. Here is how Evolve runs it."
+  ],
+  "/solutions/edge-data-centers/": [
+    "Edge capacity you can repeat: designed once, fabricated in our shop, delivered where the demand is.",
+    "Repeatable capacity, delivered where the demand is.",
+    "Stop designing every edge site from scratch. Standardize it, fabricate it, set it."
+  ],
+  "/solutions/modular-data-centers/": [
+    "Fabricate the data center where the work is controlled. Set it where the demand is.",
+    "Modules built in our own Houston shop, connected to your site, power and commissioning plan.",
+    "Move the risky work off the site and into a shop we own."
+  ],
+  "/solutions/colocation-data-centers/": [
+    "Add colocation capacity without interrupting the customers already on the floor.",
+    "New capacity for the operating colocation facility, planned around the tenants first.",
+    "Grow the facility. Keep the SLAs you already signed."
+  ],
+  "/solutions/greenfield-new-builds/": [
+    "From open ground to an operating data center, as one program with one accountable team.",
+    "A new site is a hundred decisions in the right order. We keep them in order.",
+    "Greenfield data centers: feasibility, design, construction, power, commissioning and turnover under one roof."
+  ],
+  "/solutions/brownfield-retrofit/": [
+    "Change the facility without losing the one that is running.",
+    "Retrofits, upgrades and power conversions inside live facilities, planned around the operating constraint.",
+    "The building already exists. The load already matters. Here is how the change gets made safely."
+  ],
+  "/insights/data-center-site-selection-power-planning/": [
+    "Data Center Site Selection and Power Planning: Settle the Decision Basis Before You Sign Anything",
+    "Data Center Site Selection and Power Planning: Build the Decision Basis First",
+    "Data Center Site Selection and Power Planning: The Questions That Decide Whether the Site Ever Energizes"
+  ],
+  "/insights/modular-vs-traditional-data-center-delivery/": [
+    "Modular vs. Traditional Data Center Delivery: Compare the Interfaces, Not the Labels",
+    "Modular vs. Traditional Data Center Delivery: Which Work Belongs in a Shop and Which Belongs on Site",
+    "Modular vs. Traditional Data Center Delivery: The Comparison Buyers Should Actually Run"
+  ],
+  "/insights/ai-data-center-infrastructure-planning/": [
+    "AI Data Center Infrastructure Planning: Start With a Whole-System Basis",
+    "AI Data Center Infrastructure Planning: What to Settle Before the GPU Order",
+    "AI Data Center Infrastructure Planning: The Decisions That Control the Schedule"
+  ],
+  "/insights/hyperscale-campus-phasing/": [
+    "Hyperscale Campus Phasing: Protect the First Delivery Without Closing Off the Next",
+    "Hyperscale Campus Phasing: How to Deliver Phase One Without Sabotaging Phase Four",
+    "Hyperscale Campus Phasing: The Plan Has Two Jobs. Most Do One."
+  ],
+  "/insights/data-center-commissioning-checklist/": [
+    "Data Center Commissioning Checklist: The Questions to Settle Before Final Testing",
+    "Data Center Commissioning Checklist: What Has to Be Proven Before You Accept the Facility",
+    "Data Center Commissioning Checklist: Readiness, Not Paperwork"
+  ],
+  "/insights/data-center-preventive-maintenance/": [
+    "Data Center Preventive Maintenance: Build a Program That Produces Useful Decisions",
+    "Data Center Preventive Maintenance: Why a Completed Task List Is Not a Program",
+    "Data Center Preventive Maintenance: What Every Visit Should Tell You"
+  ],
+  "/insights/data-center-monitoring-vs-dcim/": [
+    "Data Center Monitoring vs. DCIM: Start With the Operating Decision",
+    "Data Center Monitoring vs. DCIM: Define the Decision Before You Buy the Dashboard",
+    "Data Center Monitoring vs. DCIM: Two Terms, One Question You Have to Answer First"
+  ],
+  "/insights/responsible-data-center-development/": [
+    "Responsible Data Center Development: Put the Local Questions Into the Project Plan",
+    "Responsible Data Center Development: Answer the Community Before the Hearing Does",
+    "Responsible Data Center Development: Power, Water, Noise and Land, Planned on Purpose"
+  ]
+}

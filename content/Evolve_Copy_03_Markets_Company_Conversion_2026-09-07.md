@@ -20,90 +20,90 @@
 
 **Eyebrow:** Data Center Markets
 
-# The facility type changes the decisions—not the need for coordination.
+# Colocation, enterprise, hyperscale, AI or modular: the facility type changes the decisions. The discipline does not.
 
-Evolve applies the Plan, Design, Build, Power and Maintain lifecycle to the distinct requirements of AI, hyperscale, modular, colocation and enterprise data centers.
+Evolve applies Plan, Design, Build, Power and Maintain to the distinct requirements of AI, hyperscale, modular, colocation and enterprise data centers. Start with your facility type to see how the decisions change.
 
 **CTA:** Discuss a Data Center Project
 
-### Start with the operating requirement
+### The facility type sets the assumptions. Get them wrong and you pay for it in change orders.
 
-A data center built for a large cloud program does not carry the same assumptions as an enterprise retrofit. An AI workload can place different pressure on facility systems than a conventional deployment. A modular strategy changes fabrication and site interfaces. A colocation operator must consider customers, operating continuity and phased capacity together.
+A hyperscale program and an enterprise retrofit share almost no planning assumptions. An AI workload loads power, thermal and structural systems differently than a conventional hall. A modular strategy moves fabrication into the shop and changes every site interface. A colocation operator adds capacity while paying customers stay live.
 
-The correct website path begins with the decision the buyer is making—not a generic industry label.
+Each fact changes which decision comes first. Start from your facility type, not a generic industry label.
 
-### High-growth facilities
+### Growth facilities: settle these before design starts
 
 #### AI Data Centers
 
-Coordinate workload assumptions with power, thermal, structural, controls, commissioning and long-term operating requirements.
+Settle the workload's power, thermal, structural and controls basis before design starts.
 
 [Explore AI Data Centers](/design-build/ai-data-centers/)
 
 #### Hyperscale Data Centers
 
-Connect capacity phasing, procurement, construction interfaces, power and operational readiness across a large program.
+Capacity phasing, procurement, construction and power decided as one program.
 
 [Explore Hyperscale Data Centers](/design-build/hyperscale-data-centers/)
 
 #### Modular Data Centers
 
-Evaluate factory-built assemblies within the wider site, design, logistics, construction and commissioning plan.
+Shop-built by Evolve, modules can be site-set in days, if site, logistics and commissioning were planned with them.
 
 [Explore Modular Data Centers](/design-build/modular-data-centers/)
 
-### Operating environments
+### Operating environments: adding capacity while the floor stays live
 
 #### Colocation Data Centers
 
-Plan new capacity, expansion and operating support around a multi-customer environment where readiness and continuity both matter.
+New capacity, expansion and operating support planned around customers who are already live on the floor.
 
 [Explore Colocation Data Centers](/data-center-markets/colocation/)
 
 #### Enterprise Data Centers
 
-Coordinate modernization, expansion, power and long-term support for facilities that serve the organization's own infrastructure strategy.
+Modernize, expand or re-power the facility keeping the business running, with the existing condition defined first.
 
 [Explore Enterprise Data Centers](/data-center-markets/enterprise/)
 
-### One lifecycle across each market
+### Five stages, one team, whatever the facility type
 
-**Plan** the facility requirement and decision basis.  
-**Design** the connected systems around approved needs.  
+**Plan** the requirement and the decision basis first.  
+**Design** connected systems around the defined need.  
 **Build** through procurement, construction and commissioning.  
-**Power** the facility as part of the program.  
-**Maintain** the operating asset through monitoring, maintenance and support.
+**Power** the facility within the program, not after it.  
+**Maintain** it through monitoring, maintenance and support.
 
 ### Approved proof
 
-Evolve specializes in data centers, serves a nationwide market and has completed more than 2,200 mission-critical projects. Evolve has deployed more than 5.3 GW of power across its aggregate work.
+2,200+ mission-critical projects completed. 5.3+ GW of power deployed. All of it data centers, for a nationwide market. The figures are company aggregates. No customer or facility is named.
 
 ### Direct answers
 
-#### Which data-center markets does Evolve address on this site?
+#### Which data-center markets does Evolve cover?
 
-The approved public paths cover AI, hyperscale, modular, colocation and enterprise data centers. Additional market pages remain gated until their commercial priority and supporting Evolve claims are approved.
+AI, hyperscale, modular, colocation and enterprise, each with its own page. If yours fits none, describe the operating environment in a project discussion; the lifecycle is the same.
 
 #### Is modular a market or a delivery method?
 
-Modular is primarily a delivery and facility approach, so its commercial page sits under Design & Build. It may be relevant to AI, hyperscale, edge or other operating environments when the project basis supports it.
+A delivery method, so its page sits under Design & Build. Evolve builds modules in its own shop, and they can serve AI, hyperscale or edge programs when the project basis supports it.
 
-#### Does a market page replace a service discussion?
+#### Does reading a market page replace a conversation with Evolve?
 
-No. Market pages frame the buyer's operating requirements and direct the buyer to the relevant planning, design, construction, power, commissioning and maintenance paths.
+No. A market page tells you which decisions come first. The service paths carry the work. Start with your facility type, stage and constraint.
 
 ### Final CTA
 
-## Define the facility type, project stage and immediate constraint.
+## Define the facility type, the project stage and the constraint you are up against.
 
-Evolve will route the discussion to the right lifecycle team.
+We route the conversation to the right planning, design, construction, power or operations team.
 
 **CTA:** Discuss a Data Center Project
 
 ## Metadata recommendation
 
 **Title:** Data Center Markets | Evolve  
-**Meta description:** Explore how Plan, Design, Build, Power and Maintain apply to AI, hyperscale, modular, colocation and enterprise data centers.  
+**Meta description:** How the decisions change for AI, hyperscale, modular, colocation and enterprise data centers, and the one lifecycle Evolve applies to all of them.  
 
 ## Schema recommendation
 
@@ -135,35 +135,35 @@ Evolve will route the discussion to the right lifecycle team.
 
 **Eyebrow:** Data Center Markets · Colocation
 
-# Add and operate colocation capacity with the full facility lifecycle in view.
+# New halls, power upgrades and retrofits inside a live colocation facility. Done with the operating floor in view.
 
-Evolve connects planning, design, construction, power, commissioning and long-term support for colocation data-center requirements.
+Evolve connects planning, design, construction, power, commissioning and long-term support for colocation operators. The capacity objective and the operating constraints are handled in one plan, so growth does not become a customer-facing incident.
 
 **CTA:** Discuss a Colocation Project
 
-### Capacity and continuity have to coexist
+### The capacity is sold. Now it has to be built beside customers who are already live.
 
-Colocation owners may be developing new capacity, expanding an active facility, changing power systems or preparing space for future customer requirements. Each decision must be made within an operating environment that values readiness, clear responsibility and controlled change.
+Colocation owners add capacity, expand active halls, change power systems and prepare space for the next customer inside a facility that carries paying load. There, a misstep is a customer-facing incident, not a schedule slip.
 
-The project plan should connect the commercial capacity objective to the actual site, facility systems, delivery sequence, commissioning criteria and operating model.
+The plan ties the capacity target to the site, the facility systems, the delivery sequence, the commissioning criteria and the operating model before construction starts.
 
-### How Evolve's lifecycle applies
+### One team carries all five stages beside a live floor
 
 #### Plan
 
-Define the capacity objective, facility condition, phase requirements, known constraints and next decisions.
+Fix the capacity target, facility condition, phasing and constraints before money moves.
 
 #### Design
 
-Coordinate approved requirements with constructability, power, commissioning and long-term access.
+Design for constructability, power, commissioning and long-term access.
 
 #### Build
 
-Execute new construction, expansions, upgrades, retrofits or power conversions within the approved operating constraints.
+Execute new builds, expansions, upgrades, retrofits or power conversions inside the live floor's constraints.
 
 #### Power
 
-Address generation and critical-power requirements as part of the facility plan.
+Bring generation and critical power into the facility plan from the start.
 
 #### Maintain
 
@@ -180,32 +180,34 @@ Carry turnover knowledge into monitoring, maintenance and long-term support.
 
 ### Direct answers
 
-#### Can Evolve support both new colocation construction and existing-facility changes?
+#### Can Evolve build new colocation capacity and change a facility that is already operating?
 
-Evolve's approved capability includes new builds, expansions, upgrades, retrofits, power conversions and work in live environments. The exact scope and operating boundaries are defined for each engagement.
+Yes. Evolve's construction capability covers new builds, expansions, upgrades, retrofits, power conversions and live-environment work. Scope and operating boundaries are defined per engagement, before work starts.
 
-#### Why connect maintenance to a colocation expansion?
+#### Why bring maintenance into an expansion decision?
 
-Expansion decisions can affect access, documentation, system interfaces and future service requirements. Bringing Maintain into the discussion helps make those operating consequences visible.
+Because the expansion decides what operators inherit: access, documentation, system interfaces and future service needs. Seen early, those can still change; Evolve stays engaged after turnover.
 
 #### Does Evolve publish colocation customer or project histories?
 
-No. Customer and project histories remain confidential. Evolve uses approved aggregate experience and defined capabilities instead.
+No. Customer histories stay confidential; Evolve publishes aggregate experience and defined capabilities instead.
 
-### Proof
+### Proof without project disclosure
 
-Evolve has completed more than 2,200 mission-critical projects and deployed more than 5.3 GW of power. These are aggregate company figures and do not identify customers or facilities.
+2,200+ mission-critical projects completed. 5.3+ GW of power deployed. Company aggregates that name no customer or facility. Your customers will expect the same discretion. So can you.
 
 ### Final CTA
 
-## Bring the capacity objective and operating constraints into one discussion.
+## Bring the capacity objective and the operating constraints into one discussion.
+
+Tell us the target capacity, the live systems and the date the sales team already promised.
 
 **CTA:** Discuss a Colocation Project
 
 ## Metadata recommendation
 
 **Title:** Colocation Data Center Solutions | Evolve  
-**Meta description:** Connect colocation planning, design, construction, power, commissioning and maintenance for new and operating facilities.  
+**Meta description:** Add colocation capacity beside live customers. Evolve plans, designs, builds, powers and maintains new and operating colocation facilities nationwide.  
 
 ## Schema recommendation
 
@@ -237,41 +239,41 @@ Evolve has completed more than 2,200 mission-critical projects and deployed more
 
 **Eyebrow:** Data Center Markets · Enterprise
 
-# Modernize the enterprise data center around the systems already in service.
+# Enterprise data-center upgrades, retrofits and power conversions, planned around uptime first.
 
-Evolve supports enterprise data-center planning, design, construction, power, commissioning, monitoring and maintenance for new and existing facilities.
+Evolve supports enterprise data-center planning, design, construction, power, commissioning, monitoring and maintenance for new and existing facilities. The existing condition and the required future state are defined together before anything is touched.
 
 **CTA:** Discuss an Enterprise Facility
 
-### The enterprise decision is rarely isolated
+### The drawings are stale, the floor is live and the business cannot pause.
 
-An enterprise facility may need to support current operations while accommodating new equipment, capacity, power or resilience requirements. Documentation may be incomplete. Existing systems may constrain the preferred design. The work may need to occur in a live environment.
+New equipment, more capacity, a power change or a resilience requirement has to land in a facility carrying the company's workload today. Documentation is often incomplete. Existing systems constrain the preferred design.
 
-The project should begin with a clear view of the current facility, the required future condition and the operating constraints between them.
+Found early, those are design inputs. Found in construction, they are change orders and outages. Define the current facility, the required future state and the constraints between them first.
 
-### Evolve's applicable capability
+### Why the team that plans the change also builds, powers and maintains it
 
-Evolve's approved capability includes new builds, upgrades, expansions, retrofits, power conversions and live-environment work. Evolve also supports planning, design, procurement, commissioning, monitoring, maintenance and long-term support.
+Evolve's construction capability covers new builds, upgrades, expansions, retrofits, power conversions and live-environment work, backed by planning, design, procurement, commissioning, monitoring and long-term support.
 
-That lifecycle structure allows a facility change to be evaluated from the early decision through turnover and ongoing operation.
+On an enterprise floor that matters: the people who plan the change commission and maintain it. Nobody hands a problem downstream.
 
-### A practical enterprise path
+### Four decisions, in sequence, before anything is touched
 
-#### Understand the current condition
+#### Know what you actually have
 
-Confirm available documentation, operating requirements, known constraints and the reason for the change.
+Documentation, operating requirements, constraints and the reason for change, confirmed, not assumed.
 
-#### Define the future requirement
+#### Decide what must change and what must not
 
-Establish what must be added, replaced, expanded or protected.
+What gets added, replaced or expanded, and what stays protected.
 
-#### Coordinate the change
+#### Make one plan, not six
 
-Connect design, power, procurement, construction, commissioning and operating responsibilities.
+Design, power, procurement, construction, commissioning and operations, settled together.
 
-#### Preserve the operating basis
+#### Keep the record straight after turnover
 
-Carry approved changes and turnover information into monitoring, maintenance and future work.
+As-built changes and turnover information carried into monitoring, maintenance and future work.
 
 ### Relevant Evolve paths
 
@@ -285,26 +287,28 @@ The eLERT path should be added here only after its public product definition and
 
 #### Can Evolve work in an operating enterprise data center?
 
-Live-environment work is within Evolve's approved construction capability. The exact scope, operating constraints and change process must be established for the facility.
+Yes. Live-environment work is within Evolve's construction capability; the scope, operating constraints and change process are defined for the facility first.
 
-#### When is an assessment needed before a retrofit?
+#### How much do you need to know about the existing facility before a retrofit is designed?
 
-The team needs a reliable understanding of existing conditions before design and construction decisions are fixed. A formal Evolve assessment offering remains gated until its deliverable is approved, but current documentation and conditions should still be examined in the project process.
+Enough that design decisions rest on verified conditions, not on old drawings. Examine the documentation and actual conditions before the design is fixed; gaps found later cost more to close.
 
-#### Can Evolve remain involved after the upgrade?
+#### Does Evolve stay involved after the upgrade?
 
-Yes. Evolve remains engaged after turnover through monitoring, maintenance and long-term support when included in the engagement.
+Yes. When it is part of the engagement, Evolve stays engaged after turnover through monitoring, maintenance and long-term support, so the people who changed the facility support it.
 
 ### Final CTA
 
-## Define the existing condition and the required future state.
+## Define the existing condition and the required future state, then plan the path between them.
+
+Send the facility details, the systems in service and what has to change.
 
 **CTA:** Discuss an Enterprise Facility
 
 ## Metadata recommendation
 
 **Title:** Enterprise Data Center Solutions | Evolve  
-**Meta description:** Coordinate enterprise data-center modernization, expansion, power, commissioning and long-term support around operating constraints.  
+**Meta description:** Modernize, expand or re-power an enterprise data center while it stays live. Evolve plans, builds, commissions and maintains the change.  
 
 ## Schema recommendation
 
@@ -336,15 +340,15 @@ Yes. Evolve remains engaged after turnover through monitoring, maintenance and l
 
 **Eyebrow:** Evolve Insights
 
-# Practical guidance for data-center decisions.
+# Practical guidance for data-center decisions, written by people who have to build what they recommend.
 
-Use Evolve Insights to examine the planning, design, construction, power, commissioning and maintenance questions that shape a facility across its lifecycle.
+Evolve Insights examine the planning, design, construction, power, commissioning and maintenance questions that shape a facility across its lifecycle. Each guide is also available as a downloadable checklist or brief.
 
-### Start with the decision in front of you
+### Written to settle a decision, not to fill a blog
 
-The most useful technical content makes the decision clearer. It distinguishes verified facts from assumptions, shows where systems depend on one another and identifies the information required before the work advances.
+Every guide here exists to make one decision clearer. It separates verified facts from assumptions, shows where systems depend on each other and names the information you need before the work advances.
 
-Evolve Insights follows that standard. Articles use current sources for market and technical context. Evolve capability statements remain tied to the approved claims ledger.
+Market and technical context comes from current, cited sources. Statements about Evolve's own capability are limited to what the company can document.
 
 ### Featured topics
 
@@ -368,19 +372,19 @@ Evolve Insights follows that standard. Articles use current sources for market a
 - [Data Center Preventive Maintenance Guide](/insights/data-center-preventive-maintenance/)
 - [Data Center Monitoring vs. DCIM](/insights/data-center-monitoring-vs-dcim/)
 
-### Editorial standard
+### What you can hold every guide to
 
-- Answer the buyer's question directly.
-- Identify source, publication date and review date for important external facts.
-- Separate market evidence from Evolve capability.
-- Avoid universal schedules, savings or performance promises.
-- Update or retire content when evidence changes.
+- The buyer's question, answered first.
+- External facts carry a source, publication date and review date.
+- Market evidence kept separate from Evolve capability.
+- No universal schedule, savings or performance promises.
+- Content updated or retired when evidence changes.
 
 ### CTA
 
 ## Need to apply the guidance to a real facility?
 
-Bring Evolve the project stage, known requirements and unresolved decision.
+Bring the site, the requirement and the open questions. We will work through them with you.
 
 **Primary CTA:** Discuss a Project  
 **Secondary CTA:** Explore Design & Build
@@ -388,7 +392,7 @@ Bring Evolve the project stage, known requirements and unresolved decision.
 ## Metadata recommendation
 
 **Title:** Data Center Planning, Power & Operations Insights | Evolve  
-**Meta description:** Practical guidance for data-center planning, modular delivery, AI infrastructure, commissioning, power, maintenance and monitoring decisions.  
+**Meta description:** Cited guides on data-center site selection, modular delivery, AI infrastructure, hyperscale phasing, commissioning, maintenance and monitoring.  
 
 ## Schema recommendation
 
@@ -419,24 +423,24 @@ Bring Evolve the project stage, known requirements and unresolved decision.
 
 **Eyebrow:** About Evolve
 
-# Data centers are the work.
+# Founded in Houston in 2004. 2,200+ mission-critical projects. 5.3+ GW deployed. Still specialized in one thing.
 
-Founded in 2004 and headquartered in Houston, Texas, Evolve Data Center Solutions specializes in data centers and serves a nationwide market.
+Founded in 2004 and headquartered in Houston, Texas, Evolve Data Center Solutions specializes in data centers and serves a nationwide market. No general construction, no side businesses: planning, design, construction, power, monitoring and maintenance for mission-critical facilities.
 
 **Primary CTA:** Start a Project  
 **Secondary CTA:** Contact Evolve
 
-### Built around the facility lifecycle
+### Why one company carries all five stages instead of handing off
 
-Evolve supports data-center work from planning through ongoing support. The company organizes that work around five connected stages: Plan, Design, Build, Power and Maintain.
+Evolve runs every project through five stages: Plan, Design, Build, Power and Maintain. Planning constrains design, design drives procurement and construction, power shapes the program, and commissioning decides what operators inherit.
 
-The model reflects a practical reality. Planning decisions affect design. Design affects procurement and construction. Power requirements affect the entire program. Commissioning and turnover shape the operating work that follows.
+Split across five firms, the gaps become change orders. In one team, the people who plan the facility commission and maintain it.
 
-### What Evolve does
+### What Evolve does on a project, specifically
 
-Evolve's approved capability includes planning, design, procurement, construction, commissioning, monitoring and maintenance. Construction capability includes new builds, upgrades, expansions, retrofits, power conversions and work in live environments.
+Planning, design, procurement, construction, commissioning, monitoring and maintenance, for data centers only. Construction covers new builds, upgrades, expansions, retrofits, power conversions and work inside live facilities.
 
-Evolve also provides self-performed modular fabrication and remains engaged after turnover through monitoring, maintenance and long-term support.
+Evolve self-performs modular fabrication in its own shop, and stays engaged after turnover through monitoring, maintenance and support.
 
 ### Approved aggregate experience
 
@@ -444,35 +448,33 @@ Evolve also provides self-performed modular fabrication and remains engaged afte
 **2,200+ mission-critical projects completed**  
 **5.3+ GW of power deployed**
 
-These figures represent aggregate company experience. Evolve does not publish customer identities or project histories.
+Company aggregates, one mission-critical project at a time. Customer identities and histories are not published.
 
 ### Safety
 
-Evolve has recorded zero injuries since 2010. The website uses that exact approved statement and does not substitute earlier, conflicting dates.
+Zero injuries recorded since 2010. On a live data-center floor, safety discipline and operating discipline are the same habit.
 
 ### Confidentiality is part of professional conduct
 
-Data-center projects often involve commercially and operationally sensitive information. Evolve's public website does not display customer logos, named projects, identifiable facility histories or confidential performance details.
-
-Qualified buyers can discuss relevant experience and project fit through the appropriate confidential business process.
+Data-center projects carry sensitive commercial and operating information, so Evolve's website shows no customer logos, named projects, facility histories or confidential performance details. The same discretion applies to your project. Qualified buyers discuss relevant experience through a confidential business process.
 
 ### Direct answers
 
 #### What does Evolve specialize in?
 
-Evolve specializes in data centers. Its public positioning is not general commercial construction.
+Data centers only: planning, design, construction, power, monitoring and maintenance for mission-critical facilities. Not general construction.
 
 #### Where is Evolve headquartered?
 
-Evolve is headquartered at 10555 Cossey Road, Houston, Texas 77070.
+10555 Cossey Road, Houston, Texas 77070, home to its modular fabrication shop.
 
 #### Does Evolve work outside Texas?
 
-Yes. Evolve serves a nationwide market. The website does not imply completed work in every state.
+Yes, nationwide, from Houston. That does not imply a project in every state.
 
 #### How long has Evolve been in business?
 
-Evolve was founded in 2004 and has been in business for more than 20 years.
+20+ years. Founded in 2004; data centers have been the work ever since.
 
 ### Related paths
 
@@ -484,14 +486,17 @@ Add the Careers link after the current recruiting destination and application pr
 
 ### Final CTA
 
-## Put the facility, power and operating requirements into one lifecycle discussion.
+## Put the facility, the power and the operating requirements into one lifecycle discussion.
 
-**CTA:** Start a Project
+Tell us what you are planning, building, changing or supporting.
+
+**CTA:** Start a Project  
+**Secondary CTA:** Contact Evolve
 
 ## Metadata recommendation
 
 **Title:** About Evolve Data Center Solutions  
-**Meta description:** Evolve is a Houston-headquartered data-center specialist serving owners, developers and operators nationwide across the facility lifecycle.  
+**Meta description:** Founded in 2004 in Houston. 20+ years, 2,200+ mission-critical projects and 5.3+ GW of power deployed, all of it data centers. This is Evolve.  
 
 ## Schema recommendation
 
@@ -524,9 +529,9 @@ Add the Careers link after the current recruiting destination and application pr
 
 ### Hero
 
-# Contact Evolve Data Center Solutions
+# Tell us what you need. We route it to the people who can act on it.
 
-Choose the reason for your inquiry so it reaches the right Evolve team. New projects, service requests, existing-customer support, careers and vendor inquiries follow separate paths.
+Choose the reason for your inquiry so it reaches the right Evolve team. New projects, service requests, existing-customer support, careers and vendor inquiries each follow a defined path. For emergencies, call 832-375-0099.
 
 ### Contact information
 
@@ -535,31 +540,31 @@ Choose the reason for your inquiry so it reaches the right Evolve team. New proj
 Houston, Texas 77070  
 [832-375-0099](tel:+18323750099)
 
-### Route your inquiry
+### Choose your path. Each one goes to a different team.
 
 #### New data-center project
 
-Use the project intake form for Design & Build, Modular, Hyperscale, AI or general lifecycle discussions.
+New build, expansion or retrofit? The brief routes to Design & Build, Modular, Hyperscale or AI.
 
 [Start a Project](/start-a-project/)
 
 #### Power requirement
 
-Use the project form and select Power Generation.
+Generation, backup or conversion? Use the project form and select Power Generation.
 
 [Discuss a Power Requirement](/start-a-project/?interest=power-generation)
 
 #### Maintenance or service
 
-Provide the facility context, current need and best contact information.
+Facility already running? Give the context, the need and who can act.
 
 [Request Service](/request-service/)
 
 #### Existing-customer support
 
-Use the support path for an existing engagement. Do not use it for new project qualification.
+Already an Evolve customer? Use the support path. Not for new projects.
 
-[Go to Support](/support/)
+[Request Support](/support/)
 
 #### Careers
 
@@ -567,7 +572,7 @@ Use the approved recruiting destination when current opportunities and applicati
 
 #### Vendors and subcontractors
 
-Select “Vendor/Subcontractor” in the general inquiry form. Do not submit through the project form.
+Select “Vendor/Subcontractor” in the general inquiry form below, not the project form.
 
 ### General inquiry form
 
@@ -590,7 +595,7 @@ No response time is promised on the public page.
 ## Metadata recommendation
 
 **Title:** Contact Evolve Data Center Solutions  
-**Meta description:** Contact Evolve for data-center projects, power-generation discussions, maintenance requests, support, careers or vendor inquiries.  
+**Meta description:** Contact Evolve Data Center Solutions in Houston: project briefs, power requirements, service requests, existing-customer support and vendor inquiries.  
 
 ## Schema recommendation
 
@@ -618,15 +623,15 @@ No response time is promised on the public page.
 
 ### Hero
 
-# Existing-customer support
+# Existing-customer support, routed to the people who know your facility.
 
-Use this page to route a support request connected to an existing Evolve engagement. New projects and general maintenance inquiries follow separate paths.
+Use this page to route a support request connected to an existing Evolve engagement. For emergencies, call 832-375-0099. New projects and general maintenance inquiries follow separate paths.
 
-### Before you submit
+### Four details that put the request in the right hands
 
-Provide the facility or agreement reference available to you, the affected system or service, a clear description of the issue and the best authorized contact.
+Give us the facility or agreement reference, the affected system or service, a clear description of the issue and the authorized contact who can act on the answer.
 
-Do not include passwords, access credentials or information that is not required to route the request.
+Leave out passwords, access credentials and anything not needed to route the request.
 
 ### Support request fields
 
@@ -642,16 +647,16 @@ Do not include passwords, access credentials or information that is not required
 
 **Submit label:** Request Support
 
-### Important routing note
+### Your agreement sets the terms. This form only routes the request.
 
-This form does not publish or create a guaranteed response time. Service availability, escalation and response terms are governed by the applicable agreement.
+Availability, escalation and response terms come from the applicable agreement; submitting here does not change them.
 
-For a new maintenance request, use [Request Service](/request-service/). For a new facility or capital project, use [Start a Project](/start-a-project/).
+Not an existing customer? For a new maintenance request, use [Request Service](/request-service/). For a new facility or capital project, use [Start a Project](/start-a-project/).
 
 ## Metadata recommendation
 
 **Title:** Existing-Customer Support | Evolve  
-**Meta description:** Route a support request connected to an existing Evolve Data Center Solutions engagement.  
+**Meta description:** Existing Evolve customers: route a support request to the team that knows your facility. For emergencies, call 832-375-0099.  
 
 ## Schema recommendation
 
@@ -678,20 +683,20 @@ For a new maintenance request, use [Request Service](/request-service/). For a n
 
 ### Hero
 
-# Start a data-center project discussion
+# Tell us about the facility. Get a straight answer on fit, scope and the next decision.
 
-Tell Evolve what is being planned, built, changed or supported. The form is designed to route the inquiry to the appropriate Plan, Design, Build, Power or Maintain team.
+Tell Evolve what is being planned, built, changed or supported. The brief routes to the right Plan, Design, Build, Power or Maintain team, and the qualifying questions below let us come back with something useful instead of a sales deck.
 
-### Useful information to include
+### What to include so the first reply is specific
 
 - Facility type or operating environment.
-- Project location at the level appropriate for initial qualification.
-- Current stage: concept, planning, design, procurement, construction, commissioning or operation.
-- Required capacity or load basis, if approved for sharing.
-- Known power position and immediate constraint.
-- Target decision or milestone.
-- Services being considered.
-- Procurement/RFP timing and authorized attachments.
+- Location, at whatever level you can share.
+- Stage: concept, planning, design, procurement, construction, commissioning or operation.
+- Capacity or load basis, if shareable.
+- Your power position and the constraint biting now.
+- The decision or milestone ahead.
+- Services being considered, even roughly.
+- RFP timing and authorized attachments.
 
 Do not submit passwords, access credentials, protected customer information or confidential technical files unless Evolve has provided an approved secure transfer method.
 
@@ -732,7 +737,7 @@ For an existing-customer issue, use [Support](/support/). For a maintenance requ
 ## Metadata recommendation
 
 **Title:** Start a Data Center Project | Evolve  
-**Meta description:** Submit a data-center project brief for Design & Build, Modular, Hyperscale, AI, Power Generation or Maintenance.  
+**Meta description:** Send Evolve a data-center project brief: Design & Build, Modular, Hyperscale, AI, Power Generation or Maintenance. Get a straight answer on fit.  
 
 ## Schema recommendation
 
@@ -760,9 +765,9 @@ For an existing-customer issue, use [Support](/support/). For a maintenance requ
 
 ### Hero
 
-# Request a data-center service discussion
+# Something needs service. Tell us the facility and the system, and we route it today.
 
-Provide the facility context, service need and operating constraints so Evolve can route the request appropriately.
+Provide the facility context, the service need and the operating constraints so Evolve can route the request to the right team. If the facility is in an emergency condition right now, call 832-375-0099 instead of waiting on a form.
 
 ### Form fields
 
@@ -784,14 +789,14 @@ Provide the facility context, service need and operating constraints so Evolve c
 
 **Microcopy:** Public submission does not create a response-time guarantee. Availability and service terms are confirmed through the applicable engagement.
 
-### Routing
+### If this is not the right form, here is the right one
 
-Existing customers with an active support need may use [Support](/support/). Capital changes, retrofits or expansions may be routed to [Discuss an Existing Facility](/design-build/expansions-retrofits/).
+Active Evolve customer with a support need? Use [Support](/support/). Capital change, retrofit or expansion? That is a project: [Discuss an Existing Facility](/design-build/expansions-retrofits/).
 
 ## Metadata recommendation
 
 **Title:** Request Data Center Service | Evolve  
-**Meta description:** Submit a data-center maintenance or service request with facility, operating and contact details for accurate routing.  
+**Meta description:** Request maintenance or service for a running data center. Give Evolve the facility, the need and the operating constraints. Emergencies: 832-375-0099.  
 
 ## Schema recommendation
 
@@ -815,11 +820,11 @@ Existing customers with an active support need may use [Support](/support/). Cap
 
 ## Publishable page copy
 
-# Thank you. Your information has been received.
+# Received. Here is what happens next.
 
-Evolve will route the submission using the inquiry type and details you provided. Save the confirmation reference shown on this page.
+Evolve routes the submission using the inquiry type and details you provided, and the right team follows up on the next step.
 
-Submitting a form does not create a contract, schedule commitment, response guarantee or confidentiality agreement.
+Submitting a form does not create a contract, a schedule commitment, a response-time promise or a confidentiality agreement.
 
 **For a different need:**
 
@@ -854,9 +859,9 @@ Submitting a form does not create a contract, schedule commitment, response guar
 
 ## Publishable page copy
 
-# Website sitemap
+# Find the service, market or guide you need.
 
-Use this page to reach Evolve's published services, data-center markets, resources and company information. Gated or unpublished pages must not appear.
+Use this page to reach Evolve's services, data-center markets, resources and company information.
 
 ### Design & Build
 
@@ -898,7 +903,7 @@ Use this page to reach Evolve's published services, data-center markets, resourc
 ## Metadata recommendation
 
 **Title:** Website Sitemap | Evolve  
-**Meta description:** Browse published Evolve Data Center Solutions services, market pages, insights and company information.  
+**Meta description:** Every Evolve Data Center Solutions page in one place: Design & Build, power and maintenance, data-center markets, insights and company information.  
 
 ## Schema recommendation
 

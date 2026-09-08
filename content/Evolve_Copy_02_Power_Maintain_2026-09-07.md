@@ -27,63 +27,63 @@
 
 **Eyebrow:** Power
 
-# Bring power into the data-center plan early.
+# 5.3+ GW deployed. Bring power into the data-center plan on day one, not after the utility says no.
 
-Evolve connects data-center power-generation requirements to planning, design, construction, commissioning, maintenance and the operating responsibilities that follow.
+Evolve connects power-generation requirements to planning, design, construction, commissioning and maintenance. When generation is decided with the facility instead of bolted on later, the schedule, the site and the operating plan stop fighting each other.
 
 **Primary CTA:** Discuss a Power Requirement  
 **Secondary CTA:** Explore Backup Power Systems
 
-### Power affects the whole program
+### Leave generation for later and the utility queue writes your schedule
 
-The power decision reaches beyond generation equipment. It can influence site viability, facility layout, electrical architecture, procurement, construction sequence, commissioning and long-term maintenance.
+Generation is not an equipment question. It decides whether the site works, how the electrical architecture is drawn, what is procured first and when you can energize.
 
-When the power strategy develops separately from the building and operating plan, critical interfaces may remain unresolved until they are expensive or difficult to change. Evolve brings Power into the same lifecycle used to Plan, Design, Build and Maintain the data center.
+Settle it late and the answer arrives after the layout and the switchgear order, when it is expensive to change. That is why Evolve keeps Power inside the lifecycle it uses to Plan, Design, Build and Maintain.
 
-### Evolve's applicable capability
+### Generation sized by the team that also has to commission it and maintain it
 
-Evolve has deployed more than 5.3 GW of power across its aggregate mission-critical work. Its approved capability includes power conversions, new builds, upgrades, expansions, retrofits, planning, procurement, commissioning, monitoring and maintenance.
+Evolve has deployed 5.3+ GW. The same company plans, procures, builds, commissions, monitors and maintains it, across new builds, power conversions, upgrades, expansions and retrofits. So the generation decision has to pass commissioning, not just look right on paper.
 
-The specific generation technology, operating mode, interconnection approach, fuel strategy, performance criteria and service boundary must be established for the individual engagement. This page does not present one configuration as the answer for every facility.
+No technology fits every facility. Technology, operating mode, interconnection, fuel, performance criteria and service boundary are set against your load and site, starting with the questions below.
 
-### Power decisions to address
+### Six questions to answer before anyone quotes you the equipment
 
-- What load is being planned, and how may it change by phase?
-- What power is available, when, and under which operating conditions?
-- Which facility systems and construction packages depend on the power strategy?
-- What must be incorporated into the design before equipment is selected?
-- How will the system be commissioned with the wider facility?
-- What maintenance, monitoring and operating responsibilities follow turnover?
+- The load, by phase, so generation fits the facility you will run.
+- The power the site can actually get, and when, before the schedule assumes it.
+- Which systems and construction packages wait on the power decision.
+- What must be in the design before the first purchase order.
+- How the system proves itself at commissioning, not in isolation.
+- Who monitors, maintains and operates it after turnover.
 
-These questions create the decision basis for selecting and integrating the appropriate solution.
+Answer these first. The equipment decision follows from them.
 
-### The power lifecycle
+### One team carries the power decision through the whole lifecycle
 
-#### Plan the requirement
+#### Plan the load before the site
 
-Define load, timing, phasing, site conditions, operating expectations and unresolved assumptions.
+Load, timing, phasing, site conditions, operating expectations, open assumptions.
 
-#### Design the interfaces
+#### Design around the interfaces
 
-Coordinate approved power requirements with the facility, electrical systems, equipment, controls and physical layout.
+Requirements drawn into the building, electrical systems, controls and layout.
 
-#### Build and integrate
+#### Build to the design
 
-Carry the approved direction into procurement, construction, connection and field coordination.
+Carried into procurement, construction, connection and field coordination.
 
-#### Commission the system
+#### Commission it with the facility
 
-Confirm the agreed readiness and acceptance requirements within the larger facility plan.
+Readiness and acceptance proven inside the facility plan, not alone.
 
-#### Maintain the operating asset
+#### Maintain it with the same team
 
-Connect turnover information to monitoring, maintenance and long-term support.
+Turnover information handed to the team monitoring and maintaining it.
 
-### Power paths within Evolve
+### The decisions that come right after generation
 
-#### Backup Power Systems
+#### Backup power, decided with the facility
 
-Evaluate backup power as part of the facility's electrical, commissioning and maintenance plan.
+Sized by its interfaces, commissioning and maintenance access, not the catalog.
 
 [Explore Backup Power Systems](/power-generation/backup-power-systems/)
 
@@ -91,29 +91,29 @@ Evaluate backup power as part of the facility's electrical, commissioning and ma
 
 Evolution Series is a named Evolve power offering. Detailed public product claims are being governed and will appear only after technical and legal approval.
 
-#### Maintenance after turnover
+#### After the power is on
 
-Connect power-system decisions with the monitoring, maintenance and long-term support requirements that follow operation.
+Carry the power decisions into monitoring, maintenance and support after turnover.
 
 [Explore Service & Maintenance](/maintenance/)
 
 ### Direct answers
 
-#### Why should power planning begin early?
+#### Why must power planning start on day one?
 
-Power can affect site, design, equipment, space, construction, commissioning and the path to operation. Early coordination gives the project team a clearer view of those dependencies.
+Because power decides the site, layout, equipment and build sequence. Settle it early and they follow your plan. Late, and they follow the utility.
 
-#### Does Evolve prescribe one generation technology?
+#### Does Evolve push one generation technology?
 
-No universal technology is presented on this page. The appropriate configuration depends on the approved load, operating requirements, site, schedule, interfaces and commercial constraints.
+No. The configuration comes from your load, operating requirements, site, schedule, interfaces and commercial constraints. Choosing technology first is where conflicts start.
 
-#### Can Evolve connect power work to the larger data-center project?
+#### Does the power work connect to the rest of the project?
 
-Yes. Evolve's approved lifecycle includes Plan, Design, Build, Power and Maintain, and its capability includes power conversions, commissioning, monitoring and maintenance.
+Yes. Power sits inside Evolve's lifecycle: Plan, Design, Build, Power, Maintain. Power conversions, commissioning, monitoring and maintenance are one capability, not a handoff.
 
-#### What proof can Evolve publish?
+#### What experience does Evolve bring to power?
 
-Evolve has deployed more than 5.3 GW of power across its aggregate mission-critical work. Customer and project details remain confidential.
+5.3+ GW deployed across mission-critical work. Customer and project names stay confidential, so the proof is aggregate.
 
 ### Related paths
 
@@ -125,16 +125,17 @@ Evolve has deployed more than 5.3 GW of power across its aggregate mission-criti
 
 ### Final CTA
 
-## Define the power requirement in the context of the facility.
+## Define the power requirement in the context of the facility, before the equipment gets chosen for you.
 
-Share the load assumptions, project stage, known constraints and next decision with Evolve.
+Send the load, the site, the utility position and the date. We will lay out the generation decisions that control the schedule.
 
-**CTA:** Discuss a Power Requirement
+**CTA:** Discuss a Power Requirement  
+**Secondary CTA:** Contact Evolve
 
 ## Metadata recommendation
 
 **Title:** Data Center Power Generation | Evolve  
-**Meta description:** Connect data-center power-generation requirements to planning, design, construction, commissioning and long-term maintenance.  
+**Meta description:** 5.3+ GW deployed. Evolve brings data-center power generation into the plan on day one, then designs, builds, commissions and maintains it.  
 
 ## Schema recommendation
 
@@ -167,55 +168,55 @@ Share the load assumptions, project stage, known constraints and next decision w
 
 **Eyebrow:** Power · Backup Power Systems
 
-# Backup power has to function as part of the facility—not beside it.
+# A generator on a pad is not a backup power system. The integration is.
 
-Evolve connects backup-power requirements to the data center's design, construction, commissioning and maintenance plan.
+Evolve connects backup-power requirements to the data center's design, construction, commissioning and maintenance plan. The operating requirement comes before the equipment package, so the system is sized, tested and supported for the facility it protects.
 
 **CTA:** Discuss Backup Power
 
-### A backup system is defined by its interfaces
+### The equipment is the easy part. The interfaces decide whether it performs.
 
-The equipment is only one part of the decision. Owners must also define the load, operating conditions, electrical interfaces, physical arrangement, controls, commissioning criteria, maintenance access and responsibilities after turnover.
+Buy the system before the load, operating conditions, electrical interfaces, layout, controls, commissioning criteria and maintenance access are settled, and it gets reworked. The rework surfaces in construction, at commissioning or when it has to carry the load.
 
-Those requirements should be resolved in relation to the whole data center. A system that is selected without the wider facility in view can create design, construction or operational conflicts later.
+Define those against the whole facility first, and the equipment package becomes a selection, not a gamble. Below: the four decisions, in order.
 
-### Evolve's applicable capability
+### Backup power from the team that has to commission it and then keep it in service
 
-Evolve's approved capability includes power conversions, planning, design, procurement, construction, commissioning, monitoring and maintenance for data centers. Evolve remains engaged after turnover through monitoring, maintenance and long-term support when included in the engagement.
+Evolve plans, procures, builds, commissions, monitors and maintains data-center power, and stays engaged after turnover when the engagement includes it. That is why the operating requirement comes first: the same team commissions it and services it.
 
-The specific equipment, redundancy, fuel, runtime, emissions, controls and operating-mode requirements are defined by the project. This page does not claim a universal configuration.
+Redundancy, fuel, runtime, emissions, controls and operating mode come from your project, not a standard package. Start with the required function.
 
-### Build the decision basis
+### The decision sequence before the purchase order goes out
 
-#### Define the required function
+#### Function first, not nameplate
 
-Document what the backup system must support, under which conditions and for what operating purpose.
+What it must support, under which conditions and for what purpose, written before sizing.
 
-#### Coordinate the facility interfaces
+#### Interfaces before equipment
 
-Review electrical, spatial, structural, environmental, controls, construction and access requirements.
+Electrical, spatial, structural, environmental, controls, construction and access, checked against the facility.
 
-#### Establish acceptance requirements
+#### Set the acceptance test early
 
-Define how the installed system will be evaluated within the commissioning and turnover plan.
+How the installed system gets proven within the commissioning plan, agreed up front.
 
-#### Plan for serviceability
+#### Design for the technician
 
-Carry operating information, maintenance access and future support responsibilities into the design and handoff.
+Operating information, maintenance access and support responsibilities carried into design and handoff.
 
 ### Direct answers
 
-#### What should be defined before selecting a backup-power system?
+#### What must be settled before selecting a backup-power system?
 
-At minimum, the team should define load, operating conditions, interfaces, space, controls, acceptance criteria, maintenance requirements and responsibility boundaries.
+At minimum: load, operating conditions, interfaces, space, controls, acceptance criteria, maintenance requirements and responsibility boundaries. Settle those, then select.
 
-#### Is backup power separate from commissioning?
+#### Can backup power be commissioned separately from the facility?
 
-No. The approved requirements for the backup system should connect to the facility commissioning and turnover plan.
+No. Its requirements belong in the facility commissioning and turnover plan, where it gets proven.
 
-#### Can the same backup configuration be used for every data center?
+#### Can one backup configuration serve every data center?
 
-No. Requirements vary by facility, load, site, operating model and approved design basis.
+No. Facility, load, site, operating model and design basis change the answer. Start from yours.
 
 ### Related paths
 
@@ -228,14 +229,14 @@ No. Requirements vary by facility, load, site, operating model and approved desi
 
 ## Define the operating requirement before the equipment package.
 
-Bring Evolve the current load basis, facility stage and unresolved power decisions.
+Tell us the critical load, the runtime expectation and the facility it protects.
 
 **CTA:** Discuss Backup Power
 
 ## Metadata recommendation
 
 **Title:** Data Center Backup Power Systems | Evolve  
-**Meta description:** Coordinate data-center backup-power requirements with facility design, construction, commissioning and maintenance.  
+**Meta description:** Backup power sized, tested and supported for the facility it protects. Evolve settles the operating requirement before the equipment package.  
 
 ## Schema recommendation
 
@@ -266,78 +267,78 @@ Bring Evolve the current load basis, facility stage and unresolved power decisio
 
 **Eyebrow:** Maintain
 
-# Maintenance begins with an accurate understanding of the operating facility.
+# Monitoring, maintenance and long-term support built around the facility that is actually operating.
 
-Evolve remains engaged after turnover through data-center monitoring, maintenance and long-term support, connecting operating needs to the systems and decisions that created the facility.
+Evolve remains engaged after turnover through monitoring, maintenance and long-term support. The program starts with an accurate understanding of the operating facility, its systems and its constraints, not a generic task list.
 
 **Primary CTA:** Request Service  
 **Secondary CTA:** Explore Preventive Maintenance
 
-### Operations inherit every earlier decision
+### Operations inherit every earlier decision. The program has to know which ones.
 
-Access, isolation, equipment selection, documentation, controls and system interfaces all affect the work required after turnover. A maintenance program must reflect the real facility, its operating requirements and the approved service boundary.
+Access nobody designed in. Isolation that takes down the floor for one unit. Your operating team inherits both. A generic task list does not know they exist.
 
-Evolve's Maintain stage provides a path for carrying knowledge from Plan, Design, Build and Power into the operating environment.
+Evolve's Maintain stage starts from the real facility and the agreed service boundary, carrying what Plan, Design, Build and Power learned onto the floor.
 
-### Evolve's applicable capability
+### Why it matters that your maintenance company also builds, powers and commissions data centers
 
-Evolve's approved capability includes monitoring, maintenance and long-term support. It also includes new builds, expansions, upgrades, retrofits, power conversions, procurement and commissioning.
+Evolve monitors, maintains and supports data centers. It also builds, expands, upgrades, retrofits and commissions them, power conversions included. When a finding points back to a design, construction, power or turnover decision, the same company can act on it.
 
-That lifecycle connection matters when an operating issue points back to a design, construction, power or turnover decision. The exact assets, tasks, coverage, availability and response model are defined in the service agreement.
+Assets, tasks, coverage, availability and response model are written into your service agreement, not a template.
 
-### Maintenance paths
+### Pick the path that matches the problem
 
-#### Preventive Maintenance
+#### Preventive maintenance that produces decisions
 
-Organize planned service around the actual facility, operating requirements, asset information and documented responsibilities.
+Built around the actual facility, its assets, operating requirements and responsibilities.
 
 [Explore Preventive Maintenance](/maintenance/preventive-maintenance/)
 
-#### Scope-specific maintenance
+#### Maintenance scoped to specific systems
 
-Define the systems, responsibilities and service boundaries that need coordinated attention across the facility. Dedicated power-generation, critical-infrastructure and eLERT paths should be added only after their public scopes are approved.
+Systems, responsibilities and service boundaries needing coordinated attention, in one program. Dedicated power-generation, critical-infrastructure and eLERT paths should be added only after their public scopes are approved.
 
-### A practical maintenance approach
+### How the program gets built: a four-step approach
 
-#### Establish the facility basis
+#### Start from what is installed
 
-Confirm the current documentation, operating requirements, asset information and known conditions.
+Documentation, operating requirements, asset information and known conditions, confirmed before scheduling.
 
-#### Define the service boundary
+#### Draw the boundary in ink
 
-Identify the systems, responsibilities, access requirements, planned tasks and escalation path included in the engagement.
+Systems, responsibilities, access, planned tasks and escalation path, in writing.
 
-#### Perform and document the work
+#### Leave a record the owner can use
 
-Keep service activity, findings and required decisions clear for the owner and operating team.
+Service activity, findings and required decisions, clear to the owner and operating team.
 
-#### Connect findings to facility decisions
+#### Send findings to whoever can act
 
-Route repair, upgrade, retrofit or power-conversion needs to the appropriate lifecycle team when the issue extends beyond routine maintenance.
+Repair, upgrade, retrofit or power-conversion needs routed to the right lifecycle team when they outgrow routine maintenance.
 
 ### Proof presented accurately
 
-Evolve has been in business for more than 20 years and remains engaged after turnover through monitoring, maintenance and long-term support.
+20+ years in business. Zero injuries recorded since 2010. Still engaged after turnover through monitoring, maintenance and long-term support.
 
 No facilities-maintained number is shown because the current source materials use conflicting definitions. Evolve will publish that figure only after the metric and reporting date are approved.
 
 ### Direct answers
 
-#### What information is needed to discuss data-center maintenance?
+#### What do you need from me to scope a maintenance program?
 
-Start with the facility, systems in scope, current documentation, known issues, operating constraints, desired service boundary and responsible contacts.
+Facility, systems in scope, current documentation, known issues, operating constraints and responsible contacts. With that, the first call is about your program.
 
-#### Does Evolve publish a guaranteed response time?
+#### Does Evolve offer a standard response time?
 
-No general response-time promise is published. Availability, escalation and response terms must be defined in the specific service agreement.
+No. Availability, escalation and response terms are set in your service agreement. In an emergency, call 832-375-0099 first.
 
-#### Can maintenance findings lead to an upgrade or retrofit discussion?
+#### What happens when a finding is bigger than maintenance?
 
-Yes. Evolve's approved capability includes upgrades, expansions, retrofits and power conversions. Work outside the maintenance boundary should be separately defined and approved.
+It routes to the same company, which does upgrades, expansions, retrofits and power conversions. That work is scoped separately, so the maintenance boundary stays clean.
 
 #### How many facilities does Evolve maintain?
 
-Evolve is validating the definition and current value of that metric. No number will be published until the claims ledger records one approved figure and reporting date.
+That figure is being validated. No number is published until one definition and reporting date are agreed.
 
 ### Related paths
 
@@ -348,16 +349,17 @@ Evolve is validating the definition and current value of that metric. No number 
 
 ### Final CTA
 
-## Define the facility, the operating constraint and the service need.
+## Define the facility, the operating constraint and the service need. We will build the program around them.
 
-Route a maintenance request to Evolve with enough context for the right team to respond.
+For emergencies, call 832-375-0099. For everything else, send the facility details and the systems in scope.
 
-**CTA:** Request Service
+**CTA:** Request Service  
+**Secondary CTA:** Contact Evolve
 
 ## Metadata recommendation
 
 **Title:** Data Center Service & Maintenance | Evolve  
-**Meta description:** Connect data-center monitoring, maintenance and long-term support to the facility's design, power, commissioning and operating needs.  
+**Meta description:** Data-center maintenance from the team that stays engaged after turnover: monitoring, maintenance and long-term support built around your facility.  
 
 ## Schema recommendation
 
@@ -391,63 +393,63 @@ Route a maintenance request to Evolve with enough context for the right team to 
 
 **Eyebrow:** Maintain · Preventive Maintenance
 
-# Build the maintenance plan around the facility that is actually operating.
+# Build the maintenance plan around the equipment you actually run, not a template.
 
-Evolve connects planned data-center maintenance to current asset information, operating requirements, documented responsibilities and the wider facility lifecycle.
+Evolve connects planned maintenance to current asset information, operating requirements and documented responsibilities. Each visit is designed to establish what was serviced, what was observed and what decision it points to next.
 
 **CTA:** Request a Maintenance Discussion
 
-### A calendar alone is not a maintenance strategy
+### A checklist says the task was done. It does not say what to do next.
 
-Planned work must account for the equipment in service, its role in the facility, access and isolation requirements, available documentation, operating constraints and the party responsible for each decision.
+Planned work must know what is in service, what it protects, how it isolates, the documentation, the operating constraints and who decides. Miss one and you get a stamp, not a finding.
 
-The program should also create useful information. Findings that affect repair, upgrade, retrofit or power decisions need a clear route into the next action.
+Findings that affect repair, upgrade, retrofit or power decisions need a route forward, or they die in the report.
 
-### Evolve's applicable capability
+### Planned service from a company that can also fix what the visit finds
 
-Preventive maintenance sits within Evolve's approved monitoring, maintenance and long-term support capability. Evolve can also support upgrades, expansions, retrofits, power conversions and commissioning when a facility need moves beyond planned service.
+Preventive maintenance sits inside Evolve's monitoring, maintenance and long-term support, and the same company handles upgrades, expansions, retrofits, power conversions and commissioning. So a finding that outgrows planned service need not wait for a second contractor.
 
-The exact assets, frequencies, procedures, parts, staffing and service levels are defined in the approved scope. This page does not publish a standard asset list or universal interval.
+Assets, frequencies, procedures, parts, staffing and service levels are set in your scope, not a universal asset list or interval.
 
-### A practical program structure
+### The program structure: five steps from the asset list to the next decision
 
-#### Establish the source information
+#### Start with the real asset list
 
-Confirm current asset data, available documentation, operating requirements, known issues and service history.
+Asset data, documentation, operating requirements, known issues and service history, confirmed first.
 
-#### Define scope and responsibilities
+#### Scope and responsibilities, in writing
 
-Identify the systems, planned activities, access conditions, owner responsibilities and escalation path.
+Systems, planned activities, access conditions, owner responsibilities and escalation path.
 
-#### Schedule around operations
+#### Schedule around the floor
 
-Coordinate approved maintenance activity with the facility's operating constraints and required authorizations.
+Activity fitted to operating constraints and required authorizations.
 
-#### Record findings clearly
+#### Record findings, not just tasks
 
-Document completed work, observed conditions and items that require a separate decision.
+Completed work, observed conditions and items needing a separate decision.
 
-#### Route follow-on work
+#### Separate routine from repair
 
-Distinguish routine service from repair, replacement, retrofit, expansion or power-conversion needs.
+Routine service separated from repair, replacement, retrofit, expansion or power-conversion needs.
 
 ### Direct answers
 
 #### What should a preventive-maintenance plan include?
 
-It should identify the assets and tasks in scope, approved intervals, operating constraints, access and isolation requirements, documentation, responsibilities, findings process and escalation path.
+Assets and tasks in scope, intervals, operating constraints, access and isolation requirements, documentation, responsibilities, findings process and escalation path. Without the last two, it is a calendar.
 
 #### Does Evolve use one maintenance checklist for every facility?
 
-No universal checklist is represented. The program should reflect the actual facility, approved scope, equipment information and operating requirements.
+No. It is built from your facility, scope, equipment information and operating requirements. A universal checklist misses your specifics.
 
-#### Can preventive maintenance guarantee that an outage will not occur?
+#### Will preventive maintenance prevent every outage?
 
-No. Preventive maintenance is a structured risk-management activity, not an outage guarantee.
+No. It is structured risk management, not a promise. It lowers the odds; it does not remove them.
 
 #### Does Evolve publish a facilities-maintained count?
 
-Not currently. Competing definitions in source material remain under review, so the number is withheld from publication.
+Not currently. The definition is under review, so no number is published.
 
 ### Related paths
 
@@ -456,16 +458,16 @@ Not currently. Competing definitions in source material remain under review, so 
 
 ### Final CTA
 
-## Start with the systems, current condition and operating requirements.
+## Start with the systems, their current condition and the operating requirement.
 
-Share the maintenance need and facility context with Evolve.
+Send the equipment list and the facility details. We will map the program to them.
 
 **CTA:** Request a Maintenance Discussion
 
 ## Metadata recommendation
 
 **Title:** Data Center Preventive Maintenance | Evolve  
-**Meta description:** Define preventive maintenance around actual data-center assets, operating constraints, responsibilities, findings and follow-on decisions.  
+**Meta description:** Preventive maintenance that produces decisions: planned service built on your actual assets, operating constraints and a route for every finding.  
 
 ## Schema recommendation
 

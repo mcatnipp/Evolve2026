@@ -1,0 +1,380 @@
+{
+  "/": {
+    "scores": {
+      "A": {"clarity": 4, "relevance": 3, "specificity": 2, "credibility": 3, "pull": 3},
+      "B": {"clarity": 4, "relevance": 4, "specificity": 5, "credibility": 4, "pull": 4},
+      "C": {"clarity": 5, "relevance": 3, "specificity": 3, "credibility": 3, "pull": 3}
+    },
+    "winner": "B",
+    "reason": "Two numbers I can verify in a reference check, then the scope in one clause; that is how I read a qualifications package."
+  },
+  "/design-build/": {
+    "scores": {
+      "A": {"clarity": 5, "relevance": 4, "specificity": 3, "credibility": 4, "pull": 4},
+      "B": {"clarity": 4, "relevance": 3, "specificity": 2, "credibility": 3, "pull": 3},
+      "C": {"clarity": 4, "relevance": 3, "specificity": 3, "credibility": 2, "pull": 3}
+    },
+    "winner": "A",
+    "reason": "A builder who has to run the plant afterward has skin in the design choices; that is the design-build incentive I actually want to see, and 'on the hook' does not say how."
+  },
+  "/design-build/modular-data-centers/": {
+    "scores": {
+      "A": {"clarity": 5, "relevance": 5, "specificity": 5, "credibility": 4, "pull": 4},
+      "B": {"clarity": 4, "relevance": 4, "specificity": 3, "credibility": 3, "pull": 3},
+      "C": {"clarity": 4, "relevance": 5, "specificity": 4, "credibility": 5, "pull": 5}
+    },
+    "winner": "C",
+    "reason": "Interfaces are where every modular program I have reviewed either worked or did not; a vendor who leads with that has read the same failure reports I have."
+  },
+  "/design-build/hyperscale-data-centers/": {
+    "scores": {
+      "A": {"clarity": 4, "relevance": 4, "specificity": 4, "credibility": 4, "pull": 4},
+      "B": {"clarity": 4, "relevance": 4, "specificity": 3, "credibility": 3, "pull": 3},
+      "C": {"clarity": 3, "relevance": 5, "specificity": 3, "credibility": 4, "pull": 4}
+    },
+    "winner": "A",
+    "reason": "Sizing shared infrastructure for phase one without stranding phases two through four is the actual campus design problem; A names it, C just describes my inbox."
+  },
+  "/design-build/ai-data-centers/": {
+    "scores": {
+      "A": {"clarity": 5, "relevance": 5, "specificity": 5, "credibility": 4, "pull": 4},
+      "B": {"clarity": 4, "relevance": 5, "specificity": 3, "credibility": 4, "pull": 5},
+      "C": {"clarity": 4, "relevance": 4, "specificity": 2, "credibility": 3, "pull": 3}
+    },
+    "winner": "A",
+    "reason": "Power, cooling and structure as one basis of design before the GPU PO lands is the sequencing I fight for on every AI program; A says it in one line, B only says it hurts."
+  },
+  "/design-build/planning-feasibility/": {
+    "scores": {
+      "A": {"clarity": 5, "relevance": 4, "specificity": 4, "credibility": 4, "pull": 4},
+      "B": {"clarity": 4, "relevance": 4, "specificity": 3, "credibility": 3, "pull": 3},
+      "C": {"clarity": 4, "relevance": 5, "specificity": 4, "credibility": 5, "pull": 5}
+    },
+    "winner": "C",
+    "reason": "Energization is the gate that kills sites, and calling feasibility a decision list instead of a deliverable is how I would write the scope myself."
+  },
+  "/design-build/design-engineering/": {
+    "scores": {
+      "A": {"clarity": 5, "relevance": 4, "specificity": 4, "credibility": 4, "pull": 3},
+      "B": {"clarity": 4, "relevance": 4, "specificity": 3, "credibility": 4, "pull": 4},
+      "C": {"clarity": 4, "relevance": 4, "specificity": 4, "credibility": 4, "pull": 4}
+    },
+    "winner": "C",
+    "reason": "'Operating requirements' is the OPR I write; a design team that promises to carry it through without a field re-engineering cycle is speaking to my document, not their brochure."
+  },
+  "/design-build/preconstruction-procurement/": {
+    "scores": {
+      "A": {"clarity": 5, "relevance": 5, "specificity": 5, "credibility": 4, "pull": 4},
+      "B": {"clarity": 4, "relevance": 4, "specificity": 3, "credibility": 3, "pull": 4},
+      "C": {"clarity": 4, "relevance": 4, "specificity": 4, "credibility": 4, "pull": 3}
+    },
+    "winner": "A",
+    "reason": "Long-lead gear, scope gaps and field constraints are the three columns of my preconstruction risk register; A lists them, B overclaims with 'every'."
+  },
+  "/design-build/data-center-construction/": {
+    "scores": {
+      "A": {"clarity": 5, "relevance": 4, "specificity": 5, "credibility": 3, "pull": 3},
+      "B": {"clarity": 4, "relevance": 4, "specificity": 4, "credibility": 4, "pull": 3},
+      "C": {"clarity": 4, "relevance": 5, "specificity": 4, "credibility": 4, "pull": 4}
+    },
+    "winner": "C",
+    "reason": "A GC whose job ends at integrated systems testing rather than substantial completion is the one I shortlist; the safety number in A is impressive but I would need to see how 'recorded' is defined."
+  },
+  "/design-build/commissioning-turnover/": {
+    "scores": {
+      "A": {"clarity": 5, "relevance": 5, "specificity": 3, "credibility": 4, "pull": 4},
+      "B": {"clarity": 5, "relevance": 5, "specificity": 4, "credibility": 5, "pull": 5},
+      "C": {"clarity": 4, "relevance": 4, "specificity": 3, "credibility": 4, "pull": 3}
+    },
+    "winner": "B",
+    "reason": "Acceptance is my signature, and B frames commissioning as the burden of proof before that signature rather than a deliverable; that is the right side of the table to be on."
+  },
+  "/design-build/expansions-retrofits/": {
+    "scores": {
+      "A": {"clarity": 5, "relevance": 4, "specificity": 3, "credibility": 3, "pull": 3},
+      "B": {"clarity": 4, "relevance": 4, "specificity": 2, "credibility": 3, "pull": 3},
+      "C": {"clarity": 4, "relevance": 5, "specificity": 4, "credibility": 5, "pull": 4}
+    },
+    "winner": "C",
+    "reason": "'Operating constraint first' is the MOP mindset; A promises no risk to running systems, which nobody doing live-environment work should promise."
+  },
+  "/power-generation/": {
+    "scores": {
+      "A": {"clarity": 5, "relevance": 5, "specificity": 5, "credibility": 4, "pull": 5},
+      "B": {"clarity": 4, "relevance": 5, "specificity": 2, "credibility": 4, "pull": 4},
+      "C": {"clarity": 5, "relevance": 4, "specificity": 4, "credibility": 4, "pull": 3}
+    },
+    "winner": "A",
+    "reason": "5.3 GW is a number I can check, and 'after the utility says no' is the interconnection queue problem every one of my clients is living in right now."
+  },
+  "/power-generation/backup-power-systems/": {
+    "scores": {
+      "A": {"clarity": 4, "relevance": 3, "specificity": 2, "credibility": 3, "pull": 2},
+      "B": {"clarity": 4, "relevance": 5, "specificity": 4, "credibility": 5, "pull": 5},
+      "C": {"clarity": 5, "relevance": 4, "specificity": 3, "credibility": 4, "pull": 3}
+    },
+    "winner": "B",
+    "reason": "Every backup failure I have investigated was in paralleling controls, ATS logic or fuel, never the engine block; B knows where the system actually lives."
+  },
+  "/maintenance/": {
+    "scores": {
+      "A": {"clarity": 4, "relevance": 3, "specificity": 2, "credibility": 3, "pull": 2},
+      "B": {"clarity": 4, "relevance": 3, "specificity": 2, "credibility": 3, "pull": 3},
+      "C": {"clarity": 5, "relevance": 4, "specificity": 4, "credibility": 4, "pull": 3}
+    },
+    "winner": "C",
+    "reason": "Three named service lines beat two sentences of reassurance; I need to know whether 'maintenance' includes monitoring and support, and C answers that."
+  },
+  "/maintenance/preventive-maintenance/": {
+    "scores": {
+      "A": {"clarity": 4, "relevance": 4, "specificity": 3, "credibility": 4, "pull": 4},
+      "B": {"clarity": 3, "relevance": 3, "specificity": 2, "credibility": 3, "pull": 3},
+      "C": {"clarity": 5, "relevance": 4, "specificity": 4, "credibility": 4, "pull": 4}
+    },
+    "winner": "C",
+    "reason": "Template PM programs are how a facility ends up doing quarterly IR scans on gear that needs monthly and annual on gear that needs none; C names the actual defect in most PM contracts."
+  },
+  "/data-center-markets/": {
+    "scores": {
+      "A": {"clarity": 5, "relevance": 4, "specificity": 4, "credibility": 4, "pull": 3},
+      "B": {"clarity": 4, "relevance": 4, "specificity": 3, "credibility": 3, "pull": 3},
+      "C": {"clarity": 3, "relevance": 3, "specificity": 2, "credibility": 3, "pull": 2}
+    },
+    "winner": "A",
+    "reason": "Lists the five markets so I can find mine in one glance, and admits the decisions differ by type instead of pretending one template fits all."
+  },
+  "/data-center-markets/colocation/": {
+    "scores": {
+      "A": {"clarity": 5, "relevance": 4, "specificity": 3, "credibility": 3, "pull": 3},
+      "B": {"clarity": 4, "relevance": 4, "specificity": 3, "credibility": 4, "pull": 3},
+      "C": {"clarity": 5, "relevance": 4, "specificity": 5, "credibility": 4, "pull": 4}
+    },
+    "winner": "C",
+    "reason": "Names the three actual scopes, halls, power upgrades and retrofits, inside a live facility; A promises zero interruption, which is not a promise a competent contractor makes."
+  },
+  "/data-center-markets/enterprise/": {
+    "scores": {
+      "A": {"clarity": 4, "relevance": 3, "specificity": 3, "credibility": 4, "pull": 3},
+      "B": {"clarity": 4, "relevance": 3, "specificity": 2, "credibility": 3, "pull": 2},
+      "C": {"clarity": 5, "relevance": 4, "specificity": 5, "credibility": 4, "pull": 4}
+    },
+    "winner": "C",
+    "reason": "'Power conversions' is a scope line I can put in an RFP; the other two are attitude."
+  },
+  "/insights/": {
+    "scores": {
+      "A": {"clarity": 4, "relevance": 4, "specificity": 3, "credibility": 3, "pull": 3},
+      "B": {"clarity": 5, "relevance": 4, "specificity": 3, "credibility": 5, "pull": 4},
+      "C": {"clarity": 3, "relevance": 5, "specificity": 3, "credibility": 3, "pull": 4}
+    },
+    "winner": "B",
+    "reason": "Guidance from people who then have to build to it is the only kind I forward to clients; C names my calendar but does not say what it is."
+  },
+  "/about/": {
+    "scores": {
+      "A": {"clarity": 3, "relevance": 3, "specificity": 3, "credibility": 4, "pull": 3},
+      "B": {"clarity": 5, "relevance": 4, "specificity": 5, "credibility": 5, "pull": 4},
+      "C": {"clarity": 3, "relevance": 3, "specificity": 2, "credibility": 3, "pull": 2}
+    },
+    "winner": "B",
+    "reason": "Founding year, project count, gigawatts, single specialty: that is the first paragraph of the qualifications section I ask for, and it is all here."
+  },
+  "/about/leadership/": {
+    "scores": {
+      "A": {"clarity": 4, "relevance": 3, "specificity": 2, "credibility": 4, "pull": 3},
+      "B": {"clarity": 4, "relevance": 3, "specificity": 2, "credibility": 3, "pull": 2},
+      "C": {"clarity": 5, "relevance": 4, "specificity": 4, "credibility": 4, "pull": 4}
+    },
+    "winner": "C",
+    "reason": "Thirteen is a number, and a leadership page is where I check whether the bench is deep enough to staff my program; C says come count."
+  },
+  "/contact/": {
+    "scores": {
+      "A": {"clarity": 4, "relevance": 3, "specificity": 3, "credibility": 3, "pull": 3},
+      "B": {"clarity": 5, "relevance": 3, "specificity": 3, "credibility": 5, "pull": 2},
+      "C": {"clarity": 4, "relevance": 3, "specificity": 3, "credibility": 4, "pull": 4}
+    },
+    "winner": "C",
+    "reason": "A contact page needs to tell me the form goes to someone who can act, not to a CRM; C says so, B is just a label."
+  },
+  "/support/": {
+    "scores": {
+      "A": {"clarity": 5, "relevance": 3, "specificity": 4, "credibility": 4, "pull": 4},
+      "B": {"clarity": 5, "relevance": 3, "specificity": 3, "credibility": 5, "pull": 2},
+      "C": {"clarity": 5, "relevance": 3, "specificity": 2, "credibility": 4, "pull": 3}
+    },
+    "winner": "A",
+    "reason": "Routing to someone who already knows the facility is the whole value of a support page; A says it, the others are signage."
+  },
+  "/start-a-project/": {
+    "scores": {
+      "A": {"clarity": 5, "relevance": 4, "specificity": 4, "credibility": 4, "pull": 4},
+      "B": {"clarity": 5, "relevance": 3, "specificity": 3, "credibility": 5, "pull": 2},
+      "C": {"clarity": 3, "relevance": 3, "specificity": 2, "credibility": 2, "pull": 3}
+    },
+    "winner": "A",
+    "reason": "'Fit' means they are willing to say it is not their project, which is the one thing I want from an intake form before I spend a client's time."
+  },
+  "/request-service/": {
+    "scores": {
+      "A": {"clarity": 5, "relevance": 3, "specificity": 4, "credibility": 5, "pull": 3},
+      "B": {"clarity": 4, "relevance": 3, "specificity": 3, "credibility": 4, "pull": 2},
+      "C": {"clarity": 5, "relevance": 4, "specificity": 4, "credibility": 4, "pull": 4}
+    },
+    "winner": "C",
+    "reason": "Facility and system are the two fields a dispatcher actually needs, and 'today' is a response commitment I would hold them to; B's 'discussion' is the wrong word when something is down."
+  },
+  "/thank-you/": {
+    "scores": {
+      "A": {"clarity": 5, "relevance": 4, "specificity": 4, "credibility": 5, "pull": 4},
+      "B": {"clarity": 5, "relevance": 3, "specificity": 2, "credibility": 5, "pull": 1},
+      "C": {"clarity": 5, "relevance": 3, "specificity": 3, "credibility": 4, "pull": 2}
+    },
+    "winner": "A",
+    "reason": "After I submit something I want the timeline and who calls; A promises that and nothing else."
+  },
+  "/sitemap/": {
+    "scores": {
+      "A": {"clarity": 5, "relevance": 3, "specificity": 3, "credibility": 5, "pull": 3},
+      "B": {"clarity": 5, "relevance": 3, "specificity": 2, "credibility": 5, "pull": 3},
+      "C": {"clarity": 4, "relevance": 3, "specificity": 4, "credibility": 4, "pull": 3}
+    },
+    "winner": "A",
+    "reason": "A sitemap is a utility page; label it as one and get out of the way."
+  },
+  "/solutions/": {
+    "scores": {
+      "A": {"clarity": 4, "relevance": 4, "specificity": 3, "credibility": 4, "pull": 4},
+      "B": {"clarity": 5, "relevance": 5, "specificity": 5, "credibility": 4, "pull": 4},
+      "C": {"clarity": 4, "relevance": 3, "specificity": 3, "credibility": 4, "pull": 3}
+    },
+    "winner": "B",
+    "reason": "Six program types named in the H1 means I can find AI and modular without scrolling; that is what a hub page is for."
+  },
+  "/solutions/ai-hpc-data-centers/": {
+    "scores": {
+      "A": {"clarity": 4, "relevance": 4, "specificity": 2, "credibility": 3, "pull": 3},
+      "B": {"clarity": 5, "relevance": 5, "specificity": 4, "credibility": 4, "pull": 5},
+      "C": {"clarity": 4, "relevance": 4, "specificity": 3, "credibility": 3, "pull": 3}
+    },
+    "winner": "B",
+    "reason": "Designing for the GPU you have and the one after it is the density-trajectory problem, rack kW, liquid loop, MV distribution, and B is the only headline that admits the second generation exists."
+  },
+  "/solutions/edge-data-centers/": {
+    "scores": {
+      "A": {"clarity": 5, "relevance": 4, "specificity": 5, "credibility": 4, "pull": 4},
+      "B": {"clarity": 3, "relevance": 3, "specificity": 2, "credibility": 3, "pull": 2},
+      "C": {"clarity": 4, "relevance": 4, "specificity": 4, "credibility": 4, "pull": 4}
+    },
+    "winner": "A",
+    "reason": "A repeatable edge program is a reference design plus a shop plus logistics; A names all three, B is the same sentence with the engineering removed."
+  },
+  "/solutions/modular-data-centers/": {
+    "scores": {
+      "A": {"clarity": 4, "relevance": 4, "specificity": 3, "credibility": 4, "pull": 3},
+      "B": {"clarity": 5, "relevance": 5, "specificity": 5, "credibility": 4, "pull": 4},
+      "C": {"clarity": 4, "relevance": 4, "specificity": 3, "credibility": 4, "pull": 4}
+    },
+    "winner": "B",
+    "reason": "Site, power and commissioning plan are the three interface documents I make modular vendors sign up to; B lists them and names the shop I can go audit."
+  },
+  "/solutions/colocation-data-centers/": {
+    "scores": {
+      "A": {"clarity": 5, "relevance": 3, "specificity": 3, "credibility": 3, "pull": 3},
+      "B": {"clarity": 4, "relevance": 4, "specificity": 3, "credibility": 4, "pull": 3},
+      "C": {"clarity": 4, "relevance": 4, "specificity": 4, "credibility": 4, "pull": 4}
+    },
+    "winner": "C",
+    "reason": "The SLA is the constraint that actually governs live colo work, it defines the windows and the concurrent maintainability you have to preserve, and C is the only one that names it."
+  },
+  "/solutions/greenfield-new-builds/": {
+    "scores": {
+      "A": {"clarity": 5, "relevance": 3, "specificity": 3, "credibility": 3, "pull": 3},
+      "B": {"clarity": 4, "relevance": 4, "specificity": 3, "credibility": 4, "pull": 4},
+      "C": {"clarity": 5, "relevance": 4, "specificity": 5, "credibility": 4, "pull": 3}
+    },
+    "winner": "C",
+    "reason": "Six named phases is a scope of services I can map directly to the RFP sections; 'a hundred decisions' is a nice line I cannot evaluate."
+  },
+  "/solutions/brownfield-retrofit/": {
+    "scores": {
+      "A": {"clarity": 4, "relevance": 4, "specificity": 2, "credibility": 3, "pull": 3},
+      "B": {"clarity": 5, "relevance": 5, "specificity": 5, "credibility": 5, "pull": 4},
+      "C": {"clarity": 4, "relevance": 4, "specificity": 3, "credibility": 4, "pull": 3}
+    },
+    "winner": "B",
+    "reason": "Three scopes, live environment, operating constraint: that is the MOP-driven framing I need, and it does not promise the impossible zero-risk cutover."
+  },
+  "/insights/data-center-site-selection-power-planning/": {
+    "scores": {
+      "A": {"clarity": 5, "relevance": 5, "specificity": 4, "credibility": 4, "pull": 4},
+      "B": {"clarity": 5, "relevance": 4, "specificity": 3, "credibility": 4, "pull": 3},
+      "C": {"clarity": 5, "relevance": 5, "specificity": 4, "credibility": 5, "pull": 5}
+    },
+    "winner": "C",
+    "reason": "Energization is the binary outcome all the site decisions collapse to, interconnect queue, substation capacity, gas, water, and C makes the article about that outcome."
+  },
+  "/insights/modular-vs-traditional-data-center-delivery/": {
+    "scores": {
+      "A": {"clarity": 5, "relevance": 5, "specificity": 5, "credibility": 5, "pull": 5},
+      "B": {"clarity": 5, "relevance": 5, "specificity": 5, "credibility": 5, "pull": 4},
+      "C": {"clarity": 4, "relevance": 4, "specificity": 2, "credibility": 3, "pull": 3}
+    },
+    "winner": "A",
+    "reason": "'Compare the interfaces, not the labels' is the sentence I have been trying to get proposal evaluators to internalize for years; B is the equally legitimate second question."
+  },
+  "/insights/ai-data-center-infrastructure-planning/": {
+    "scores": {
+      "A": {"clarity": 4, "relevance": 5, "specificity": 3, "credibility": 4, "pull": 3},
+      "B": {"clarity": 5, "relevance": 5, "specificity": 4, "credibility": 4, "pull": 5},
+      "C": {"clarity": 5, "relevance": 5, "specificity": 3, "credibility": 4, "pull": 4}
+    },
+    "winner": "B",
+    "reason": "The GPU PO is the milestone my clients anchor everything to, so a checklist keyed to that date is one I would actually open in a kickoff."
+  },
+  "/insights/hyperscale-campus-phasing/": {
+    "scores": {
+      "A": {"clarity": 5, "relevance": 4, "specificity": 4, "credibility": 4, "pull": 4},
+      "B": {"clarity": 5, "relevance": 4, "specificity": 4, "credibility": 4, "pull": 5},
+      "C": {"clarity": 3, "relevance": 4, "specificity": 2, "credibility": 3, "pull": 4}
+    },
+    "winner": "B",
+    "reason": "Phase one sabotaging phase four is exactly how it happens, a substation sized for phase one, a chilled-water header with no future tap, and the how-to framing promises a method, not a manifesto."
+  },
+  "/insights/data-center-commissioning-checklist/": {
+    "scores": {
+      "A": {"clarity": 5, "relevance": 5, "specificity": 4, "credibility": 4, "pull": 4},
+      "B": {"clarity": 5, "relevance": 5, "specificity": 4, "credibility": 5, "pull": 5},
+      "C": {"clarity": 4, "relevance": 4, "specificity": 2, "credibility": 4, "pull": 3}
+    },
+    "winner": "B",
+    "reason": "Acceptance is the owner's decision and 'proven' puts the burden where it belongs; I will read it to see whether their proof list matches my Level 5 IST script."
+  },
+  "/insights/data-center-preventive-maintenance/": {
+    "scores": {
+      "A": {"clarity": 5, "relevance": 4, "specificity": 3, "credibility": 4, "pull": 3},
+      "B": {"clarity": 5, "relevance": 4, "specificity": 4, "credibility": 5, "pull": 4},
+      "C": {"clarity": 5, "relevance": 4, "specificity": 3, "credibility": 4, "pull": 4}
+    },
+    "winner": "B",
+    "reason": "A completed task list is what I get from most PM vendors and it tells me nothing about remaining life or trend; B names the problem I keep writing into O&M scopes."
+  },
+  "/insights/data-center-monitoring-vs-dcim/": {
+    "scores": {
+      "A": {"clarity": 4, "relevance": 4, "specificity": 3, "credibility": 4, "pull": 3},
+      "B": {"clarity": 5, "relevance": 4, "specificity": 4, "credibility": 5, "pull": 4},
+      "C": {"clarity": 4, "relevance": 4, "specificity": 2, "credibility": 4, "pull": 3}
+    },
+    "winner": "B",
+    "reason": "I have watched clients buy DCIM licenses for a facility that only needed BMS alarm routing; 'before you buy the dashboard' is the correct warning."
+  },
+  "/insights/responsible-data-center-development/": {
+    "scores": {
+      "A": {"clarity": 4, "relevance": 3, "specificity": 3, "credibility": 4, "pull": 3},
+      "B": {"clarity": 4, "relevance": 4, "specificity": 3, "credibility": 4, "pull": 4},
+      "C": {"clarity": 5, "relevance": 4, "specificity": 5, "credibility": 4, "pull": 4}
+    },
+    "winner": "C",
+    "reason": "Power, water, noise and land are the four line items in every opposition packet; a piece organized around them is one I can hand to the entitlements consultant."
+  }
+}

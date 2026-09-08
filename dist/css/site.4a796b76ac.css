@@ -100,6 +100,15 @@ a:hover .arrow::after { transform: translateX(3px); }
 .utility a { color: var(--line); text-decoration: none; display: inline-flex; align-items: center; gap: .45rem; padding: .5rem 0; }
 .utility a:hover { color: var(--white); }
 .utility-nav { display: flex; gap: 1.5rem; }
+.utility-phone strong { color: var(--white); font-weight: 700; }
+.utility-label { color: var(--red); }
+.utility-email { text-transform: none; letter-spacing: .02em; }
+@media (max-width: 47.99rem) { .utility-label, .utility-email { display: none; } }
+.footer-emergency { margin-top: 1.5rem; padding: 1rem 1.1rem; border: 1px solid var(--graphite); border-left: 3px solid var(--red); display: grid; gap: .35rem; max-width: 22rem; }
+.footer-emergency-label { margin: 0 0 .15rem; font: 700 .74rem/1 var(--body); letter-spacing: .16em; text-transform: uppercase; color: var(--red); }
+.footer-emergency a { color: var(--line); text-decoration: none; font-size: .95rem; }
+.footer-emergency a:hover { color: var(--white); text-decoration: underline; }
+.footer-emergency .footer-emergency-phone { color: var(--white); font: 800 1.5rem/1.1 var(--display); letter-spacing: .02em; }
 .masthead { position: relative; height: var(--masthead-h); border-bottom: 1px solid var(--graphite); }
 .masthead-inner { height: 100%; display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; }
 .brand { display: flex; align-items: center; flex: none; position: relative; z-index: 58; }
@@ -575,3 +584,62 @@ a.card:focus-visible { outline-offset: 0; }
 @media (min-width: 40rem) { .leaders { grid-template-columns: repeat(3, 1fr); } }
 @media (min-width: 48rem) { .leaders { grid-template-columns: repeat(4, 1fr); gap: 1.25rem; } }
 @media (min-width: 64rem) { .leaders { grid-template-columns: repeat(6, 1fr); gap: 1rem; } }
+
+/* ---------- Lead-generation funnels ---------- */
+.funnel { padding: clamp(3rem, 6vw, 4.5rem) 0; border-top: 1px solid var(--graphite); border-bottom: 1px solid var(--graphite); }
+.funnel-inner { display: grid; gap: 2rem; align-items: center; }
+.funnel-text h2 { margin: .25rem 0 .75rem; font-size: clamp(1.9rem, 3.2vw, 2.7rem); }
+.funnel-promise { font-size: 1.1rem; color: var(--white); margin: 0 0 1rem; }
+.funnel-list { list-style: none; margin: 0; padding: 0; display: grid; gap: .5rem; }
+.funnel-list li { position: relative; padding-left: 1.5rem; color: var(--line); }
+.funnel-list li::before { content: ""; position: absolute; left: 0; top: .55em; width: .75rem; height: 3px; background: var(--red); }
+.funnel-cta { display: grid; gap: .9rem; justify-items: start; }
+.funnel-cta .button { font-size: 1.05rem; }
+.funnel-micro { margin: 0; font-size: .9rem; color: var(--steel-400); max-width: 20rem; }
+.funnel-micro a { color: var(--white); }
+.card-magnet .card-body h3 { font-size: 1.35rem; }
+.download { display: grid; gap: 2rem; max-width: 52rem; }
+.download-actions { display: flex; flex-wrap: wrap; gap: 1rem; }
+.button-large { font-size: 1.15rem; padding: 1.1rem 1.6rem; }
+.next-steps { padding: 1.5rem; background: var(--fog); border-left: 3px solid var(--red); display: grid; gap: 1rem; justify-items: start; }
+.steps-mini { margin: 0; padding: 0 0 0 1.25rem; display: grid; gap: .5rem; }
+.steps-mini li { margin: 0; color: var(--steel); }
+.steps-mini-wide { max-width: 46rem; margin-bottom: 2rem; }
+.download-micro { margin: 0; font-size: .9rem; color: var(--steel); }
+.next-steps-band .cards { max-width: 52rem; }
+.page-squeeze .form-band { padding-top: 0; }
+.page-squeeze .form-intro h2 { font-size: clamp(1.8rem, 3vw, 2.4rem); }
+@media (min-width: 48rem) {
+  .funnel-inner { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); gap: 3rem; }
+  .funnel-cta { justify-items: end; text-align: right; }
+  .funnel-micro { text-align: right; }
+}
+
+/* ---------- Print / PDF export (lead magnets) ---------- */
+.print-header, .print-footer { display: none; }
+@media print {
+  @page { size: Letter; margin: 16mm 14mm 18mm; }
+  html, body { background: #fff !important; color: #111 !important; font-size: 10.5pt; }
+  .site-header, .site-footer, .review-pill, .closing, .funnel, .form-band, .breadcrumbs, .hero .actions, .band-strip, .skip-link, .utility, .next-steps-band, .hero-strapline { display: none !important; }
+  .print-header { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 0 0 .75rem; margin-bottom: 1rem; border-bottom: 3px solid #D8202A; }
+  .print-header img { width: 2.2in; height: auto; }
+  .print-header p { margin: 0; font-size: 8.5pt; color: #48515A; text-align: right; }
+  .print-footer { display: block; margin-top: 1.5rem; padding-top: .75rem; border-top: 1px solid #C8CED3; font-size: 8pt; color: #48515A; }
+  .hero, .band, .band-dark, .band-fog, .band-white, .callout, .split { background: #fff !important; color: #111 !important; padding: .5rem 0 !important; }
+  .hero h1, .band-dark h2, .band-dark h3, .band-dark p, .hero p, .hero .eyebrow, .band-dark .eyebrow { color: #111 !important; }
+  .hero-split-inner { display: block; }
+  .hero-figure, .hero-visual { display: none !important; }
+  .shell { width: 100%; }
+  .prose, .section-head, .faq-answer { max-width: none; }
+  .faq-layout { display: block; }
+  .faq-layout .section-head { position: static; }
+  details.faq-item { display: block; }
+  details.faq-item summary { list-style: none; }
+  .faq-icon { display: none; }
+  .split-media, .strip-grid, .card-media, figure { display: none !important; }
+  .split-inner { display: block; }
+  a { color: inherit; text-decoration: none; }
+  h2, h3 { break-after: avoid; }
+  p, li { orphans: 3; widows: 3; }
+  .provenance { break-inside: avoid; }
+}

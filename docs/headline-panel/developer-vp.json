@@ -1,0 +1,1136 @@
+{
+  "/": {
+    "scores": {
+      "A": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 2,
+        "credibility": 3,
+        "pull": 3
+      },
+      "B": {
+        "clarity": 4,
+        "relevance": 4,
+        "specificity": 5,
+        "credibility": 4,
+        "pull": 4
+      },
+      "C": {
+        "clarity": 4,
+        "relevance": 4,
+        "specificity": 3,
+        "credibility": 3,
+        "pull": 4
+      }
+    },
+    "winner": "B",
+    "reason": "Give me the GW number first; that is the only line on a home page I would actually go verify."
+  },
+  "/design-build/": {
+    "scores": {
+      "A": {
+        "clarity": 5,
+        "relevance": 4,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 4
+      },
+      "B": {
+        "clarity": 4,
+        "relevance": 4,
+        "specificity": 2,
+        "credibility": 3,
+        "pull": 3
+      },
+      "C": {
+        "clarity": 4,
+        "relevance": 4,
+        "specificity": 4,
+        "credibility": 3,
+        "pull": 4
+      }
+    },
+    "winner": "A",
+    "reason": "Whoever has to power and maintain it designs it differently; that is the whole argument for design-build, stated without a brag."
+  },
+  "/design-build/modular-data-centers/": {
+    "scores": {
+      "A": {
+        "clarity": 5,
+        "relevance": 4,
+        "specificity": 5,
+        "credibility": 4,
+        "pull": 4
+      },
+      "B": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 3
+      },
+      "C": {
+        "clarity": 3,
+        "relevance": 3,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 3
+      }
+    },
+    "winner": "A",
+    "reason": "Own shop, my site, my power, my commissioning plan: those are the four questions I would have asked on the first call."
+  },
+  "/design-build/hyperscale-data-centers/": {
+    "scores": {
+      "A": {
+        "clarity": 4,
+        "relevance": 5,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 4
+      },
+      "B": {
+        "clarity": 5,
+        "relevance": 5,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 5
+      },
+      "C": {
+        "clarity": 3,
+        "relevance": 4,
+        "specificity": 3,
+        "credibility": 3,
+        "pull": 4
+      }
+    },
+    "winner": "B",
+    "reason": "That is my scorecard in two sentences; phase one on schedule is the only thing my board asks about."
+  },
+  "/design-build/ai-data-centers/": {
+    "scores": {
+      "A": {
+        "clarity": 5,
+        "relevance": 4,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 4
+      },
+      "B": {
+        "clarity": 4,
+        "relevance": 4,
+        "specificity": 3,
+        "credibility": 3,
+        "pull": 4
+      },
+      "C": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 2,
+        "credibility": 3,
+        "pull": 3
+      }
+    },
+    "winner": "A",
+    "reason": "Power, cooling and building decided before the GPU PO is the sequence I have watched three programs get backwards."
+  },
+  "/design-build/planning-feasibility/": {
+    "scores": {
+      "A": {
+        "clarity": 5,
+        "relevance": 5,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 4
+      },
+      "B": {
+        "clarity": 4,
+        "relevance": 4,
+        "specificity": 3,
+        "credibility": 3,
+        "pull": 3
+      },
+      "C": {
+        "clarity": 4,
+        "relevance": 5,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 4
+      }
+    },
+    "winner": "A",
+    "reason": "Built, powered and paid for is the entire question before I sign for the land; the ninety-day line is a number pulled from the air."
+  },
+  "/design-build/design-engineering/": {
+    "scores": {
+      "A": {
+        "clarity": 5,
+        "relevance": 4,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 3
+      },
+      "B": {
+        "clarity": 4,
+        "relevance": 4,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 4
+      },
+      "C": {
+        "clarity": 4,
+        "relevance": 4,
+        "specificity": 3,
+        "credibility": 3,
+        "pull": 3
+      }
+    },
+    "winner": "A",
+    "reason": "A designer who also has to procure, build and commission it is the only one whose drawings survive the field."
+  },
+  "/design-build/preconstruction-procurement/": {
+    "scores": {
+      "A": {
+        "clarity": 5,
+        "relevance": 5,
+        "specificity": 5,
+        "credibility": 4,
+        "pull": 4
+      },
+      "B": {
+        "clarity": 4,
+        "relevance": 4,
+        "specificity": 3,
+        "credibility": 3,
+        "pull": 4
+      },
+      "C": {
+        "clarity": 4,
+        "relevance": 4,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 3
+      }
+    },
+    "winner": "A",
+    "reason": "Long-lead equipment named in the headline; that is the switchgear and transformer conversation I have every single week."
+  },
+  "/design-build/data-center-construction/": {
+    "scores": {
+      "A": {
+        "clarity": 5,
+        "relevance": 4,
+        "specificity": 5,
+        "credibility": 3,
+        "pull": 4
+      },
+      "B": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 2
+      },
+      "C": {
+        "clarity": 4,
+        "relevance": 4,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 3
+      }
+    },
+    "winner": "A",
+    "reason": "Numbers I can verify beat adjectives; I would ask for the OSHA logs behind the zero-injury claim, but I would ask."
+  },
+  "/design-build/commissioning-turnover/": {
+    "scores": {
+      "A": {
+        "clarity": 5,
+        "relevance": 4,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 4
+      },
+      "B": {
+        "clarity": 4,
+        "relevance": 5,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 4
+      },
+      "C": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 3
+      }
+    },
+    "winner": "B",
+    "reason": "Accepting the facility is my signature and my energization date; tell me what has to be proven before I put pen to it."
+  },
+  "/design-build/expansions-retrofits/": {
+    "scores": {
+      "A": {
+        "clarity": 5,
+        "relevance": 4,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 4
+      },
+      "B": {
+        "clarity": 4,
+        "relevance": 4,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 3
+      },
+      "C": {
+        "clarity": 4,
+        "relevance": 4,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 3
+      }
+    },
+    "winner": "A",
+    "reason": "Live floor, paying tenants, nothing already running goes at risk: that is the whole brief in one line."
+  },
+  "/power-generation/": {
+    "scores": {
+      "A": {
+        "clarity": 5,
+        "relevance": 5,
+        "specificity": 5,
+        "credibility": 4,
+        "pull": 5
+      },
+      "B": {
+        "clarity": 4,
+        "relevance": 5,
+        "specificity": 2,
+        "credibility": 4,
+        "pull": 4
+      },
+      "C": {
+        "clarity": 5,
+        "relevance": 4,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 3
+      }
+    },
+    "winner": "A",
+    "reason": "GW number plus 'before the utility says no'; whoever wrote that has sat in the interconnection queue with me."
+  },
+  "/power-generation/backup-power-systems/": {
+    "scores": {
+      "A": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 2,
+        "credibility": 4,
+        "pull": 3
+      },
+      "B": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 4
+      },
+      "C": {
+        "clarity": 5,
+        "relevance": 4,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 3
+      }
+    },
+    "winner": "C",
+    "reason": "Designed, built, commissioned and maintained by one team is who I want on the phone when a generator does not start at 2 a.m."
+  },
+  "/maintenance/": {
+    "scores": {
+      "A": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 2,
+        "credibility": 3,
+        "pull": 2
+      },
+      "B": {
+        "clarity": 3,
+        "relevance": 3,
+        "specificity": 2,
+        "credibility": 3,
+        "pull": 3
+      },
+      "C": {
+        "clarity": 5,
+        "relevance": 3,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 3
+      }
+    },
+    "winner": "C",
+    "reason": "Tells me what is on the page in five words; I would forward it to my ops director rather than read it myself."
+  },
+  "/maintenance/preventive-maintenance/": {
+    "scores": {
+      "A": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 3
+      },
+      "B": {
+        "clarity": 3,
+        "relevance": 2,
+        "specificity": 2,
+        "credibility": 3,
+        "pull": 3
+      },
+      "C": {
+        "clarity": 5,
+        "relevance": 3,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 3
+      }
+    },
+    "winner": "C",
+    "reason": "I have paid for enough template PM programs to know exactly what 'not a template' is worth."
+  },
+  "/data-center-markets/": {
+    "scores": {
+      "A": {
+        "clarity": 4,
+        "relevance": 5,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 3
+      },
+      "B": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 3,
+        "credibility": 3,
+        "pull": 3
+      },
+      "C": {
+        "clarity": 3,
+        "relevance": 3,
+        "specificity": 2,
+        "credibility": 3,
+        "pull": 2
+      }
+    },
+    "winner": "A",
+    "reason": "It says colocation and hyperscale in the first five words; I know which link to click before the sentence ends."
+  },
+  "/data-center-markets/colocation/": {
+    "scores": {
+      "A": {
+        "clarity": 5,
+        "relevance": 5,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 4
+      },
+      "B": {
+        "clarity": 4,
+        "relevance": 4,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 3
+      },
+      "C": {
+        "clarity": 5,
+        "relevance": 5,
+        "specificity": 5,
+        "credibility": 4,
+        "pull": 4
+      }
+    },
+    "winner": "C",
+    "reason": "New halls and power upgrades on a live floor are the two POs I am about to issue; it named both."
+  },
+  "/data-center-markets/enterprise/": {
+    "scores": {
+      "A": {
+        "clarity": 4,
+        "relevance": 2,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 2
+      },
+      "B": {
+        "clarity": 3,
+        "relevance": 2,
+        "specificity": 2,
+        "credibility": 3,
+        "pull": 2
+      },
+      "C": {
+        "clarity": 5,
+        "relevance": 2,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 3
+      }
+    },
+    "winner": "C",
+    "reason": "Not my market, but it names three scopes and puts uptime first, which is how I would want my own page written."
+  },
+  "/insights/": {
+    "scores": {
+      "A": {
+        "clarity": 4,
+        "relevance": 4,
+        "specificity": 3,
+        "credibility": 3,
+        "pull": 3
+      },
+      "B": {
+        "clarity": 4,
+        "relevance": 4,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 3
+      },
+      "C": {
+        "clarity": 4,
+        "relevance": 5,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 4
+      }
+    },
+    "winner": "C",
+    "reason": "Site visit, RFP, design kickoff: it knows where I am in the week."
+  },
+  "/about/": {
+    "scores": {
+      "A": {
+        "clarity": 3,
+        "relevance": 3,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 3
+      },
+      "B": {
+        "clarity": 5,
+        "relevance": 4,
+        "specificity": 5,
+        "credibility": 4,
+        "pull": 4
+      },
+      "C": {
+        "clarity": 3,
+        "relevance": 3,
+        "specificity": 2,
+        "credibility": 3,
+        "pull": 2
+      }
+    },
+    "winner": "B",
+    "reason": "Founding year, project count, GW deployed: three facts I can check in the time it takes to read them."
+  },
+  "/about/leadership/": {
+    "scores": {
+      "A": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 2,
+        "credibility": 4,
+        "pull": 2
+      },
+      "B": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 2,
+        "credibility": 3,
+        "pull": 3
+      },
+      "C": {
+        "clarity": 5,
+        "relevance": 4,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 4
+      }
+    },
+    "winner": "C",
+    "reason": "Thirteen names; I want to know who carries my program and whether the construction lead has actually built a substation."
+  },
+  "/contact/": {
+    "scores": {
+      "A": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 3
+      },
+      "B": {
+        "clarity": 5,
+        "relevance": 3,
+        "specificity": 3,
+        "credibility": 5,
+        "pull": 3
+      },
+      "C": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 3
+      }
+    },
+    "winner": "B",
+    "reason": "It is a contact page; label it and get out of my way."
+  },
+  "/support/": {
+    "scores": {
+      "A": {
+        "clarity": 5,
+        "relevance": 3,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 3
+      },
+      "B": {
+        "clarity": 5,
+        "relevance": 3,
+        "specificity": 3,
+        "credibility": 5,
+        "pull": 2
+      },
+      "C": {
+        "clarity": 5,
+        "relevance": 3,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 3
+      }
+    },
+    "winner": "A",
+    "reason": "Routed to the people who know my facility is the one promise a support page can make that matters."
+  },
+  "/start-a-project/": {
+    "scores": {
+      "A": {
+        "clarity": 5,
+        "relevance": 4,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 4
+      },
+      "B": {
+        "clarity": 5,
+        "relevance": 3,
+        "specificity": 3,
+        "credibility": 5,
+        "pull": 2
+      },
+      "C": {
+        "clarity": 3,
+        "relevance": 3,
+        "specificity": 3,
+        "credibility": 2,
+        "pull": 3
+      }
+    },
+    "winner": "A",
+    "reason": "Fit, scope and the next decision is exactly what I want back from a first contact, and it says I will get it."
+  },
+  "/request-service/": {
+    "scores": {
+      "A": {
+        "clarity": 5,
+        "relevance": 3,
+        "specificity": 4,
+        "credibility": 5,
+        "pull": 3
+      },
+      "B": {
+        "clarity": 4,
+        "relevance": 2,
+        "specificity": 2,
+        "credibility": 4,
+        "pull": 2
+      },
+      "C": {
+        "clarity": 5,
+        "relevance": 3,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 4
+      }
+    },
+    "winner": "C",
+    "reason": "'Route it today' is a commitment; 'a discussion' is what I am trying to avoid when something is down."
+  },
+  "/thank-you/": {
+    "scores": {
+      "A": {
+        "clarity": 5,
+        "relevance": 3,
+        "specificity": 3,
+        "credibility": 5,
+        "pull": 4
+      },
+      "B": {
+        "clarity": 5,
+        "relevance": 2,
+        "specificity": 2,
+        "credibility": 5,
+        "pull": 1
+      },
+      "C": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 3
+      }
+    },
+    "winner": "A",
+    "reason": "What happens next, and when, is the only thing a thank-you page owes me."
+  },
+  "/sitemap/": {
+    "scores": {
+      "A": {
+        "clarity": 5,
+        "relevance": 2,
+        "specificity": 3,
+        "credibility": 5,
+        "pull": 2
+      },
+      "B": {
+        "clarity": 4,
+        "relevance": 2,
+        "specificity": 3,
+        "credibility": 5,
+        "pull": 1
+      },
+      "C": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 2
+      }
+    },
+    "winner": "A",
+    "reason": "A sitemap is a sitemap; the only wrong answer is dressing it up."
+  },
+  "/solutions/": {
+    "scores": {
+      "A": {
+        "clarity": 3,
+        "relevance": 4,
+        "specificity": 2,
+        "credibility": 4,
+        "pull": 3
+      },
+      "B": {
+        "clarity": 5,
+        "relevance": 5,
+        "specificity": 5,
+        "credibility": 4,
+        "pull": 4
+      },
+      "C": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 3
+      }
+    },
+    "winner": "B",
+    "reason": "Lists the six doors; I am through 'colocation' or 'greenfield' before I finish the sentence."
+  },
+  "/solutions/ai-hpc-data-centers/": {
+    "scores": {
+      "A": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 2,
+        "credibility": 3,
+        "pull": 3
+      },
+      "B": {
+        "clarity": 4,
+        "relevance": 4,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 4
+      },
+      "C": {
+        "clarity": 4,
+        "relevance": 4,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 3
+      }
+    },
+    "winner": "B",
+    "reason": "The GPUs I will deploy next is the question that decides the electrical topology, and nobody else on the shortlist asks it."
+  },
+  "/solutions/edge-data-centers/": {
+    "scores": {
+      "A": {
+        "clarity": 5,
+        "relevance": 3,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 3
+      },
+      "B": {
+        "clarity": 3,
+        "relevance": 2,
+        "specificity": 2,
+        "credibility": 3,
+        "pull": 2
+      },
+      "C": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 3
+      }
+    },
+    "winner": "A",
+    "reason": "Designed once, own shop, delivered: the repeatable-kit argument with the mechanism attached instead of a slogan."
+  },
+  "/solutions/modular-data-centers/": {
+    "scores": {
+      "A": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 3
+      },
+      "B": {
+        "clarity": 5,
+        "relevance": 4,
+        "specificity": 5,
+        "credibility": 4,
+        "pull": 4
+      },
+      "C": {
+        "clarity": 4,
+        "relevance": 4,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 4
+      }
+    },
+    "winner": "B",
+    "reason": "Houston shop, my site, my power, my commissioning plan: the four interfaces that decide whether modular saves a month or costs one."
+  },
+  "/solutions/colocation-data-centers/": {
+    "scores": {
+      "A": {
+        "clarity": 5,
+        "relevance": 5,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 4
+      },
+      "B": {
+        "clarity": 4,
+        "relevance": 4,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 3
+      },
+      "C": {
+        "clarity": 4,
+        "relevance": 5,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 5
+      }
+    },
+    "winner": "C",
+    "reason": "'The SLAs you already signed' is my liability in six words; that is the line I would read twice."
+  },
+  "/solutions/greenfield-new-builds/": {
+    "scores": {
+      "A": {
+        "clarity": 5,
+        "relevance": 5,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 4
+      },
+      "B": {
+        "clarity": 3,
+        "relevance": 4,
+        "specificity": 2,
+        "credibility": 3,
+        "pull": 3
+      },
+      "C": {
+        "clarity": 5,
+        "relevance": 5,
+        "specificity": 5,
+        "credibility": 4,
+        "pull": 4
+      }
+    },
+    "winner": "C",
+    "reason": "Lists all six phases including power and commissioning; that is the scope I would write into the RFP."
+  },
+  "/solutions/brownfield-retrofit/": {
+    "scores": {
+      "A": {
+        "clarity": 4,
+        "relevance": 4,
+        "specificity": 2,
+        "credibility": 4,
+        "pull": 3
+      },
+      "B": {
+        "clarity": 5,
+        "relevance": 4,
+        "specificity": 5,
+        "credibility": 4,
+        "pull": 3
+      },
+      "C": {
+        "clarity": 4,
+        "relevance": 4,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 3
+      }
+    },
+    "winner": "B",
+    "reason": "Power conversions inside a live facility is the exact scope; the other two are prose about it."
+  },
+  "/insights/data-center-site-selection-power-planning/": {
+    "scores": {
+      "A": {
+        "clarity": 5,
+        "relevance": 5,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 4
+      },
+      "B": {
+        "clarity": 4,
+        "relevance": 4,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 3
+      },
+      "C": {
+        "clarity": 5,
+        "relevance": 5,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 5
+      }
+    },
+    "winner": "C",
+    "reason": "'Whether the site ever energizes' is the sentence I say to my own team; I would read it to see if they know why."
+  },
+  "/insights/modular-vs-traditional-data-center-delivery/": {
+    "scores": {
+      "A": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 3
+      },
+      "B": {
+        "clarity": 5,
+        "relevance": 4,
+        "specificity": 5,
+        "credibility": 4,
+        "pull": 4
+      },
+      "C": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 2,
+        "credibility": 3,
+        "pull": 3
+      }
+    },
+    "winner": "B",
+    "reason": "Shop versus site is the real question; it tells me the article will split scope instead of arguing a label."
+  },
+  "/insights/ai-data-center-infrastructure-planning/": {
+    "scores": {
+      "A": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 2,
+        "credibility": 4,
+        "pull": 2
+      },
+      "B": {
+        "clarity": 5,
+        "relevance": 4,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 4
+      },
+      "C": {
+        "clarity": 5,
+        "relevance": 4,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 4
+      }
+    },
+    "winner": "B",
+    "reason": "The GPU order is the gate every finance team is watching; tell me what has to be locked before it goes out."
+  },
+  "/insights/hyperscale-campus-phasing/": {
+    "scores": {
+      "A": {
+        "clarity": 4,
+        "relevance": 5,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 4
+      },
+      "B": {
+        "clarity": 5,
+        "relevance": 5,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 5
+      },
+      "C": {
+        "clarity": 3,
+        "relevance": 4,
+        "specificity": 2,
+        "credibility": 3,
+        "pull": 3
+      }
+    },
+    "winner": "B",
+    "reason": "Phase one versus phase four is exactly the fight I have with the utility and the land plan; I would read every word."
+  },
+  "/insights/data-center-commissioning-checklist/": {
+    "scores": {
+      "A": {
+        "clarity": 5,
+        "relevance": 4,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 3
+      },
+      "B": {
+        "clarity": 5,
+        "relevance": 5,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 4
+      },
+      "C": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 2,
+        "credibility": 4,
+        "pull": 3
+      }
+    },
+    "winner": "B",
+    "reason": "Acceptance is my signature; 'what has to be proven' is the checklist I would hand my owner's rep."
+  },
+  "/insights/data-center-preventive-maintenance/": {
+    "scores": {
+      "A": {
+        "clarity": 4,
+        "relevance": 2,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 2
+      },
+      "B": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 3
+      },
+      "C": {
+        "clarity": 5,
+        "relevance": 3,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 3
+      }
+    },
+    "winner": "C",
+    "reason": "Not my desk, but 'what every visit should tell you' is the version I would send my ops director."
+  },
+  "/insights/data-center-monitoring-vs-dcim/": {
+    "scores": {
+      "A": {
+        "clarity": 3,
+        "relevance": 2,
+        "specificity": 2,
+        "credibility": 4,
+        "pull": 2
+      },
+      "B": {
+        "clarity": 5,
+        "relevance": 3,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 4
+      },
+      "C": {
+        "clarity": 4,
+        "relevance": 3,
+        "specificity": 2,
+        "credibility": 3,
+        "pull": 3
+      }
+    },
+    "winner": "B",
+    "reason": "'Before you buy the dashboard': I have approved two DCIM POs that ended up as screensavers, so yes, I would read this."
+  },
+  "/insights/responsible-data-center-development/": {
+    "scores": {
+      "A": {
+        "clarity": 4,
+        "relevance": 4,
+        "specificity": 3,
+        "credibility": 4,
+        "pull": 3
+      },
+      "B": {
+        "clarity": 4,
+        "relevance": 5,
+        "specificity": 4,
+        "credibility": 4,
+        "pull": 4
+      },
+      "C": {
+        "clarity": 5,
+        "relevance": 5,
+        "specificity": 5,
+        "credibility": 4,
+        "pull": 5
+      }
+    },
+    "winner": "C",
+    "reason": "Power, water, noise, land: that is the agenda at every hearing I have sat through, in the order it comes up."
+  }
+}

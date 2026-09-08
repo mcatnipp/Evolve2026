@@ -27,7 +27,7 @@
 
 **Eyebrow:** About Evolve
 
-# The people accountable for the work.
+# Thirteen leaders. One accountable team. Here is who carries your program.
 
 Evolve's leadership team carries data-center programs through planning, design, construction, power and long-term maintenance, and stays accountable across every stage.
 
@@ -36,7 +36,7 @@ Evolve's leadership team carries data-center programs through planning, design, 
 
 ### Leadership team
 
-Executive, operations and delivery leaders across Evolve Data Center Solutions and Evolve Energy. Each profile links to the individual's LinkedIn page.
+Executive, operations and delivery leaders accountable for your program, across Evolve Data Center Solutions and Evolve Energy. Each links to LinkedIn.
 
 - Tye Johnson, Chief Executive Officer
 - Clay Bludau, President
@@ -52,25 +52,25 @@ Executive, operations and delivery leaders across Evolve Data Center Solutions a
 - Steven Eickenhorst, Project Manager, Infrastructure Solutions
 - Krista Bouquet, Evolve Power Generation
 
-### One accountable team across the lifecycle
+### Why the leaders who plan your facility are still on it after turnover
 
-Evolve organizes its work around five connected stages: Plan, Design, Build, Power and Maintain. Leadership responsibility follows the same structure, so the people who plan and design a facility stay involved through construction, commissioning, power and the operating support that follows.
+Evolve organizes its work around five connected stages: Plan, Design, Build, Power and Maintain. Leadership responsibility follows the same structure, so the people who plan and design a facility stay involved through construction, commissioning, power and the operating support that follows. Accountability does not change hands at turnover.
 
-Evolve's approved capability includes planning, design, procurement, construction, commissioning, monitoring and maintenance, with self-performed modular fabrication in its Houston shop. The company specializes in data centers and serves a nationwide market from its headquarters at 10555 Cossey Road, Houston, Texas 77070.
+Behind that sit planning, design, procurement, construction, commissioning, monitoring and maintenance, with modular fabrication self-performed in Evolve's Houston shop. Data centers only, for a nationwide market, from 10555 Cossey Road, Houston, Texas 77070.
 
 ### Direct answers
 
 #### How do I reach a member of the leadership team?
 
-Use the contact page or call 832-375-0099. Evolve routes each inquiry to the right leader for the facility type and project stage.
+Use the contact page or call 832-375-0099 with the facility, stage and decision in front of you; Evolve routes it to the responsible leader.
 
 #### Does Evolve publish leadership biographies?
 
-Not on this page. It lists names, titles and LinkedIn profiles. Relevant experience is discussed with qualified buyers through the confidential business process.
+No. Names, titles and LinkedIn profiles only. Relevant experience is discussed with qualified buyers through the confidential business process.
 
 #### Where is the leadership team based?
 
-Evolve is headquartered in Houston, Texas, and serves a nationwide market.
+Houston, Texas, at Evolve's headquarters and fabrication shop, serving a nationwide market.
 
 ### Related paths
 
@@ -91,7 +91,7 @@ Tell Evolve about the facility, the stage you are in and the decision in front o
 ## Metadata recommendation
 
 **Title:** Leadership Team | Evolve Data Center Solutions  
-**Meta description:** Meet the Evolve Data Center Solutions leadership team: the executives and delivery leaders accountable for planning, designing, building, powering and maintaining data centers.  
+**Meta description:** Evolve Data Center Solutions leadership: the executives and delivery leaders accountable for planning, building, powering and maintaining data centers.  
 
 ## Schema recommendation
 

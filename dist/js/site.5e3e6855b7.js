@@ -117,3 +117,11 @@
     });
   });
 })();
+
+/* PDF export helper: ?pdf=1 opens every FAQ item so the printed guide is complete. */
+(function () {
+  if (/[?&]pdf=1/.test(location.search)) {
+    document.documentElement.classList.add("is-pdf");
+    document.querySelectorAll("details").forEach(function (d) { d.open = true; });
+  }
+})();

@@ -361,7 +361,7 @@ def page_from_block(item, ledger_row):
 
 def action_href(label, page):
     v = label.lower()
-    if page["id"] in D.FORM_DEFINITIONS and re.match(r"^(route|request|submit)", v):
+    if page["id"] in D.FORM_DEFINITIONS and re.match(r"^(route|request|submit|send|get)", v):
         return "#form"
     if "support" in v:
         return "/support/"
@@ -488,8 +488,8 @@ def header_markup(url):
         '<a class="skip-link" href="#main">Skip to main content</a>'
         '<header class="site-header">'
         '<div class="utility"><div class="shell utility-inner">'
-        '<a class="utility-phone" href="tel:%s"><svg aria-hidden="true" viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1L6.6 10.8z"/></svg>%s</a>'
-        '<nav class="utility-nav" aria-label="Utility"><a href="/contact/">Contact</a><a href="/support/">Support</a></nav>'
+        '<a class="utility-phone" href="tel:%s"><svg aria-hidden="true" viewBox="0 0 24 24" width="14" height="14"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1L6.6 10.8z"/></svg><span class="utility-label">%s:</span> <strong>%s</strong></a>'
+        '<nav class="utility-nav" aria-label="Utility"><a class="utility-email" href="mailto:%s">%s</a><a href="/contact/">Contact</a><a href="/support/">Support</a></nav>'
         '</div></div>'
         '<div class="masthead"><div class="shell masthead-inner">'
         '<a class="brand" href="/" aria-label="Evolve Data Center Solutions home"><img class="brand-full" src="/assets/evolve-logo-white-440.png" width="440" height="175" alt="Evolve Data Center Solutions"><img class="brand-mark" src="/assets/evolve-wordmark-white-360.png" width="360" height="106" alt="Evolve"></a>'
@@ -499,7 +499,8 @@ def header_markup(url):
         '<a class="nav-phone" href="tel:%s">%s</a></div></nav>'
         '<a class="button button-primary masthead-cta" href="/start-a-project/">Start a Project</a>'
         '</div></div></header>'
-        % (s["phone_href"], esc(s["phone_display"]), nav_markup(url), s["phone_href"], esc(s["phone_display"]))
+        % (s["phone_href"], esc(s["emergency_label"]), esc(s["phone_display"]), s["support_email"], esc(s["support_email"]),
+           nav_markup(url), s["phone_href"], esc(s["phone_display"]))
     )
 
 
@@ -515,10 +516,15 @@ def footer_markup():
         '<footer class="site-footer"><div class="shell footer-grid">'
         '<div class="footer-brand"><img src="/assets/evolve-logo-white-440.png" width="440" height="175" loading="lazy" alt="Evolve Data Center Solutions">'
         '<p class="footer-tag">%s</p><p class="footer-desc">Data-center planning, design, construction, power, monitoring and maintenance.</p>'
-        '<address>%s<br><a href="tel:%s">%s</a></address></div>%s</div>'
+        '<address>%s<br><a href="tel:%s">%s</a></address>'
+        '<div class="footer-emergency"><p class="footer-emergency-label">%s</p>'
+        '<a class="footer-emergency-phone" href="tel:%s">%s</a>'
+        '<a href="mailto:%s">%s</a><a href="%s" rel="noopener">Existing-customer support portal</a>'
+        '<a href="/request-service/">Request service online</a></div></div>%s</div>'
         '<div class="shell footer-base"><p>&copy; 2026 Evolve Data Center Solutions. Founded in 2004 and headquartered in Houston, Texas.</p>'
         '<ul class="footer-legal"><li><a href="/sitemap/">Sitemap</a></li><li><a href="/contact/">Contact</a></li><li><a href="/support/">Support</a></li></ul>%s</div></footer>'
-        % (esc(s["tagline"]), "<br>".join(esc(l) for l in s["address_lines"]), s["phone_href"], esc(s["phone_display"]), groups, note)
+        % (esc(s["tagline"]), "<br>".join(esc(l) for l in s["address_lines"]), s["phone_href"], esc(s["phone_display"]),
+           esc(s["emergency_label"]), s["phone_href"], esc(s["phone_display"]), s["support_email"], esc(s["support_email"]), s["support_portal"], groups, note)
     )
 
 
@@ -544,6 +550,9 @@ def hero_markup(page):
     if url in D.INSIGHT_PATHS:
         eyebrow = "Insight · %s" % D.INSIGHT_TOPICS.get(url, "Technical guidance")
     actions = '<a class="button button-primary" href="%s">%s</a>' % (action_href(page["primary"], page), esc(page["primary"]))
+    if url.startswith("/resources/") and url.endswith("/thank-you/"):
+        _m = D.MAGNET_BY_SLUG[url.split("/")[2]]
+        actions = '<a class="button button-primary" href="%s" download>Download the %s (PDF)</a>' % (_m["pdf"], esc(_m["kind"].lower()))
     if page.get("secondary"):
         actions += '<a class="button button-inverse" href="%s">%s</a>' % (action_href(page["secondary"], page), esc(page["secondary"]))
     text = ('%s<p class="eyebrow">%s</p><h1>%s</h1><p class="lead">%s</p><div class="actions">%s</div>'
@@ -559,7 +568,7 @@ def hero_markup(page):
         visual = mosaic(media["mosaic"])
     else:
         visual = tech_panel(url)
-    compact = " hero-compact" if url in D.INSIGHT_PATHS or page["id"] in D.FORM_DEFINITIONS or url in ("/thank-you/", "/sitemap/", "/insights/") else ""
+    compact = " hero-compact" if url in D.INSIGHT_PATHS or page["id"] in D.FORM_DEFINITIONS or url in ("/thank-you/", "/sitemap/", "/insights/", "/resources/") or url.endswith("/thank-you/") else ""
     return ('<section class="hero hero-split%s"><div class="shell hero-split-inner"><div class="hero-text">%s</div><div class="hero-visual">%s</div></div></section>'
             % (compact, text, visual))
 
@@ -825,6 +834,10 @@ def classify(sec, top, page):
         return "split"
     if page["url"] == "/about/leadership/" and t == "leadership team":
         return "leaders"
+    if page["url"] == "/resources/" and t == "free guides":
+        return "magnet-cards"
+    if page["url"].startswith("/resources/") and page["url"].endswith("/thank-you/") and t == "your guide is ready":
+        return "download"
     if not title:
         return "prose"
     if not subs and link_desc_list(lead):
@@ -889,6 +902,10 @@ def render_sections(page, pages_by_url):
             inner = render_insight_cards(sec, top, page, pages_by_url)
         elif kind == "leaders":
             inner = render_leaders(sec, top, page)
+        elif kind == "magnet-cards":
+            inner = render_magnet_cards(sec, top, page)
+        elif kind == "download":
+            inner = render_download(sec, top, page)
         elif kind == "steps":
             inner = render_steps(sec, top, page)
         elif kind == "points":
@@ -916,7 +933,88 @@ def render_sections(page, pages_by_url):
         if media.get("strip") and not strip_done and kind in ("prose", "support") and prose_count == 1:
             out.append(photo_strip(media["strip"]))
             strip_done = True
+        if kind == "insight-cards":
+            out.append('<section class="band band-fog kind-magnet-cards" id="free-guides"><div class="shell">%s</div></section>'
+                       % render_magnet_cards({"title": "Take the decision list with you", "blocks": []}, top, page, lead_text="Five of the guides are also free PDFs you can hand to your team."))
+            tone = "white"
+        if idx == 0 and page["url"] in D.FUNNELS and page["url"] not in D.INSIGHT_PATHS and not page["url"].startswith("/resources/"):
+            out.append(funnel_markup(page))
+            tone = "white"
     return "".join(out)
+
+
+def funnel_markup(page, compact=False):
+    """Mid-page lead-magnet offer (Brunson-style hook -> squeeze page)."""
+    m = D.MAGNET_BY_SLUG[D.FUNNELS[page["url"]]]
+    kind = m["kind"].lower()
+    bullets = "".join("<li>%s</li>" % esc(b) for b in m["bullets"])
+    return ('<section class="band band-dark funnel" aria-labelledby="funnel-%s"><div class="shell funnel-inner">'
+            '<div class="funnel-text"><p class="eyebrow">Free %s</p><h2 id="funnel-%s">%s</h2><p class="funnel-promise">%s</p><ul class="funnel-list">%s</ul></div>'
+            '<div class="funnel-cta"><a class="button button-primary" href="/resources/%s/">Get the %s</a>'
+            '<p class="funnel-micro">A PDF on the next page after four short fields. Prefer to read first? <a href="%s">Read it online</a>.</p></div>'
+            '</div></section>' % (m["slug"], esc(kind), m["slug"], esc(m["title"]), esc(m["promise"]), bullets, m["slug"], esc(kind), m["source"]))
+
+
+def render_magnet_cards(sec, top, page, lead_text=None):
+    lead, subs = split_subs(sec, top) if sec.get("blocks") else ([], [])
+    cards = []
+    for m in D.LEAD_MAGNETS:
+        href = "/resources/%s/" % m["slug"]
+        media = '<div class="card-media">%s</div>' % img_tag(m["image"], "(min-width: 80rem) 26rem, (min-width: 48rem) 45vw, 100vw")
+        cards.append('<a class="card card-magnet" href="%s">%s<div class="card-body"><p class="eyebrow">Free %s</p><h3>%s</h3><p>%s</p>'
+                     '<span class="card-cta">Get the %s<span class="arrow" aria-hidden="true"></span></span></div></a>'
+                     % (href, media, esc(m["kind"].lower()), esc(m["title"]), esc(m["promise"]), esc(m["kind"].lower())))
+    head = section_head(sec["title"], lead) if lead else ('<div class="section-head"><h2>%s</h2>%s</div>' % (inline(sec["title"]), "<p>%s</p>" % esc(lead_text) if lead_text else ""))
+    return head + '<div class="cards cards-3 cards-media">%s</div>' % "".join(cards)
+
+
+def render_download(sec, top, page):
+    slug = page["url"].split("/")[2]
+    m = D.MAGNET_BY_SLUG[slug]
+    kind = m["kind"].lower()
+    next_label, next_href = m["next"]
+    steps = ["Work through the %s with the people who own each decision." % kind,
+             "Mark the items you cannot answer yet. Those are the questions that control your schedule.",
+             "Bring that list to Evolve. The discussion starts from your open decisions, not from a sales deck."]
+    return ('<div class="download"><div class="download-actions">'
+            '<a class="button button-primary button-large" href="%s" download>Download the %s (PDF)</a>'
+            '<a class="button button-secondary" href="%s">Read it online</a></div>'
+            '<div class="next-steps"><p class="eyebrow">What to do next</p><ol class="steps-mini">%s</ol>'
+            '<a class="button button-primary" href="%s">%s</a>'
+            '<p class="download-micro">One Evolve engineer may send a short follow-up to ask whether the %s helped. Reply once to opt out.</p></div></div>'
+            % (m["pdf"], esc(kind), m["source"], "".join("<li>%s</li>" % esc(x) for x in steps), next_href, esc(next_label), esc(kind)))
+
+
+def next_steps_markup(page):
+    """Post-submission ladder on the generic thank-you page."""
+    if page["url"] != "/thank-you/":
+        return ""
+    picks = [D.MAGNET_BY_SLUG["site-selection-power-planning-checklist"], D.MAGNET_BY_SLUG["commissioning-checklist"]]
+    cards = "".join('<a class="card card-magnet" href="/resources/%s/"><div class="card-body"><p class="eyebrow">Free %s</p><h3>%s</h3><p>%s</p>'
+                    '<span class="card-cta">Get the %s<span class="arrow" aria-hidden="true"></span></span></div></a>'
+                    % (m["slug"], esc(m["kind"].lower()), esc(m["title"]), esc(m["promise"]), esc(m["kind"].lower())) for m in picks)
+    return ('<section class="band band-fog next-steps-band" aria-labelledby="next-steps-title"><div class="shell">'
+            '<div class="section-head"><h2 id="next-steps-title">What happens next</h2></div>'
+            '<ol class="steps-mini steps-mini-wide">'
+            '<li><strong>Routing.</strong> Your submission goes to the Plan, Design, Build, Power or Maintain team that fits the inquiry type you chose.</li>'
+            '<li><strong>Review.</strong> An Evolve engineer reads it and follows up on the next decision, not with a generic pitch.</li>'
+            '<li><strong>Emergency?</strong> If a facility is in an emergency condition right now, call <a href="tel:%s">%s</a> instead of waiting on this form.</li></ol>'
+            '<p class="eyebrow">While you wait, take a guide with you</p><div class="cards cards-2">%s</div></div></section>'
+            % (D.SITE["phone_href"], esc(D.SITE["phone_display"]), cards))
+
+
+def print_frame(page):
+    """Print-only header and footer used when an Insight is exported as a PDF lead magnet."""
+    if page["url"] not in D.INSIGHT_PATHS:
+        return "", ""
+    s = D.SITE
+    head = ('<div class="print-header" aria-hidden="true"><img src="/assets/Evolve_Logo_Full_Black_RedE.png" alt="">'
+            '<p>Prepared by Evolve Data Center Solutions &middot; %s &middot; %s &middot; evolveincorporated.com</p></div>'
+            % (esc(", ".join(s["address_lines"])), esc(s["phone_display"])))
+    foot = ('<div class="print-footer" aria-hidden="true"><p>&copy; 2026 Evolve Data Center Solutions. Data-center planning, design, construction, power, monitoring and maintenance. '
+            '2,200+ mission-critical projects &middot; 5.3+ GW deployed &middot; 20+ years &middot; zero injuries recorded since 2010. '
+            'Market facts are attributed to their sources and are not Evolve performance claims.</p></div>')
+    return head, foot
 
 
 def photo_strip(keys):
@@ -950,14 +1048,15 @@ def form_markup(page):
         '<section class="band band-fog form-band" id="form" aria-labelledby="form-title"><div class="shell form-layout">'
         '<div class="form-intro"><p class="eyebrow">%s</p><h2 id="form-title">%s</h2><p>%s</p>'
         '<p class="form-note">All fields are required unless marked optional. Do not submit passwords, access credentials or confidential technical files.</p>%s</div>'
-        '<form class="form" name="%s" method="POST" action="/thank-you/" data-netlify="true" netlify-honeypot="bot-field">'
+        '<form class="form" name="%s" method="POST" action="%s" data-netlify="true" netlify-honeypot="bot-field">'
         '<input type="hidden" name="form-name" value="%s"><input type="hidden" name="source-page" value="%s">'
         '<p class="hidden-field"><label>Leave this field empty <input name="bot-field"></label></p>'
         '<div class="form-grid">%s</div>'
         '<div class="form-actions"><button class="button button-primary" type="submit">%s</button>'
-        '<p class="form-micro">Submission begins a qualification discussion. It does not create a contract, schedule commitment, response guarantee or confidentiality agreement.</p></div>'
+        '<p class="form-micro">%s</p></div>'
         '</form></div></section>'
-        % (esc(f["eyebrow"]), esc(f["title"]), esc(f["intro"]), review_note, f["id"], f["id"], page["url"], "".join(field(x) for x in f["fields"]), esc(f["submit"]))
+        % (esc(f["eyebrow"]), esc(f["title"]), esc(f["intro"]), review_note, f["id"], f.get("action", "/thank-you/"), f["id"], page["url"], "".join(field(x) for x in f["fields"]), esc(f["submit"]),
+           esc(f.get("micro", "Submission begins a qualification discussion. It does not create a contract, schedule commitment, response guarantee or confidentiality agreement.")))
     )
 
 
@@ -973,7 +1072,7 @@ def provenance_markup(page):
 
 
 def closing_markup(page):
-    if page["id"] in D.FORM_DEFINITIONS or page["url"] in ("/thank-you/", "/sitemap/"):
+    if page["id"] in D.FORM_DEFINITIONS or page["url"] in ("/thank-you/", "/sitemap/") or (page["url"].startswith("/resources/") and page["url"].endswith("/thank-you/")):
         return ""
     heading = page.get("final_heading") or page["final_action"]
     secondary = page.get("final_secondary")
@@ -993,7 +1092,7 @@ def schema_for(page):
         ptype = "ContactPage"
     elif url == "/about/":
         ptype = "AboutPage"
-    elif url in ("/sitemap/", "/insights/", "/data-center-markets/", "/solutions/"):
+    elif url in ("/sitemap/", "/insights/", "/data-center-markets/", "/solutions/", "/resources/"):
         ptype = "CollectionPage"
     else:
         ptype = "WebPage"
@@ -1056,18 +1155,24 @@ def page_html(page, pages_by_url):
     else:
         robots = "noindex,nofollow" if url == "/thank-you/" else ("noindex,follow" if url in D.NOINDEX_PATHS else "index,follow")
     review_pill = '<div class="review-pill" role="note"><span class="dot" aria-hidden="true"></span>Review build · %s</div>' % D.BUILD_DATE if D.REVIEW_BUILD else ""
-    body_class = "page-%s" % page["id"] + (" page-insight" if url in D.INSIGHT_PATHS else "") + (" page-home" if url == "/" else "")
+    body_class = "page-%s" % page["id"] + (" page-insight" if url in D.INSIGHT_PATHS else "") + (" page-home" if url == "/" else "") + (" page-squeeze" if page["id"] in D.MAGNET_BY_ID else "")
+    print_head, print_foot = print_frame(page)
     return (
         head_markup(page, robots)
         + '<body class="%s" data-page="%s">\n' % (body_class, page["id"])
         + header_markup(url)
         + '<main id="main">'
+        + print_head
         + hero_markup(page)
         + proof_markup(page["id"])
+        + (form_markup(page) if page["id"] in D.MAGNET_BY_ID else "")
         + render_sections(page, pages_by_url)
         + provenance_markup(page)
-        + form_markup(page)
+        + (funnel_markup(page) if url in D.INSIGHT_PATHS and url in D.FUNNELS else "")
+        + (form_markup(page) if page["id"] not in D.MAGNET_BY_ID else "")
+        + next_steps_markup(page)
         + closing_markup(page)
+        + print_foot
         + "</main>"
         + footer_markup()
         + review_pill

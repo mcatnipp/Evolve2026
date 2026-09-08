@@ -81,3 +81,37 @@ Sources compared: evolveincorporated.com as served on 2026-09-08 (its statistics
 |---|---|---|---|---|
 | CHG-002 | 2026-09-08 | CLM-007 wording changed from "5,300+ MW of power deployed" to "5.3+ GW of power deployed" in `data.py`, all copy packages and the README. | Matches the current site's "5.3 GW+ Deployed"; the ledger note against GW restatement is superseded by this direction. | Marc Atnipp, FDI Creative |
 | CHG-003 | 2026-09-08 | Leadership headshot grid reduced to six across on desktop (four on tablet), with the 400 px derivative served on high-density screens. | Larger tiles upscaled low-resolution source photos and looked soft. | Marc Atnipp, FDI Creative |
+
+## Direct-response round (September 8, 2026, afternoon)
+
+Directed by Marc Atnipp: emergency contact in the header and footer; market research per service line with blind spots; copy developed in a Dan Kennedy direct-response style within the approved facts; Russell Brunson lead-generation funnels; headline effectiveness testing. Everything is documented here and in the linked files.
+
+### Emergency contact
+
+- Utility bar: "24/7 emergency service: 832-375-0099" and support@evolveincorporated.com. Footer: emergency block with the phone, support email, the existing-customer support portal (support.evolveincorporated.com) and the online service request. Values come from the current site's footer and service pages; the second number on the current site, (832) 375-0097, is a fax line (icon on the current site) and was not added.
+- Reconfirm with Evolve that the line is staffed around the clock; if not, the label drops "24/7". The ledger's rule against response guarantees is respected: no response time is promised anywhere.
+
+### Copy (Dan Kennedy style, fact-bound)
+
+- Rules: `docs/copy-voice-guide.md`. The only facts allowed are CLM-001 to CLM-014 and CLM-039.
+- Headline layer (H1, hero intro, calls to action, final call to action) on all pages: `scripts/apply-headlines.py`. Body sections rewritten page by page in the copy packages and validated by `scripts/validate-copy.py` (blocked claims, banned words, promise language, new numbers, structure) plus the build gate.
+- Page-by-page record: `docs/copy-system-2026-09-08.md`.
+
+### Funnels (Russell Brunson lead generation)
+
+- Five PDF guides exported from the approved Insights (`scripts/make-pdfs.sh`), each with a squeeze page under `/resources/`, a thank-you page with the download and the next-step application, and mid-page offer bands on the matching service pages. The project brief now qualifies on facility type, capacity, stage, site status and timeline. The generic thank-you page carries a "what happens next" ladder.
+- Map, forms, follow-up email sequences and metrics: `docs/funnels-2026-09-08.md`.
+- Nine Netlify forms in total; notifications route to marc@fdicreative.com for review.
+
+### Headline test
+
+- Every page's H1 has three variants (control plus two challengers, `docs/headline-variants.json`). Each was scored by a heuristic model and by a blind three-persona buyer panel (developer, facilities director, owner's engineer). Winners were applied; runners-up are the first live split test once analytics exist. Report: `docs/headline-test-2026-09-08.md`.
+
+### Market research and blind spots
+
+- Five reports in `docs/research/` (design-build, modular/edge/AI, power generation, service and maintenance, markets and buyers), each with dated sources and actions labeled "site change now", "needs Evolve fact or approval" or "new offer". Consolidated discussion list: `docs/market-blind-spots-2026-09-08.md`.
+
+### Also found during this round
+
+- Canonical domain: the current site serves from the apex domain; `www.evolveincorporated.com` does not respond over HTTPS. The build's canonical base URL is now `https://evolveincorporated.com`.
+- Around 1 PM Central on 2026-09-08 the current site stopped answering over HTTPS from this machine ("tlsv1 alert protocol version") and returned HTTP 406 over plain HTTP. It had served normally earlier in the day. Evolve's host should check the certificate and TLS configuration.

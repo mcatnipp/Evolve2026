@@ -11,9 +11,15 @@ BUILD_DATE = "2026-09-08"
 SITE = {
     "name": "Evolve Data Center Solutions",
     "short_name": "Evolve",
-    "base_url": "https://www.evolveincorporated.com",
+    "base_url": "https://evolveincorporated.com",
     "phone_display": "832-375-0099",
     "phone_href": "+18323750099",
+    # Emergency and support contact, as published on evolveincorporated.com (footer "Get In Touch" and
+    # service pages: "24/7 Emergency Service"). Reconfirm with Evolve before launch (ISSUE-104).
+    "emergency_label": "24/7 emergency service",
+    "support_email": "support@evolveincorporated.com",
+    "sales_email": "sales@evolveincorporated.com",
+    "support_portal": "https://support.evolveincorporated.com/",
     "address_lines": ["10555 Cossey Road", "Houston, Texas 77070"],
     "description": "Evolve specializes in data centers and connects Plan, Design, Build, Power and Maintain for owners, developers and operators nationwide.",
     "tagline": "Plan. Design. Build. Power. Maintain.",
@@ -141,7 +147,8 @@ NAVIGATION = [
                 ["Contact", "/contact/"],
                 ["Existing-Customer Support", "/support/"],
             ]},
-            {"label": "Insights", "links": [
+            {"label": "Insights & Guides", "links": [
+                ["Free Guides & Checklists", "/resources/"],
                 ["All Insights", "/insights/"],
                 ["Site Selection & Power Planning", "/insights/data-center-site-selection-power-planning/"],
                 ["Modular vs. Traditional Delivery", "/insights/modular-vs-traditional-data-center-delivery/"],
@@ -189,6 +196,7 @@ FOOTER_GROUPS = [
         ["About Evolve", "/about/"],
         ["Leadership", "/about/leadership/"],
         ["Insights", "/insights/"],
+        ["Free Guides & Checklists", "/resources/"],
         ["Contact", "/contact/"],
         ["Start a Project", "/start-a-project/"],
         ["Website Sitemap", "/sitemap/"],
@@ -232,6 +240,17 @@ LABEL_BY_PATH = {
     "/insights/responsible-data-center-development/": "Responsible Development",
     "/about/": "About Evolve",
     "/about/leadership/": "Leadership",
+    "/resources/": "Free Guides",
+    "/resources/site-selection-power-planning-checklist/": "Site Selection & Power Planning Checklist",
+    "/resources/site-selection-power-planning-checklist/thank-you/": "Your Checklist",
+    "/resources/modular-vs-traditional-delivery-guide/": "Modular vs. Traditional Delivery Guide",
+    "/resources/modular-vs-traditional-delivery-guide/thank-you/": "Your Guide",
+    "/resources/ai-data-center-planning-brief/": "AI Data Center Planning Brief",
+    "/resources/ai-data-center-planning-brief/thank-you/": "Your Brief",
+    "/resources/commissioning-checklist/": "Commissioning Checklist",
+    "/resources/commissioning-checklist/thank-you/": "Your Checklist",
+    "/resources/preventive-maintenance-program-guide/": "Preventive Maintenance Program Guide",
+    "/resources/preventive-maintenance-program-guide/thank-you/": "Your Guide",
     "/contact/": "Contact",
     "/support/": "Support",
     "/start-a-project/": "Start a Project",
@@ -307,7 +326,11 @@ FORM_DEFINITIONS = {
             {"type": "email", "id": "email", "label": "Work email", "required": True, "autocomplete": "email"},
             {"type": "tel", "id": "phone", "label": "Phone", "required": True, "autocomplete": "tel"},
             {"type": "select", "id": "interest", "label": "Primary interest", "required": True, "options": ["Design & Build", "Modular Data Centers", "Hyperscale Data Centers", "AI Data Centers", "Power Generation", "Service & Maintenance", "Other"]},
+            {"type": "select", "id": "facility", "label": "What is this for?", "required": True, "options": ["New data center on a new site", "Expansion, retrofit or upgrade of an operating facility", "Modular or edge deployment", "Power generation or backup power", "Maintenance or monitoring program", "Not sure yet"]},
+            {"type": "select", "id": "capacity", "label": "Target capacity", "required": True, "options": ["Under 1 MW", "1 to 5 MW", "5 to 20 MW", "20 to 100 MW", "100 MW or more", "Not defined yet"]},
             {"type": "select", "id": "stage", "label": "Project stage", "required": True, "options": ["Concept", "Planning", "Design", "Procurement", "Construction", "Commissioning", "Operating facility"]},
+            {"type": "select", "id": "site", "label": "Site status", "required": True, "options": ["Site secured", "Evaluating sites", "Existing facility", "Not applicable"]},
+            {"type": "select", "id": "timeline", "label": "When do you need capacity?", "required": True, "options": ["Within 6 months", "6 to 12 months", "12 to 24 months", "Beyond 24 months", "Not defined yet"]},
             {"type": "text", "id": "region", "label": "State or region", "required": True, "autocomplete": "address-level1"},
             {"type": "textarea", "id": "summary", "label": "Project summary and immediate constraint", "required": True, "wide": True},
         ],
@@ -371,7 +394,12 @@ INSIGHT_TOPICS = {
     "/insights/data-center-monitoring-vs-dcim/": "Commissioning & Operations",
 }
 
-NOINDEX_PATHS = {"/start-a-project/", "/request-service/", "/thank-you/"}
+NOINDEX_PATHS = {"/start-a-project/", "/request-service/", "/thank-you/",
+                 "/resources/site-selection-power-planning-checklist/thank-you/",
+                 "/resources/modular-vs-traditional-delivery-guide/thank-you/",
+                 "/resources/ai-data-center-planning-brief/thank-you/",
+                 "/resources/commissioning-checklist/thank-you/",
+                 "/resources/preventive-maintenance-program-guide/thank-you/"}
 
 # Legacy and draft routes -> canonical destinations (one-hop 301 at the host).
 REDIRECTS = {
@@ -485,6 +513,12 @@ PAGE_MEDIA = {
     "/insights/responsible-data-center-development/": {"hero": "river-landscape-site-development", "support": "texas-hill-country-site-landscape"},
     "/about/": {"hero": "evolve-groundbreaking-ceremony-team", "support": "yard", "strip": ["shop", "crane-lift", "frame", "module-entry"]},
     "/about/leadership/": {"hero": "evolve-groundbreaking-ceremony-team", "support": "shop"},
+    "/resources/": {"hero": "project-team-reviewing-plans"},
+    "/resources/site-selection-power-planning-checklist/": {"hero": "texas-hill-country-site-landscape"},
+    "/resources/modular-vs-traditional-delivery-guide/": {"hero": "shop"},
+    "/resources/ai-data-center-planning-brief/": {"hero": "server-room-corridor-racks"},
+    "/resources/commissioning-checklist/": {"hero": "data-hall-monitoring-desk-commissioning"},
+    "/resources/preventive-maintenance-program-guide/": {"hero": "technician-radio-control-panel"},
     "/contact/": {"hero": "technicians-laptop-server-room"},
     "/support/": {"hero": "technician-control-room-hard-hat"},
     "/start-a-project/": {"hero": "construction-team-reviewing-plans-hard-hats"},
@@ -573,3 +607,127 @@ for _person in LEADERSHIP:
             "file": "team/" + _person["slug"], "widths": [800, 400], "w": 800, "h": 1000,
             "alt": "%s, %s, Evolve Data Center Solutions" % (_person["name"], _person["title"]),
         }
+
+
+# ---------------------------------------------------------------------------
+# Lead-generation funnels (directed 2026-09-08). Each lead magnet is a PDF export of a
+# governed Insight, gated by a short form on a squeeze page, delivered on a thank-you
+# page whose next step is the project-brief application. FUNNELS maps service pages to
+# the guide offered in their mid-page band.
+# ---------------------------------------------------------------------------
+LEAD_MAGNETS = [
+    {"slug": "site-selection-power-planning-checklist", "id": "1010",
+     "title": "Data Center Site Selection & Power Planning Checklist",
+     "short": "Site Selection & Power Planning Checklist", "kind": "Checklist",
+     "source": "/insights/data-center-site-selection-power-planning/",
+     "pdf": "/downloads/evolve-site-selection-power-planning-checklist.pdf",
+     "form": "guide-site-selection-power-planning", "submit": "Send Me the Checklist",
+     "next": ("Request a Planning Discussion", "/start-a-project/?interest=planning-feasibility"),
+     "promise": "The questions to settle before you sign for the land or the power.",
+     "bullets": ["The utility, permitting and site questions that decide whether a site ever energizes",
+                 "How to separate what is known from what is assumed before design starts",
+                 "The decision list to carry into your first planning session"],
+     "image": "texas-hill-country-site-landscape"},
+    {"slug": "modular-vs-traditional-delivery-guide", "id": "1020",
+     "title": "Modular vs. Traditional Data Center Delivery Guide",
+     "short": "Modular vs. Traditional Delivery Guide", "kind": "Guide",
+     "source": "/insights/modular-vs-traditional-data-center-delivery/",
+     "pdf": "/downloads/evolve-modular-vs-traditional-delivery-guide.pdf",
+     "form": "guide-modular-vs-traditional", "submit": "Send Me the Guide",
+     "next": ("Discuss a Modular Project", "/start-a-project/?interest=modular-data-centers"),
+     "promise": "Compare the interfaces, not the labels, before you choose a delivery model.",
+     "bullets": ["Which work belongs in a fabrication shop and which belongs on the site",
+                 "The interface questions that decide whether modular saves time or creates rework",
+                 "How to evaluate a modular proposal against a site-built one on equal terms"],
+     "image": "shop"},
+    {"slug": "ai-data-center-planning-brief", "id": "1030",
+     "title": "AI Data Center Infrastructure Planning Brief",
+     "short": "AI Data Center Planning Brief", "kind": "Brief",
+     "source": "/insights/ai-data-center-infrastructure-planning/",
+     "pdf": "/downloads/evolve-ai-data-center-planning-brief.pdf",
+     "form": "guide-ai-data-center-planning", "submit": "Send Me the Brief",
+     "next": ("Discuss an AI Data Center", "/start-a-project/?interest=ai-data-centers"),
+     "promise": "What has to be settled about power, cooling and the building before the GPU order.",
+     "bullets": ["The compute assumptions that drive every downstream facility decision",
+                 "Power, thermal, structural and commissioning questions to resolve in sequence",
+                 "How to keep the facility built to the workload instead of to a template"],
+     "image": "server-room-corridor-racks"},
+    {"slug": "commissioning-checklist", "id": "1040",
+     "title": "Data Center Commissioning Checklist",
+     "short": "Commissioning Checklist", "kind": "Checklist",
+     "source": "/insights/data-center-commissioning-checklist/",
+     "pdf": "/downloads/evolve-data-center-commissioning-checklist.pdf",
+     "form": "guide-commissioning-checklist", "submit": "Send Me the Checklist",
+     "next": ("Discuss Commissioning Scope", "/start-a-project/?interest=commissioning"),
+     "promise": "The questions to settle before final testing, so acceptance means readiness.",
+     "bullets": ["What has to be proven, by whom, before you accept the facility",
+                 "System boundaries, responsibilities and evidence to define ahead of testing",
+                 "How turnover connects to the operating team on day one"],
+     "image": "data-hall-monitoring-desk-commissioning"},
+    {"slug": "preventive-maintenance-program-guide", "id": "1050",
+     "title": "Data Center Preventive Maintenance Program Guide",
+     "short": "Preventive Maintenance Program Guide", "kind": "Guide",
+     "source": "/insights/data-center-preventive-maintenance/",
+     "pdf": "/downloads/evolve-preventive-maintenance-program-guide.pdf",
+     "form": "guide-preventive-maintenance", "submit": "Send Me the Guide",
+     "next": ("Request a Maintenance Discussion", "/request-service/"),
+     "promise": "Build a program that produces decisions, not a task list that only proves a visit happened.",
+     "bullets": ["What each maintenance visit should establish and record",
+                 "How to tie the program to the equipment you actually run",
+                 "The reporting that turns findings into budget and replacement decisions"],
+     "image": "technician-radio-control-panel"},
+]
+MAGNET_BY_SLUG = {m["slug"]: m for m in LEAD_MAGNETS}
+MAGNET_BY_ID = {m["id"]: m for m in LEAD_MAGNETS}
+
+# Service page -> lead magnet offered in the mid-page funnel band.
+FUNNELS = {
+    "/": "site-selection-power-planning-checklist",
+    "/design-build/": "site-selection-power-planning-checklist",
+    "/design-build/planning-feasibility/": "site-selection-power-planning-checklist",
+    "/design-build/hyperscale-data-centers/": "site-selection-power-planning-checklist",
+    "/solutions/greenfield-new-builds/": "site-selection-power-planning-checklist",
+    "/data-center-markets/": "site-selection-power-planning-checklist",
+    "/power-generation/": "site-selection-power-planning-checklist",
+    "/design-build/modular-data-centers/": "modular-vs-traditional-delivery-guide",
+    "/solutions/modular-data-centers/": "modular-vs-traditional-delivery-guide",
+    "/solutions/edge-data-centers/": "modular-vs-traditional-delivery-guide",
+    "/design-build/ai-data-centers/": "ai-data-center-planning-brief",
+    "/solutions/ai-hpc-data-centers/": "ai-data-center-planning-brief",
+    "/design-build/design-engineering/": "ai-data-center-planning-brief",
+    "/design-build/preconstruction-procurement/": "commissioning-checklist",
+    "/design-build/data-center-construction/": "commissioning-checklist",
+    "/design-build/commissioning-turnover/": "commissioning-checklist",
+    "/design-build/expansions-retrofits/": "commissioning-checklist",
+    "/solutions/brownfield-retrofit/": "commissioning-checklist",
+    "/solutions/colocation-data-centers/": "commissioning-checklist",
+    "/data-center-markets/colocation/": "commissioning-checklist",
+    "/data-center-markets/enterprise/": "commissioning-checklist",
+    "/maintenance/": "preventive-maintenance-program-guide",
+    "/maintenance/preventive-maintenance/": "preventive-maintenance-program-guide",
+    "/power-generation/backup-power-systems/": "preventive-maintenance-program-guide",
+    "/support/": "preventive-maintenance-program-guide",
+}
+for _m in LEAD_MAGNETS:
+    FUNNELS[_m["source"]] = _m["slug"]
+FUNNELS["/insights/hyperscale-campus-phasing/"] = "site-selection-power-planning-checklist"
+FUNNELS["/insights/responsible-data-center-development/"] = "site-selection-power-planning-checklist"
+FUNNELS["/insights/data-center-monitoring-vs-dcim/"] = "preventive-maintenance-program-guide"
+
+for _m in LEAD_MAGNETS:
+    CARD_IMAGES["/resources/%s/" % _m["slug"]] = _m["image"]
+    FORM_DEFINITIONS[_m["id"]] = {
+        "id": _m["form"],
+        "eyebrow": "Free %s" % _m["kind"].lower(),
+        "title": "Where should we send the %s?" % _m["kind"].lower(),
+        "intro": "Enter your work email and the %s is on the next page as a PDF. No drip campaign, no hard sell: one follow-up from an Evolve engineer to ask whether it helped." % _m["kind"].lower(),
+        "submit": _m["submit"],
+        "action": "/resources/%s/thank-you/" % _m["slug"],
+        "micro": "You will receive the %s and, at most, one short follow-up. Reply once to opt out." % _m["kind"].lower(),
+        "fields": [
+            {"type": "text", "id": "name", "label": "Name", "required": True, "autocomplete": "name"},
+            {"type": "email", "id": "email", "label": "Work email", "required": True, "autocomplete": "email"},
+            {"type": "text", "id": "company", "label": "Company", "required": True, "autocomplete": "organization"},
+            {"type": "select", "id": "role", "label": "Your role", "required": True, "options": ["Owner or developer", "Operator or facilities", "Engineer or consultant", "Contractor or partner", "Other"]},
+        ],
+    }

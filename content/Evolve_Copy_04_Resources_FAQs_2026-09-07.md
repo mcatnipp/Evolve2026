@@ -22,50 +22,50 @@
 
 ## Publishable article
 
-# Data Center Site Selection and Power Planning: Build the Decision Basis First
+# Data Center Site Selection and Power Planning: The Questions That Decide Whether the Site Ever Energizes
 
 Power may be the first major constraint in a data-center site decision, but it is not the only one. A credible site evaluation connects electrical availability and timing with land, permitting, water, fiber, construction access, community considerations, phasing and the operating requirement.
 
 JLL's 2026 Global Data Center Outlook describes power as the primary site-selection criterion. CBRE's North America Data Center Trends report also emphasizes power availability and infrastructure delivery. These are market conditions, not evidence that every site with a power path is viable.
 
-## Start with the facility requirement
+## Define what you are building before you compare sites
 
-Before comparing sites, define what the program is trying to place into operation.
+Write down what the program has to place into operation.
 
-- What workload and initial capacity are being planned?
-- How may capacity change by phase?
-- What availability and resilience requirements apply?
-- When must decisions—not just operations—occur?
-- Which assumptions are approved, and which remain provisional?
+- Fix the workload and initial capacity.
+- State how capacity changes by phase.
+- Set the availability and resilience requirement.
+- Date the decisions, not just the operating milestones.
+- Separate approved assumptions from provisional ones.
 
-Without that basis, teams can compare sites against moving criteria.
+Skip this and every site is scored against moving criteria.
 
-## Separate power availability from a complete power plan
+## “Power is available” is a question, not an answer
 
-A statement that power is “available” does not answer every project question. The team should document the source, amount, timing, conditions, infrastructure work, approvals, interfaces and owner of each required action.
+“Available” power answers almost nothing. Document the source, amount, timing, conditions, infrastructure work, approvals, interfaces and owner of each required action.
 
-The power plan also needs to connect to facility design, equipment, construction, commissioning and maintenance. A decision that works on a planning spreadsheet may still create physical, operational or schedule dependencies elsewhere.
+Then connect the plan to facility design, equipment, construction, commissioning and maintenance. A number that works on the spreadsheet can still create a physical, operational or schedule dependency elsewhere. Until each item has an owner, it is an assumption.
 
-## Evaluate the whole site system
+## Screen for what can stop the project
 
-The site screen should identify which subjects can stop or materially change the project:
+One job: find what can stop or materially change the project.
 
-1. Power availability, timing and infrastructure dependencies.
-2. Land, access, grading and construction logistics.
-3. Permitting, entitlement and jurisdictional requirements.
-4. Water and thermal-system implications.
-5. Fiber and network requirements.
-6. Environmental and community considerations, including noise and visible infrastructure.
-7. Capacity phasing and future expansion.
-8. Commissioning, operations and long-term serviceability.
+1. When power arrives, and what it depends on.
+2. Whether land, access, grading and logistics support the build.
+3. Permitting and entitlement requirements, with timing.
+4. Water availability and its thermal implications.
+5. Whether fiber and network meet the requirement.
+6. Environmental and community exposure, including noise and visible infrastructure.
+7. How capacity phases and where expansion goes.
+8. Whether the site can be commissioned, operated and serviced.
 
-The responsible discipline and evidence required for each decision should be explicit. Do not assume one provider owns every item.
+Name the responsible discipline and evidence for each. Do not assume one provider owns every item.
 
-## Use decision gates—not a single final score
+## A weighted score can hide the constraint that kills the site
 
-A weighted score can help compare options, but it should not hide a fatal constraint. Establish gates for evidence that must exist before the program advances: confirmed requirements, credible power assumptions, jurisdictional review, site-control terms, infrastructure responsibilities and an approved next-phase basis.
+A weighted score helps compare options. It also averages away a fatal constraint. Gate the program on evidence that must exist before it advances: confirmed requirements, credible power assumptions, jurisdictional review, site-control terms, infrastructure responsibilities and an approved next-phase basis.
 
-Record who made each decision, what evidence was used and what remains open. That record becomes part of the handoff into design and preconstruction.
+Record who decided, on what evidence, and what stays open. That record is the handoff into design and preconstruction.
 
 ## Where Evolve fits
 
@@ -78,15 +78,15 @@ Evolve supports planning as part of the Plan, Design, Build, Power and Maintain 
 
 ### What is the first question in data-center site selection?
 
-Define the facility and capacity requirement, then determine whether a credible power path and the wider site conditions can support it.
+Define the facility and capacity requirement first, then test whether a credible power path and the site conditions can support it.
 
 ### Is power availability enough to qualify a site?
 
-No. Timing, conditions, infrastructure work, approvals, land, water, fiber, logistics, community factors, phasing and operating needs also affect viability.
+No. Timing, conditions, infrastructure work, approvals, land, water, fiber, logistics, community factors, phasing and operating needs also decide viability.
 
 ### What should a site-selection decision record contain?
 
-It should identify the requirement, evidence, assumptions, constraints, responsibilities, open questions and the decision gate for moving forward.
+The requirement, evidence, assumptions, constraints, responsibilities, open questions and the decision gate for moving forward.
 
 ## Final CTA
 
@@ -95,7 +95,7 @@ It should identify the requirement, evidence, assumptions, constraints, responsi
 ## Metadata recommendation
 
 **Title:** Data Center Site Selection & Power Planning Guide | Evolve  
-**Meta description:** Evaluate data-center power, site, infrastructure, approvals, phasing and operating dependencies through a clear decision-gate process.  
+**Meta description:** Screen a data-center site for the power, land, permitting, water and fiber constraints that can stop the project, then gate the decision on evidence.  
 
 ## Schema recommendation
 
@@ -122,17 +122,17 @@ It should identify the requirement, evidence, assumptions, constraints, responsi
 
 ## Publishable article
 
-# Modular vs. Traditional Data Center Delivery: Compare the Interfaces, Not the Labels
+# Modular vs. Traditional Data Center Delivery: Which Work Belongs in a Shop and Which Belongs on Site
 
 The useful question is not whether modular delivery is always better than site-built construction. It is which work should happen in a fabrication environment, which work should remain at the site and how the two will be designed, delivered, connected, commissioned and maintained as one system.
 
-## Define both approaches clearly
+## Know what “modular” means on your project
 
-In a modular approach, selected assemblies or systems are fabricated away from the final site, transported, set and connected to site-built infrastructure. In a traditional site-built approach, more of the installation occurs at the project location.
+In a modular approach, selected assemblies or systems are fabricated away from the site, transported, set and connected to site-built infrastructure. In a site-built approach, more of the installation happens at the project location.
 
-Most real programs are not purely one or the other. They combine off-site and site work in proportions defined by the technical requirements and delivery plan.
+Most programs mix off-site and site work in proportions set by the technical requirements and the delivery plan.
 
-## Compare the decisions that change
+## What changes when the work moves off-site
 
 | Decision | Modular emphasis | Site-built emphasis |
 |---|---|---|
@@ -144,25 +144,25 @@ Most real programs are not purely one or the other. They combine off-site and si
 | Commissioning | Factory work cannot replace final integrated site acceptance | Testing occurs mainly after site installation |
 | Expansion | Future module and infrastructure interfaces need definition | Future field expansion conditions need definition |
 
-This comparison describes planning considerations—not guaranteed schedule, cost or quality outcomes.
+This lists decisions, not a promised schedule, cost or quality outcome.
 
-## When modular deserves serious evaluation
+## When modular earns a serious look
 
-Modular delivery may be appropriate when the project can define repeatable or bounded assemblies, the design can mature at the required time, transportation and setting are practical, and the site can be prepared to receive the work.
+Modular earns serious evaluation when the project can define repeatable or bounded assemblies, the design can mature by the fabrication date, transport and setting are practical, and the site can be ready for the work.
 
-It may be a poor fit when critical requirements remain fluid, the logistics cannot support the assemblies, site interfaces are more complex than the factory scope, or the acceptance plan is not clear.
+It is a poor fit when critical requirements are still moving, the logistics cannot carry the assemblies, site interfaces are more complex than the factory scope, or nobody has written the acceptance plan.
 
-## Do not move the risk out of sight
+## Off-site fabrication moves work, not risk
 
-Off-site fabrication changes where work happens. It does not eliminate design coordination, procurement, construction, commissioning or maintenance. Teams should pay particular attention to:
+Off-site fabrication changes where work happens, not what must be coordinated, procured, built, commissioned and maintained. Settle these before release to fabrication:
 
-- The freeze point for module design.
-- Who owns each factory and site interface.
-- How substitutions and changes are controlled.
-- What is verified before shipping and after connection.
-- How site readiness is measured.
-- What documentation follows the module.
-- How operating teams access and service the installed system.
+- Fix the design freeze point.
+- Name the owner of each factory-to-site interface.
+- Control substitutions and changes after fabrication starts.
+- Define what is verified before shipping and after connection.
+- Define who measures site readiness, and how.
+- List the documentation that travels with the module.
+- Confirm operators can reach and service the system.
 
 ## Where Evolve fits
 
@@ -174,15 +174,15 @@ Evolve provides self-performed modular fabrication. Modular systems can be facto
 
 ### Is modular delivery always faster?
 
-No. It can allow factory and site work to overlap, but design maturity, procurement, transport, site readiness, connections and commissioning still control the program.
+No. Factory and site work can overlap, but design maturity, procurement, transport, site readiness, connections and commissioning still control the program.
 
 ### Does factory testing replace site commissioning?
 
-No. Factory verification can provide useful evidence, but the complete installed system still needs acceptance against the approved project requirements.
+No. Factory verification is useful evidence, but the complete installed system still has to be accepted against the approved project requirements.
 
 ### What should an owner decide first?
 
-Define the system boundaries, interfaces, logistics, design-freeze timing, site work and acceptance process before comparing delivery outcomes.
+The system boundaries, interfaces, logistics, design-freeze date, site work and acceptance process. Compare delivery outcomes after those are fixed.
 
 ## Final CTA
 
@@ -191,7 +191,7 @@ Define the system boundaries, interfaces, logistics, design-freeze timing, site 
 ## Metadata recommendation
 
 **Title:** Modular vs. Traditional Data Center Delivery | Evolve  
-**Meta description:** Compare modular and site-built data-center delivery by design timing, logistics, interfaces, commissioning and maintenance.  
+**Meta description:** Compare modular and site-built data-center delivery by design freeze, logistics, factory-to-site interfaces and commissioning before you choose.  
 
 ## Schema recommendation
 
@@ -217,52 +217,50 @@ Define the system boundaries, interfaces, logistics, design-freeze timing, site 
 
 ## Publishable article
 
-# AI Data Center Infrastructure Planning: Start With a Whole-System Basis
+# AI Data Center Infrastructure Planning: What to Settle Before the GPU Order
 
 AI infrastructure planning should begin with an approved set of compute and deployment assumptions, then follow those requirements through power, thermal systems, structure, space, controls, commissioning, operations and future change.
 
 JLL, Uptime Institute and the ASHRAE/PNNL/NEMA AI Data Center Energy Performance Framework all connect AI infrastructure to multiple facility systems. The lesson is practical: treating AI as a cooling-only or rack-only problem leaves major dependencies unresolved.
 
-## Define what is known about the workload
+## Write down what you know, and who owns the gaps
 
-The team should record:
+Record:
 
-- The compute platform and configuration being evaluated.
-- The initial load basis and expected deployment sequence.
+- The compute platform and configuration under evaluation.
+- The initial load basis and deployment sequence.
 - Which values are vendor requirements, owner requirements or planning assumptions.
-- How much change the design must accommodate.
-- What availability, redundancy and operating requirements apply.
-- What data is missing and who owns it.
+- How much change the design must absorb.
+- The availability, redundancy and operating requirements.
+- What is missing, and who is getting it.
 
-Do not allow a provisional planning value to become an implied facility guarantee.
+Do not let a provisional value harden into a facility commitment.
 
-## Coordinate power and thermal decisions
+## Decide power and cooling together
 
-Electrical and thermal requirements affect one another. Load assumptions influence distribution, generation, space and controls. Thermal choices affect power use, water considerations, equipment arrangement, structure, maintenance and commissioning.
+Electrical and thermal requirements move each other. Load assumptions drive distribution, generation, space and controls. Thermal choices change power use, water, equipment arrangement, structure, maintenance and commissioning.
 
-The right strategy depends on the actual equipment and operating basis. No single cooling architecture or rack density applies to every AI program.
+The right strategy depends on the actual equipment and operating basis. No single cooling architecture or rack density fits every AI program.
 
-## Examine the physical and operating interfaces
+## Capacity totals are not a design
 
-AI planning should address more than capacity totals:
+Settle these in the design basis, under change control:
 
-1. Equipment dimensions, weights, access and replacement paths.
-2. Electrical and thermal connection points.
-3. Controls, alarms and data ownership.
-4. Installation and commissioning sequence.
-5. Maintenance access and isolation needs.
-6. Expansion or technology-change assumptions.
-7. The boundary between facility systems and compute equipment.
+1. Confirm equipment dimensions, weights, access routes and replacement paths.
+2. Fix the electrical and thermal connection points.
+3. Assign ownership of controls, alarms and data.
+4. Sequence installation and commissioning.
+5. Reserve maintenance access and isolation points.
+6. State the expansion and technology-change assumptions.
+7. Draw the boundary between facility systems and compute equipment.
 
-These interfaces belong in the design basis and change-control process.
+## Decide what “ready” means before anyone writes a test script
 
-## Plan commissioning around the operating requirement
+Commissioning criteria trace back to the approved basis. Know which evidence demonstrates readiness, which systems must perform together, what prerequisites apply and how issues are closed before acceptance.
 
-Commissioning criteria should trace back to the approved basis. The team needs to know what evidence demonstrates readiness, which systems must perform together, what prerequisites apply and how issues are closed before acceptance.
+## Design for the people who will maintain it
 
-## Consider maintainability before turnover
-
-The operating team needs access, documentation, system ownership and a clear route for alarms, findings and change. Decisions made during design can either support or complicate that work.
+The operating team needs access, documentation, system ownership and a clear route for alarms, findings and change. Design decisions either support or complicate that work.
 
 ## Where Evolve fits
 
@@ -275,15 +273,15 @@ AI Data Centers are part of Evolve's approved Design & Build practice. Evolve su
 
 ### What should be confirmed first for an AI data center?
 
-Confirm the compute and deployment assumptions, their source, their approval state and how they translate into facility requirements.
+The compute and deployment assumptions: their source, approval state and translation into facility requirements.
 
 ### Is AI infrastructure mainly a cooling problem?
 
-No. It is a whole-system problem involving electrical, thermal, structural, spatial, controls, commissioning and operating decisions.
+No. It is a whole-system problem: electrical, thermal, structural, spatial, controls, commissioning and operating decisions move together.
 
 ### How should teams handle changing technology?
 
-Record assumptions, define acceptable ranges where supported, preserve clear interfaces and evaluate changes against the approved system basis.
+Record assumptions, define acceptable ranges where evidence supports them, keep interfaces clean and evaluate every change against the approved system basis.
 
 ## Final CTA
 
@@ -292,7 +290,7 @@ Record assumptions, define acceptable ranges where supported, preserve clear int
 ## Metadata recommendation
 
 **Title:** AI Data Center Infrastructure Planning Guide | Evolve  
-**Meta description:** Plan AI data-center power, thermal, structural, controls, commissioning and operating requirements from one approved system basis.  
+**Meta description:** Plan an AI data center as one system: compute assumptions, power, cooling, structure, controls and commissioning, settled before design starts.  
 
 ## Schema recommendation
 
@@ -319,51 +317,49 @@ Record assumptions, define acceptable ranges where supported, preserve clear int
 
 ## Publishable article
 
-# Hyperscale Campus Phasing: Protect the First Delivery Without Closing Off the Next
+# Hyperscale Campus Phasing: How to Deliver Phase One Without Sabotaging Phase Four
 
 A phase plan must do two jobs at once. It must define the infrastructure and facility scope required for the first operating capacity, and it must preserve a credible path for later phases.
 
 Market reports from JLL and CBRE describe intense demand for large power blocks and heavily committed construction pipelines. Those conditions reinforce the need for disciplined phasing, but they do not establish any specific project schedule or Evolve delivery advantage.
 
-## Define capacity by decision, not only by date
+## A date is not a phase
 
-Each phase should have an explicit basis:
+Define each phase by its decisions:
 
-- Capacity and load requirement.
-- Required operating date and the decision dates that precede it.
-- Power source and infrastructure dependencies.
-- Building, site and common-infrastructure scope.
-- Equipment and procurement assumptions.
-- Commissioning and turnover boundary.
-- Interfaces reserved for future phases.
+- Fix capacity and load.
+- Set the operating date and the decision dates before it.
+- Name the power source and its dependencies.
+- Define building, site and common-infrastructure scope.
+- State equipment and procurement assumptions.
+- Draw the commissioning and turnover boundary.
+- Reserve interfaces for the next phase.
 
-A date without those conditions is not a complete phase definition.
+## Decide what phase one builds for the phases after it
 
-## Identify shared infrastructure
+Common infrastructure gives leverage and creates dependency. Decide what is built for the first phase, what is sized or reserved for later phases and what must stay independent.
 
-Common infrastructure can create both leverage and dependency. Teams should decide what is built for the first phase, what is sized or reserved for future phases and what must remain independent.
+Weigh constructability, operations, maintenance, commissioning and the consequences of later work next to active capacity.
 
-The decision should consider constructability, operations, maintenance, commissioning and the consequences of performing later work next to active capacity.
+## Plan the campus you will actually operate between phases
 
-## Track temporary and permanent states
-
-A campus may pass through several operating conditions as phases are added. For each state, document:
+A campus passes through several operating conditions as phases are added. For each, document:
 
 1. Which systems are active.
-2. Which temporary interfaces exist.
-3. What work remains nearby.
+2. Which temporary interfaces exist, and their owners.
+3. What construction remains nearby.
 4. How access and operating boundaries are controlled.
-5. What must be recommissioned or revalidated after change.
+5. What must be recommissioned or revalidated afterward.
 
-This prevents the future-state diagram from obscuring the real condition between phases.
+Otherwise the future-state diagram hides the real condition.
 
-## Align procurement with phase logic
+## Buy for the phase you have evidence for
 
-Procurement decisions should reflect the approved phase basis, equipment dependencies and change risk. Buying for a future assumption can strand capital; buying too narrowly can create redesign or replacement later. The correct balance depends on project evidence, not a universal rule.
+Procurement follows the approved phase basis, equipment dependencies and change risk. Buying for a future assumption strands capital. Buying too narrowly forces redesign or replacement later. The right balance comes from project evidence, not a universal rule.
 
-## Carry commissioning and operations into the phase plan
+## Each phase needs its own definition of “ready”
 
-Each operating phase needs defined readiness criteria, turnover information and operating ownership. Future construction should also be evaluated against the facility already in service.
+Every operating phase needs readiness criteria, turnover information and operating ownership. Evaluate future construction against the facility already in service, not an empty site.
 
 ## Where Evolve fits
 
@@ -380,11 +376,11 @@ Capacity, load, power, common infrastructure, facility scope, procurement assump
 
 ### Should common infrastructure be built for every future phase immediately?
 
-Not by default. The decision should compare current evidence, capital exposure, future flexibility, construction impacts and operating risk.
+Not by default. Compare current evidence, capital exposure, future flexibility, construction impacts and operating risk before committing.
 
 ### Why plan intermediate operating states?
 
-Because the campus may operate while later phases are being built. Temporary interfaces, access, commissioning and change responsibilities need explicit control.
+Because the campus may be operating while later phases are built. Temporary interfaces, access, commissioning and change responsibilities need explicit control.
 
 ## Final CTA
 
@@ -393,7 +389,7 @@ Because the campus may operate while later phases are being built. Temporary int
 ## Metadata recommendation
 
 **Title:** Hyperscale Data Center Campus Phasing Guide | Evolve  
-**Meta description:** Define hyperscale phases around capacity, power, shared infrastructure, procurement, commissioning and operating-state decisions.  
+**Meta description:** Define each hyperscale campus phase by capacity, power, shared infrastructure, procurement, commissioning and the operating state between phases.  
 
 ## Schema recommendation
 
@@ -418,55 +414,55 @@ Because the campus may operate while later phases are being built. Temporary int
 
 ## Publishable article
 
-# Data Center Commissioning Checklist: Questions to Settle Before Final Testing
+# Data Center Commissioning Checklist: What Has to Be Proven Before You Accept the Facility
 
 A useful commissioning checklist does not begin with a generic list of tests. It begins with the approved requirements, system boundaries, responsibilities and evidence needed to demonstrate readiness.
 
-## 1. Requirements and authority
+## 1. Fix the requirement and acceptance authority
 
-- Is the current owner requirement or approved design basis available?
+- Is the owner requirement or approved design basis current?
 - Which criteria govern acceptance?
 - Who can approve results, exceptions and retests?
 - Are changes traceable to the current basis?
 
-## 2. Scope and boundaries
+## 2. Draw the boundary and its owners
 
 - Which systems and interfaces are included?
 - What is explicitly excluded?
-- Which party owns prerequisites, test execution, witnessing and documentation?
+- Who owns prerequisites, test execution, witnessing and documentation?
 - How are vendor and construction-package boundaries coordinated?
 
-## 3. Readiness prerequisites
+## 3. Prove readiness before testing
 
-- What must be installed, inspected and documented before testing begins?
+- What must be installed, inspected and documented first?
 - Are controls, communications and supporting systems ready?
 - Are temporary conditions identified?
 - Are safety, access and operating controls approved?
 
-## 4. Test planning
+## 4. Trace tests to requirements
 
-- Does each activity trace to an approved requirement?
+- Does each test trace to an approved requirement?
 - Are procedures reviewed before execution?
 - Are instruments, data sources and acceptance values defined?
-- Is the sequence coordinated with other systems and operating constraints?
+- Is the sequence coordinated with other systems and operations?
 
-## 5. Issue management
+## 5. Decide how issues are closed
 
 - How are deficiencies recorded and assigned?
-- What severity or status definitions are used?
-- Who decides whether an issue blocks the next step?
+- What severity definitions apply?
+- Who decides whether an issue blocks progress?
 - How are corrections, retests and accepted exceptions documented?
 
-## 6. Turnover
+## 6. Hand over what operators can run
 
 - Which results, changes and open items must be delivered?
 - Is the final system state clear?
-- Does the operating team understand ownership and escalation?
-- Are monitoring and maintenance requirements connected to the handoff?
+- Does the operating team know ownership and escalation?
+- Are monitoring and maintenance requirements in the handoff?
 
-## Avoid false completeness
+## A checked box is not evidence
 
-A checked box does not prove that the system met its requirement. The record should show what was evaluated, against which basis, under what condition, with what result and who accepted it.
+A checked box proves nothing. The record must show what was evaluated, against which basis, under what condition, with what result and who accepted it.
 
 The exact test stages, systems and deliverables vary by project. Competitor pages commonly publish detailed level taxonomies, but Evolve will not claim a standard commissioning scope until that scope is separately approved.
 
@@ -481,15 +477,15 @@ Commissioning is part of Evolve's approved data-center construction capability. 
 
 ### What is the most important commissioning document?
 
-The controlling requirements and acceptance basis are essential because test activities and results need something approved to trace back to.
+The controlling requirements and acceptance basis; every test and result has to trace back to something approved.
 
 ### When should commissioning responsibilities be assigned?
 
-Before testing begins—and early enough to influence design, documentation, construction readiness and turnover.
+Before testing begins, and early enough to influence design, documentation, readiness and turnover.
 
 ### Is commissioning complete when tests are run?
 
-Not necessarily. Issues, retests, accepted exceptions, final records and operating handoff also need closure under the approved process.
+Not necessarily. Issues, retests, accepted exceptions, final records and operating handoff also have to close under the approved process.
 
 ## Final CTA
 
@@ -498,7 +494,7 @@ Not necessarily. Issues, retests, accepted exceptions, final records and operati
 ## Metadata recommendation
 
 **Title:** Data Center Commissioning Checklist | Evolve  
-**Meta description:** Use this requirements-based checklist to define data-center commissioning scope, readiness, testing, issue closure and turnover.  
+**Meta description:** A requirements-based data-center commissioning checklist: acceptance authority, system boundaries, readiness, test planning, issue closure and turnover.  
 
 ## Schema recommendation
 
@@ -524,52 +520,52 @@ Not necessarily. Issues, retests, accepted exceptions, final records and operati
 
 ## Publishable article
 
-# Data Center Preventive Maintenance: Build a Program That Produces Useful Decisions
+# Data Center Preventive Maintenance: Why a Completed Task List Is Not a Program
 
 Preventive maintenance should do more than show that a task occurred. It should establish what was serviced, under which operating conditions, what was observed and which findings require action.
 
 Uptime Institute's 2026 operator survey reports that power was responsible for 56% of respondents' most damaging outages. That survey result is market context, not proof that a specific maintenance program will prevent an outage.
 
-## Begin with an accurate facility basis
+## Start with an asset list you trust
 
-Before setting a service schedule, confirm:
+Before setting a schedule, confirm:
 
-- Assets and systems included in the program.
-- Current equipment records and available documentation.
-- Operating role and criticality.
+- Which assets and systems the program covers.
+- What equipment records and documentation exist.
+- Each asset's operating role and criticality.
 - Access, isolation and safety requirements.
 - Manufacturer information and owner-approved procedures.
 - Known conditions and service history.
-- Responsibility for parts, findings and follow-on work.
+- Who owns parts, findings and follow-on work.
 
-An incomplete asset basis can turn a detailed calendar into a misleading picture of coverage.
+An incomplete asset list makes a detailed calendar a misleading picture of coverage.
 
-## Define the maintenance boundary
+## Write the boundary, or “complete coverage” gets assumed
 
-The scope should state which assets and tasks are included, what is excluded, how often approved work occurs, what conditions must exist and who owns decisions before and after the visit.
+The scope states which assets and tasks are in, what is out, how often approved work occurs, what conditions must exist and who decides before and after each visit.
 
-Do not use broad phrases such as “complete coverage” unless the agreement defines and supports them.
+Do not write “complete coverage” unless the agreement defines and supports it.
 
-## Coordinate planned work with operations
+## Planned work on a live floor needs a boundary
 
-The operating team should understand timing, access, system state, required authorizations, communications and restoration expectations. Work that affects active infrastructure needs a clear boundary between maintenance activity and operational control.
+The operating team needs timing, access, system state, authorizations, communications and restoration expectations before work starts. Active infrastructure needs a clear line between maintenance and operational control.
 
-## Make findings actionable
+## Record findings so they force a decision
 
-A useful record distinguishes:
+A useful record separates:
 
 1. Work completed.
 2. Condition observed.
-3. Item requiring monitoring.
-4. Item requiring repair or replacement.
-5. Issue requiring engineering, retrofit, expansion or power review.
+3. Items to watch.
+4. Items needing repair or replacement.
+5. Issues needing engineering, retrofit, expansion or power review.
 6. Responsible owner and next decision.
 
-This structure helps prevent observations from disappearing into narrative notes.
+That keeps observations out of narrative notes.
 
-## Connect maintenance to the wider lifecycle
+## Some findings are not maintenance tasks
 
-Some findings are not maintenance tasks. They may reveal a documentation gap, design constraint, power issue, commissioning question or need for capital work. The program should have a route for moving those findings into the correct decision process.
+A finding may reveal a documentation gap, a design constraint, a power issue, a commissioning question or a case for capital work. The program needs a route that moves those findings into the right decision process.
 
 ## Where Evolve fits
 
@@ -582,9 +578,9 @@ Evolve remains engaged after turnover through monitoring, maintenance and long-t
 
 ### What makes a preventive-maintenance record useful?
 
-It identifies the asset, task, condition, result, finding, responsible party and next action in a consistent format.
+It names the asset, task, condition, result, finding, responsible party and next action in a consistent format.
 
-### Can preventive maintenance guarantee uptime?
+### Can preventive maintenance prevent every outage?
 
 No. It supports structured risk management and asset care, but it does not eliminate every failure or external event.
 
@@ -599,7 +595,7 @@ Intervals depend on approved equipment information, operating conditions, owner 
 ## Metadata recommendation
 
 **Title:** Data Center Preventive Maintenance Guide | Evolve  
-**Meta description:** Build a preventive-maintenance program around accurate assets, operating constraints, documented findings and clear follow-on decisions.  
+**Meta description:** Build a data-center preventive-maintenance program on a verified asset list, a written scope and findings that force decisions.  
 
 ## Schema recommendation
 
@@ -625,43 +621,43 @@ Intervals depend on approved equipment information, operating conditions, owner 
 
 ## Publishable article
 
-# Data Center Monitoring vs. DCIM: Start With the Operating Decision
+# Data Center Monitoring vs. DCIM: Define the Decision Before You Buy the Dashboard
 
 Monitoring and data center infrastructure management are related, but the terms do not automatically describe the same scope. Buyers should define the operating decision they need to support, the data required, the systems involved and the response process before comparing platforms.
 
-## What monitoring means
+## Monitoring is only as good as who answers the alarm
 
-Monitoring generally observes defined conditions, statuses or events and makes that information available for action. Its value depends on what is measured, how reliable the data is, how alarms are handled and who is responsible for the response.
+Monitoring observes defined conditions, statuses or events and makes them available for action. Its value depends on what is measured, how reliable the data is, how alarms are handled and who responds.
 
-The label alone does not establish coverage, integrations, analytics or service availability.
+The label establishes nothing about coverage, integrations, analytics or service availability.
 
-## What DCIM means
+## DCIM is a category, not a capability
 
-DCIM generally refers to software used to manage or analyze aspects of data-center infrastructure. Depending on the product and implementation, it may address monitoring, assets, capacity, energy, environmental data, planning, workflows or reporting.
+DCIM refers to software used to manage or analyze aspects of data-center infrastructure. Depending on the product and the implementation, it may cover monitoring, assets, capacity, energy, environmental data, planning, workflows or reporting.
 
-Because products vary widely, buyers should compare actual functions and data flows rather than assume the category name proves a capability.
+Products vary widely, so compare actual functions and data flows. The category name proves nothing.
 
-## Questions to ask before selecting either approach
+## Nine questions to settle before comparing platforms
 
 - Which operating decisions must the system support?
-- Which equipment and data sources are included?
+- Which equipment and data sources are in scope?
 - How is data collected, validated, stored and retained?
-- What constitutes an alarm or exception?
-- Who receives it, through which route and with what responsibility?
-- What integrations are required?
-- Which functions are automated, and which require human judgment?
+- What counts as an alarm or exception?
+- Who receives it, by which route, with what responsibility?
+- Which integrations are required?
+- Which functions are automated, and which need judgment?
 - What reporting, security, access and audit requirements apply?
 - How will the system be maintained as the facility changes?
 
-## Avoid autonomous-operation hype
+## Keep a human accountable for state changes
 
 Uptime Institute's 2026 survey found stronger operator trust in AI for sensor and alarm analytics or predictive maintenance than for automated configuration changes. That distinction supports a practical principle: operational tools should make human responsibility clear, especially when actions can change facility state.
 
-## Monitoring is also a process
+## The platform does not define the operating model; you do
 
-Even a technically capable platform cannot define the complete operating model. The owner still needs approved thresholds, notification paths, escalation, documentation, maintenance and change control.
+A capable platform cannot define the complete operating model. The owner still sets thresholds, notification paths, escalation, documentation, maintenance and change control.
 
-The implementation should be evaluated as a combination of technology, data and human responsibility.
+Evaluate the implementation as technology, data and human responsibility together.
 
 ## Where Evolve fits
 
@@ -674,15 +670,15 @@ The public eLERT page should remain unpublished until AD-003 is resolved.
 
 ### Is monitoring the same as DCIM?
 
-Not necessarily. Monitoring focuses on observing defined conditions and events. DCIM may include monitoring plus asset, capacity, energy, workflow or planning functions, depending on the product.
+Not necessarily. Monitoring observes defined conditions and events. DCIM may add asset, capacity, energy, workflow or planning functions to monitoring, depending on the product.
 
 ### What should buyers compare first?
 
-Compare the operating decisions, data sources, coverage, alarms, responsibilities, integrations, security and change process—not only feature labels.
+The operating decisions, data sources, coverage, alarms, responsibilities, integrations, security and change process. Feature labels come last.
 
 ### Does more automation always reduce risk?
 
-No. Automation must be evaluated against data quality, controls, authority, failure modes and human oversight.
+No. Judge automation against data quality, controls, authority, failure modes and human oversight.
 
 ## Final CTA
 
@@ -691,7 +687,7 @@ No. Automation must be evaluated against data quality, controls, authority, fail
 ## Metadata recommendation
 
 **Title:** Data Center Monitoring vs. DCIM | Evolve  
-**Meta description:** Compare data-center monitoring and DCIM by operating decisions, data, alarms, integrations, responsibility and human oversight.  
+**Meta description:** Monitoring and DCIM are not the same scope. Compare operating decisions, data, alarms, integrations and human accountability before you compare platforms.  
 
 ## Schema recommendation
 
@@ -718,48 +714,48 @@ No. Automation must be evaluated against data quality, controls, authority, fail
 
 ## Publishable article
 
-# Responsible Data Center Development: Put Local Questions Into the Project Plan
+# Responsible Data Center Development: Power, Water, Noise and Land, Planned on Purpose
 
 Data-center development affects infrastructure and communities. Electricity, water, noise, construction activity, land use and local economic claims can influence public review and project timing. Responsible planning treats these subjects as evidence requirements—not messaging added after decisions are made.
 
 JLL's North America Data Center Report: Midyear 2026 identifies community acceptance as a major industry challenge and emphasizes early, factual engagement. The appropriate response depends on the project, jurisdiction and verified data.
 
-## Identify the questions that require project evidence
+## Know which questions need project evidence, in advance
 
-The development team should expect questions about:
+Have project-specific evidence ready for:
 
-- Electrical demand and infrastructure.
-- Water use and thermal-system choices.
+- Electrical demand and its infrastructure.
+- Water use and the thermal choice behind it.
 - Noise during construction and operation.
-- Air emissions where applicable.
+- Air emissions, where they apply.
 - Construction traffic, access and site activity.
 - Land use and visible equipment.
 - Emergency planning and public-safety coordination.
 - Employment, investment, taxes and community benefits.
 
-Do not answer with generalized industry claims when the question requires project-specific evidence.
+Do not answer a project-specific question with a generalized industry claim.
 
-## Assign ownership early
+## Give every question an owner before the public does
 
-Each subject needs an accountable owner, approved data source, decision schedule and review path. The team should know which items fall under design, environmental review, permitting, utilities, construction, operations, legal or community engagement.
+Each subject needs an accountable owner, approved data source, decision schedule and review path. Know whether each item belongs to design, environmental review, permitting, utilities, construction, operations, legal or community engagement.
 
-Responsibility should not be inferred from a vendor's general capability statement.
+Do not infer responsibility from a vendor's general capability statement.
 
-## Keep facts, forecasts and commitments separate
+## A forecast stated as fact becomes a commitment
 
-A factual statement describes verified current information. A forecast estimates a future condition. A commitment creates an obligation. Mixing the three can undermine credibility and expose the project to unnecessary risk.
+A fact describes verified current information. A forecast estimates a future condition. A commitment creates an obligation. Mix them and the project loses credibility and takes on unpriced risk.
 
-Use clear labels, dates, units, boundaries and sources. Update the record when the project changes.
+Label each, with date, units, boundaries and source. Update the record when the project changes.
 
-## Connect public questions to technical decisions
+## Community questions are design inputs; treat them that way
 
-Community questions can reveal design and operating dependencies. Noise may affect equipment placement and mitigation. Water questions may affect thermal decisions. Electrical infrastructure may affect phasing. Construction traffic may affect logistics and schedule.
+Noise affects equipment placement and mitigation. Water questions affect thermal decisions. Electrical infrastructure affects phasing. Construction traffic affects logistics and schedule.
 
-Bringing these questions into planning allows the technical team to evaluate them before the public response is finalized.
+Bring those questions into planning and the technical team can evaluate them before the public response is fixed.
 
-## Avoid unsupported benefit claims
+## Do not promise benefits you cannot evidence
 
-Jobs, investment, tax revenue, emissions, water performance and infrastructure benefits should be stated only when the project has approved evidence and the responsible party has reviewed the wording.
+State jobs, investment, tax revenue, emissions, water performance and infrastructure benefits only when the project has approved evidence and the responsible party has reviewed the wording.
 
 ## Where Evolve fits
 
@@ -772,15 +768,15 @@ Evolve supports planning as part of the Plan, Design, Build, Power and Maintain 
 
 ### When should community and infrastructure questions enter the project plan?
 
-Early enough to affect site, design, power, logistics, permitting and operating decisions—not after major commitments are fixed.
+Early enough to affect site, design, power, logistics, permitting and operating decisions, not after major commitments are fixed.
 
 ### What makes a development claim credible?
 
-A defined metric, current project-specific evidence, responsible owner, clear assumptions and approved wording.
+A defined metric, current project-specific evidence, a responsible owner, clear assumptions and approved wording.
 
 ### Should an industry average be used as a project promise?
 
-No. Industry research can provide context, but it does not establish the performance or impact of a specific project.
+No. Industry research gives context. It does not establish the performance or impact of a specific project.
 
 ## Final CTA
 
@@ -789,7 +785,7 @@ No. Industry research can provide context, but it does not establish the perform
 ## Metadata recommendation
 
 **Title:** Responsible Data Center Development Guide | Evolve  
-**Meta description:** Address data-center electricity, water, noise, construction and community questions through project-specific evidence and clear ownership.  
+**Meta description:** Put electricity, water, noise, traffic and community questions into the data-center project plan with named owners and project-specific evidence.  
 
 ## Schema recommendation
 

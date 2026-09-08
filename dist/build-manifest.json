@@ -296,6 +296,83 @@
       "url": "/about/leadership/",
       "title": "Leadership Team | Evolve Data Center Solutions",
       "decision": "READY AFTER APPROVAL (NEW DRAFT 2026-09-08)"
+    },
+    {
+      "id": "PAGE-1000",
+      "name": "Free Guides",
+      "url": "/resources/",
+      "title": "Free Data Center Guides & Checklists | Evolve",
+      "decision": "READY AFTER IMPLEMENTATION REVIEW (FUNNEL 2026-09-08)"
+    },
+    {
+      "id": "PAGE-1010",
+      "name": "Site Selection & Power Planning Checklist",
+      "url": "/resources/site-selection-power-planning-checklist/",
+      "title": "Data Center Site Selection & Power Planning Checklist (PDF) | Evolve",
+      "decision": "READY AFTER IMPLEMENTATION REVIEW (FUNNEL 2026-09-08)"
+    },
+    {
+      "id": "PAGE-1011",
+      "name": "Site Selection Checklist Delivered",
+      "url": "/resources/site-selection-power-planning-checklist/thank-you/",
+      "title": "Your Site Selection Checklist | Evolve",
+      "decision": "READY AFTER IMPLEMENTATION REVIEW (FUNNEL 2026-09-08)"
+    },
+    {
+      "id": "PAGE-1020",
+      "name": "Modular vs. Traditional Delivery Guide",
+      "url": "/resources/modular-vs-traditional-delivery-guide/",
+      "title": "Modular vs. Traditional Data Center Delivery Guide (PDF) | Evolve",
+      "decision": "READY AFTER IMPLEMENTATION REVIEW (FUNNEL 2026-09-08)"
+    },
+    {
+      "id": "PAGE-1021",
+      "name": "Modular Guide Delivered",
+      "url": "/resources/modular-vs-traditional-delivery-guide/thank-you/",
+      "title": "Your Modular Delivery Guide | Evolve",
+      "decision": "READY AFTER IMPLEMENTATION REVIEW (FUNNEL 2026-09-08)"
+    },
+    {
+      "id": "PAGE-1030",
+      "name": "AI Data Center Planning Brief",
+      "url": "/resources/ai-data-center-planning-brief/",
+      "title": "AI Data Center Infrastructure Planning Brief (PDF) | Evolve",
+      "decision": "READY AFTER IMPLEMENTATION REVIEW (FUNNEL 2026-09-08)"
+    },
+    {
+      "id": "PAGE-1031",
+      "name": "AI Brief Delivered",
+      "url": "/resources/ai-data-center-planning-brief/thank-you/",
+      "title": "Your AI Planning Brief | Evolve",
+      "decision": "READY AFTER IMPLEMENTATION REVIEW (FUNNEL 2026-09-08)"
+    },
+    {
+      "id": "PAGE-1040",
+      "name": "Commissioning Checklist",
+      "url": "/resources/commissioning-checklist/",
+      "title": "Data Center Commissioning Checklist (PDF) | Evolve",
+      "decision": "READY AFTER IMPLEMENTATION REVIEW (FUNNEL 2026-09-08)"
+    },
+    {
+      "id": "PAGE-1041",
+      "name": "Commissioning Checklist Delivered",
+      "url": "/resources/commissioning-checklist/thank-you/",
+      "title": "Your Commissioning Checklist | Evolve",
+      "decision": "READY AFTER IMPLEMENTATION REVIEW (FUNNEL 2026-09-08)"
+    },
+    {
+      "id": "PAGE-1050",
+      "name": "Preventive Maintenance Program Guide",
+      "url": "/resources/preventive-maintenance-program-guide/",
+      "title": "Data Center Preventive Maintenance Program Guide (PDF) | Evolve",
+      "decision": "READY AFTER IMPLEMENTATION REVIEW (FUNNEL 2026-09-08)"
+    },
+    {
+      "id": "PAGE-1051",
+      "name": "Maintenance Guide Delivered",
+      "url": "/resources/preventive-maintenance-program-guide/thank-you/",
+      "title": "Your Maintenance Program Guide | Evolve",
+      "decision": "READY AFTER IMPLEMENTATION REVIEW (FUNNEL 2026-09-08)"
     }
   ],
   "redirects": {
