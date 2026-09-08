@@ -239,7 +239,7 @@ PAGE_NEEDS = [
      "Optional editorial imagery per article: planning tables, drone site views, commissioning tests, maintenance findings.",
      STYLE + " Close-up of an engineer's hands annotating a single-line diagram with a red pen beside a laptop, desk lamp light, landscape 3:2."),
     ("/about/", "About Evolve", "Fabrication shop hero",
-     "People-forward team imagery: field crew and office team, no headshots required. Also 13 leadership portraits if a Leadership page is added.",
+     "People-forward team imagery: field crew and office team. Leadership portraits are cataloged separately in the team-* rows.",
      STYLE + " Small group of Evolve field technicians and project managers in red and black polos standing in front of a white Evolve service truck and a prefabricated module, relaxed, mid-morning light, landscape 3:2."),
     ("/", "Home (optional alternate hero)", "Fabrication shop hero",
      "A second hero option showing a completed installation with people, to rotate with the fabrication shop.",
@@ -300,7 +300,7 @@ def main():
                          "evolveincorporated.com/images/leadership (cleared for use 2026-09-08); source file %s" % h.get("file", "?"),
                          h.get("size", "?"), h.get("issue", ""), h.get("need", ""), h.get("prompt", ""), h.get("source", "Request a new headshot from Evolve if retouching is not acceptable."), h.get("priority", "Medium")])
             continue
-        stock = key not in BRIEFS
+        stock = key in D.STOCK_IMAGES
         origin = im.get("source", "")
         if stock and origin == "current":
             default = {"issue": "Photo from the current Evolve site; cleared for use 2026-09-08. Resolution and provenance still worth confirming with Evolve.",
@@ -342,9 +342,15 @@ def main():
         n += 1
         media = D.PAGE_MEDIA.get(url, {})
         if media.get("hero"):
-            kind = "Evolve deck photo" if media["hero"] in BRIEFS else "imported photo"
-            current = "%s '%s'%s%s" % (kind, media["hero"], (" with support image '%s'" % media["support"]) if media.get("support") else "",
-                                       "" if media["hero"] in BRIEFS else " (imported 2026-09-08, license unconfirmed)")
+            hero_key = media["hero"]
+            hero_src = D.STOCK_IMAGES.get(hero_key, {}).get("source")
+            if hero_key not in D.STOCK_IMAGES:
+                kind, note = "Evolve deck photo", ""
+            elif hero_src in ("current", "both"):
+                kind, note = "Evolve site photo", " (from evolveincorporated.com, cleared 2026-09-08)"
+            else:
+                kind, note = "imported mockup stock", " (approved for review 2026-09-08, license unconfirmed)"
+            current = "%s '%s'%s%s" % (kind, hero_key, (" with support image '%s'" % media["support"]) if media.get("support") else "", note)
         rows.append([n, "REPLACE WITH EVOLVE PHOTO: %s" % name, "", "Evolve-owned replacement wanted", "%s (%s)" % (name, url), "n/a", "n/a",
                      "Currently: %s" % current, need, prompt,
                      "Prefer Evolve-owned photography; the brand guideline bans stock and renders. Use generated images only as review placeholders labeled conceptual.",
