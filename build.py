@@ -6,6 +6,7 @@ ledger decision starts with READY, and renders a designed multi-route static
 site into dist/. Standard library only.
 """
 import csv
+import hashlib
 import html
 import json
 import re
@@ -18,6 +19,17 @@ ROOT = Path(__file__).resolve().parent
 CONTENT = ROOT / "content"
 PUBLIC = ROOT / "public"
 DIST = ROOT / "dist"
+ASSETS = {"css": "/css/site.css", "js": "/js/site.js"}
+
+
+def fingerprint_assets():
+    """Rename css/js with a content hash so browsers and CDNs never serve a stale copy."""
+    for key, rel in (("css", "css/site.css"), ("js", "js/site.js")):
+        src = DIST / rel
+        digest = hashlib.md5(src.read_bytes()).hexdigest()[:10]
+        target = src.with_name("%s.%s%s" % (src.stem, digest, src.suffix))
+        src.rename(target)
+        ASSETS[key] = "/" + str(target.relative_to(DIST)).replace("\\", "/")
 
 # ---------------------------------------------------------------------------
 # Text helpers
@@ -485,6 +497,7 @@ def header_markup(url):
         '<nav id="primary-nav" class="primary-nav" aria-label="Primary"><ul class="nav-list">%s</ul>'
         '<div class="nav-actions"><a class="button button-primary nav-cta" href="/start-a-project/">Start a Project</a>'
         '<a class="nav-phone" href="tel:%s">%s</a></div></nav>'
+        '<a class="button button-primary masthead-cta" href="/start-a-project/">Start a Project</a>'
         '</div></div></header>'
         % (s["phone_href"], esc(s["phone_display"]), nav_markup(url), s["phone_href"], esc(s["phone_display"]))
     )
@@ -970,10 +983,10 @@ def head_markup(page, robots):
         '<meta name="theme-color" content="#0B0D0F">\n'
         '<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png"><link rel="icon" type="image/png" sizes="64x64" href="/assets/favicon-64.png"><link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">\n'
         '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
-        '<link rel="stylesheet" href="%s">\n<link rel="stylesheet" href="/css/site.css">\n'
-        '<script type="application/ld+json">%s</script>\n<script src="/js/site.js" defer></script>\n</head>\n'
+        '<link rel="stylesheet" href="%s">\n<link rel="stylesheet" href="%s">\n'
+        '<script type="application/ld+json">%s</script>\n<script src="%s" defer></script>\n</head>\n'
         % (esc(page["title"]), esc(page["description"]), robots, base, page["url"], og_type, esc(D.SITE["name"]), esc(page["og_title"]),
-           esc(page["og_description"]), base, page["url"], base, FONTS, schema_for(page))
+           esc(page["og_description"]), base, page["url"], base, FONTS, ASSETS["css"], schema_for(page), ASSETS["js"])
     )
 
 
@@ -1007,12 +1020,12 @@ def not_found_html():
     review = "noindex"
     return (
         '<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="%s">'
-        '<title>Page Not Found | Evolve</title><link rel="stylesheet" href="%s"><link rel="stylesheet" href="/css/site.css"><script src="/js/site.js" defer></script></head>'
+        '<title>Page Not Found | Evolve</title><link rel="stylesheet" href="%s"><link rel="stylesheet" href="%s"><script src="%s" defer></script></head>'
         '<body class="page-404">%s<main id="main"><section class="hero hero-split hero-compact"><div class="shell hero-split-inner"><div class="hero-text"><p class="eyebrow">Error 404</p><h1>This page is not available.</h1>'
         '<p class="lead">The address may have changed or the page may have been removed. Use the paths below to continue.</p>'
         '<div class="actions"><a class="button button-primary" href="/">Return Home</a><a class="button button-inverse" href="/sitemap/">Website Sitemap</a></div></div><div class="hero-visual">%s</div></div></section>'
         '<section class="band band-white"><div class="shell"><ul class="link-grid">%s</ul></div></section></main>%s</body></html>'
-        % (review, FONTS, header_markup("/404/"), tech_panel("/404/"),
+        % (review, FONTS, ASSETS["css"], ASSETS["js"], header_markup("/404/"), tech_panel("/404/"),
            "".join('<li><a href="%s">%s<span class="arrow" aria-hidden="true"></span></a></li>' % (h, l) for l, h in [
                ("Design &amp; Build", "/design-build/"), ("Power Generation", "/power-generation/"), ("Service &amp; Maintenance", "/maintenance/"),
                ("Data Center Markets", "/data-center-markets/"), ("Insights", "/insights/"), ("Contact Evolve", "/contact/")]),
@@ -1036,6 +1049,7 @@ def build():
     if DIST.exists():
         shutil.rmtree(DIST)
     shutil.copytree(PUBLIC, DIST)
+    fingerprint_assets()
     ledger = parse_csv((CONTENT / "Evolve_Copy_Approval_Ledger_2026-09-07.csv").read_text(encoding="utf-8"))
     ready = {r["page_id"].replace("PAGE-", ""): r for r in ledger if r["publication_decision"].startswith("READY")}
     pages = [p for p in (page_from_block(i, ready[i["id"]]) for i in extract_pages() if i["id"] in ready) if p]
@@ -1074,8 +1088,10 @@ def build():
     ]
     if D.REVIEW_BUILD:
         headers.append("  X-Robots-Tag: noindex")
-    for path in ("/img/*", "/assets/*", "/css/*", "/js/*"):
-        headers += [path, "  Cache-Control: public, max-age=604800"]
+    for path in ("/css/*", "/js/*"):
+        headers += [path, "  Cache-Control: public, max-age=31536000, immutable"]
+    for path in ("/img/*", "/assets/*"):
+        headers += [path, "  Cache-Control: public, max-age=86400, must-revalidate"]
     (DIST / "_headers").write_text("\n".join(headers) + "\n", encoding="utf-8")
 
     manifest = {

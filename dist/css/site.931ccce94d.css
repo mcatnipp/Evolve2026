@@ -134,7 +134,8 @@ body.nav-open .primary-nav { transform: none; visibility: visible; transition: t
 .nav-item { border-bottom: 1px solid var(--graphite); }
 .nav-trigger { position: relative; }
 .nav-link { display: block; padding: 1rem 3.25rem 1rem 0; font: 700 1.35rem/1 var(--display); letter-spacing: .05em; text-transform: uppercase; text-decoration: none; color: var(--white); }
-.nav-link[aria-current="page"], .nav-item.is-section > .nav-link { color: var(--white); box-shadow: inset 4px 0 0 var(--red); padding-left: .85rem; }
+.nav-link[aria-current="page"], .nav-item.is-section .nav-link { color: var(--white); box-shadow: inset 4px 0 0 var(--red); padding-left: .85rem; }
+.masthead-cta { display: none; }
 .nav-toggle {
   position: absolute; right: 0; top: .55rem; width: 3rem; height: 3rem;
   background: transparent; border: 1px solid var(--graphite); border-radius: var(--radius); color: var(--white); cursor: pointer;
@@ -491,16 +492,19 @@ a.card:focus-visible { outline-offset: 0; }
   .hero-content { padding: 8rem 0 6rem; }
 }
 
-/* ---------- Responsive: desktop navigation ---------- */
-@media (min-width: 80rem) {
-  :root { --masthead-h: 5rem; }
-  .brand-full { width: 11.75rem; }
+/* ---------- Responsive: laptop and desktop navigation ---------- */
+@media (min-width: 64rem) {
   .menu-button { display: none; }
-  .primary-nav { position: static; inset: auto; padding: 0; background: transparent; overflow: visible; transform: none; visibility: visible; transition: none; display: flex; align-items: center; gap: 1.5rem; height: 100%; }
-  .nav-list { display: flex; align-items: stretch; height: 100%; }
+  .masthead { height: auto; }
+  .masthead-inner { flex-wrap: wrap; min-height: var(--masthead-h); }
+  .brand { order: 1; height: var(--masthead-h); }
+  .masthead-cta { display: inline-flex; order: 2; margin-left: auto; min-height: 2.75rem; padding: .55rem 1.15rem; font-size: .95rem; white-space: nowrap; }
+  .primary-nav, .site-header.is-scrolled .primary-nav { order: 3; flex-basis: 100%; position: static; inset: auto; padding: 0; background: transparent; overflow: visible; transform: none; visibility: visible; transition: none; display: flex; justify-content: center; border-top: 1px solid var(--graphite); }
+  .nav-actions { display: none; }
+  .nav-list { display: flex; align-items: stretch; }
   .nav-item { border: 0; display: flex; align-items: center; position: static; }
   .nav-trigger { position: relative; display: flex; align-items: center; height: 100%; }
-  .nav-link { display: inline-flex; align-items: center; height: var(--masthead-h); padding: 0 .75rem; font-size: .95rem; letter-spacing: .05em; position: relative; white-space: nowrap; }
+  .nav-link { display: inline-flex; align-items: center; height: 3.25rem; padding: 0 .75rem; font-size: .92rem; letter-spacing: .05em; position: relative; white-space: nowrap; }
   .has-menu .nav-link { padding-right: 1.85rem; }
   .nav-link[aria-current="page"], .nav-item.is-section .nav-link { box-shadow: none; padding-left: .75rem; }
   .nav-link[aria-current="page"]::after, .nav-item.is-section .nav-link::after { content: ""; position: absolute; left: .75rem; right: .75rem; bottom: 0; height: 3px; background: var(--red); }
@@ -520,10 +524,18 @@ a.card:focus-visible { outline-offset: 0; }
   .mega-inner { grid-template-columns: repeat(4, minmax(0, 1fr)) 15rem; gap: 2rem; align-items: start; }
   .mega-group a { padding: .55rem 0; min-height: 2.5rem; font-size: .98rem; }
   .mega-cta { grid-column: -2 / -1; padding-left: 2rem; border-left: 1px solid var(--graphite); }
-  .nav-actions { margin: 0; display: flex; align-items: center; }
-  .nav-cta { width: auto; min-height: 2.75rem; padding: .55rem 1.15rem; font-size: .95rem; white-space: nowrap; }
-  .primary-nav { gap: 1rem; }
   .nav-phone { display: none; }
+}
+
+@media (min-width: 80rem) {
+  :root { --masthead-h: 5rem; }
+  .brand-full { width: 11.75rem; }
+  .masthead-inner { flex-wrap: nowrap; gap: 1rem; }
+  .brand { order: 1; }
+  .primary-nav, .site-header.is-scrolled .primary-nav { order: 2; flex: 1 1 auto; justify-content: flex-end; border-top: 0; height: var(--masthead-h); }
+  .masthead-cta { order: 3; margin-left: 0; }
+  .nav-list { height: 100%; }
+  .nav-link { height: var(--masthead-h); font-size: .95rem; }
   .band-strip .strip-grid { gap: 1rem; }
 }
 
