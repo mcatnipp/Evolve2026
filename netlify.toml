@@ -1,0 +1,7 @@
+# Netlify configuration for the Evolve Data Center Solutions review site.
+# The generated site in dist/ is committed, so no build command is needed.
+# Regenerate locally with:  python3 build.py && python3 check.py
+# Redirects (_redirects) and headers (_headers) are generated into dist/ by build.py.
+
+[build]
+  publish = "dist"

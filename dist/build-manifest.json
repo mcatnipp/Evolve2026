@@ -1,0 +1,375 @@
+{
+  "build": "BUILD-002 v0.1 (review)",
+  "date": "2026-09-08",
+  "review": true,
+  "pages": [
+    {
+      "id": "PAGE-001",
+      "name": "Homepage",
+      "url": "/",
+      "title": "Data Center Design, Build, Power & Maintenance | Evolve",
+      "decision": "READY AFTER APPROVAL"
+    },
+    {
+      "id": "PAGE-100",
+      "name": "Design & Build",
+      "url": "/design-build/",
+      "title": "Data Center Design-Build Services | Evolve",
+      "decision": "READY AFTER APPROVAL"
+    },
+    {
+      "id": "PAGE-170",
+      "name": "Modular Data Centers",
+      "url": "/design-build/modular-data-centers/",
+      "title": "Modular Data Center Design & Build | Evolve",
+      "decision": "READY AFTER APPROVAL"
+    },
+    {
+      "id": "PAGE-180",
+      "name": "Hyperscale Data Centers",
+      "url": "/design-build/hyperscale-data-centers/",
+      "title": "Hyperscale Data Center Design & Build | Evolve",
+      "decision": "READY AFTER APPROVAL"
+    },
+    {
+      "id": "PAGE-190",
+      "name": "AI Data Centers",
+      "url": "/design-build/ai-data-centers/",
+      "title": "AI Data Center Design & Build | Evolve",
+      "decision": "READY AFTER APPROVAL"
+    },
+    {
+      "id": "PAGE-110",
+      "name": "Planning & Feasibility",
+      "url": "/design-build/planning-feasibility/",
+      "title": "Data Center Planning & Feasibility | Evolve",
+      "decision": "READY AFTER APPROVAL"
+    },
+    {
+      "id": "PAGE-120",
+      "name": "Data Center Design & Engineering",
+      "url": "/design-build/design-engineering/",
+      "title": "Data Center Design & Engineering | Evolve",
+      "decision": "READY AFTER APPROVAL"
+    },
+    {
+      "id": "PAGE-130",
+      "name": "Preconstruction & Procurement",
+      "url": "/design-build/preconstruction-procurement/",
+      "title": "Data Center Preconstruction & Procurement | Evolve",
+      "decision": "READY AFTER APPROVAL"
+    },
+    {
+      "id": "PAGE-140",
+      "name": "Data Center Construction",
+      "url": "/design-build/data-center-construction/",
+      "title": "Data Center Construction Services | Evolve",
+      "decision": "READY AFTER APPROVAL"
+    },
+    {
+      "id": "PAGE-150",
+      "name": "Commissioning & Turnover",
+      "url": "/design-build/commissioning-turnover/",
+      "title": "Data Center Commissioning & Turnover | Evolve",
+      "decision": "READY AFTER APPROVAL"
+    },
+    {
+      "id": "PAGE-160",
+      "name": "Expansions & Retrofits",
+      "url": "/design-build/expansions-retrofits/",
+      "title": "Data Center Expansions & Retrofits | Evolve",
+      "decision": "READY AFTER APPROVAL"
+    },
+    {
+      "id": "PAGE-200",
+      "name": "Power Generation",
+      "url": "/power-generation/",
+      "title": "Data Center Power Generation | Evolve",
+      "decision": "READY AFTER APPROVAL"
+    },
+    {
+      "id": "PAGE-220",
+      "name": "Backup Power Systems",
+      "url": "/power-generation/backup-power-systems/",
+      "title": "Data Center Backup Power Systems | Evolve",
+      "decision": "READY AFTER APPROVAL"
+    },
+    {
+      "id": "PAGE-300",
+      "name": "Service & Maintenance",
+      "url": "/maintenance/",
+      "title": "Data Center Service & Maintenance | Evolve",
+      "decision": "READY AFTER APPROVAL"
+    },
+    {
+      "id": "PAGE-310",
+      "name": "Preventive Maintenance",
+      "url": "/maintenance/preventive-maintenance/",
+      "title": "Data Center Preventive Maintenance | Evolve",
+      "decision": "READY AFTER APPROVAL"
+    },
+    {
+      "id": "PAGE-500",
+      "name": "Data Center Markets",
+      "url": "/data-center-markets/",
+      "title": "Data Center Markets | Evolve",
+      "decision": "READY AFTER APPROVAL"
+    },
+    {
+      "id": "PAGE-510",
+      "name": "Colocation Data Centers",
+      "url": "/data-center-markets/colocation/",
+      "title": "Colocation Data Center Solutions | Evolve",
+      "decision": "READY AFTER APPROVAL"
+    },
+    {
+      "id": "PAGE-520",
+      "name": "Enterprise Data Centers",
+      "url": "/data-center-markets/enterprise/",
+      "title": "Enterprise Data Center Solutions | Evolve",
+      "decision": "READY AFTER APPROVAL"
+    },
+    {
+      "id": "PAGE-600",
+      "name": "Insights",
+      "url": "/insights/",
+      "title": "Data Center Planning, Power & Operations Insights | Evolve",
+      "decision": "READY AFTER APPROVAL"
+    },
+    {
+      "id": "PAGE-700",
+      "name": "About Evolve",
+      "url": "/about/",
+      "title": "About Evolve Data Center Solutions",
+      "decision": "READY AFTER APPROVAL"
+    },
+    {
+      "id": "PAGE-720",
+      "name": "Contact",
+      "url": "/contact/",
+      "title": "Contact Evolve Data Center Solutions",
+      "decision": "READY AFTER APPROVAL AND CONTACT RECONFIRMATION"
+    },
+    {
+      "id": "PAGE-730",
+      "name": "Support",
+      "url": "/support/",
+      "title": "Existing-Customer Support | Evolve",
+      "decision": "READY AFTER SECURE ROUTING APPROVAL"
+    },
+    {
+      "id": "PAGE-800",
+      "name": "Start a Project",
+      "url": "/start-a-project/",
+      "title": "Start a Data Center Project | Evolve",
+      "decision": "READY AFTER FORM APPROVAL"
+    },
+    {
+      "id": "PAGE-810",
+      "name": "Request Service",
+      "url": "/request-service/",
+      "title": "Request Data Center Service | Evolve",
+      "decision": "READY AFTER FORM APPROVAL"
+    },
+    {
+      "id": "PAGE-830",
+      "name": "Form Confirmation",
+      "url": "/thank-you/",
+      "title": "Submission Received | Evolve",
+      "decision": "READY AFTER IMPLEMENTATION REVIEW"
+    },
+    {
+      "id": "PAGE-770",
+      "name": "HTML Sitemap",
+      "url": "/sitemap/",
+      "title": "Website Sitemap | Evolve",
+      "decision": "READY; GENERATE FROM PUBLISHED STATUS"
+    },
+    {
+      "id": "PAGE-611",
+      "name": "Data Center Site Selection & Power Planning",
+      "url": "/insights/data-center-site-selection-power-planning/",
+      "title": "Data Center Site Selection & Power Planning Guide | Evolve",
+      "decision": "READY AFTER REVIEW"
+    },
+    {
+      "id": "PAGE-612",
+      "name": "Modular vs. Traditional Data Center Delivery",
+      "url": "/insights/modular-vs-traditional-data-center-delivery/",
+      "title": "Modular vs. Traditional Data Center Delivery | Evolve",
+      "decision": "READY AFTER REVIEW"
+    },
+    {
+      "id": "PAGE-613",
+      "name": "AI Data Center Infrastructure Planning",
+      "url": "/insights/ai-data-center-infrastructure-planning/",
+      "title": "AI Data Center Infrastructure Planning Guide | Evolve",
+      "decision": "READY AFTER REVIEW"
+    },
+    {
+      "id": "PAGE-614",
+      "name": "Hyperscale Campus Phasing",
+      "url": "/insights/hyperscale-campus-phasing/",
+      "title": "Hyperscale Data Center Campus Phasing Guide | Evolve",
+      "decision": "READY AFTER REVIEW"
+    },
+    {
+      "id": "PAGE-615",
+      "name": "Data Center Commissioning Checklist",
+      "url": "/insights/data-center-commissioning-checklist/",
+      "title": "Data Center Commissioning Checklist | Evolve",
+      "decision": "READY AFTER REVIEW"
+    },
+    {
+      "id": "PAGE-616",
+      "name": "Data Center Preventive Maintenance Guide",
+      "url": "/insights/data-center-preventive-maintenance/",
+      "title": "Data Center Preventive Maintenance Guide | Evolve",
+      "decision": "READY AFTER REVIEW"
+    },
+    {
+      "id": "PAGE-617",
+      "name": "Data Center Monitoring vs. DCIM",
+      "url": "/insights/data-center-monitoring-vs-dcim/",
+      "title": "Data Center Monitoring vs. DCIM | Evolve",
+      "decision": "READY AS GUIDE; ELERT LINKS HELD"
+    },
+    {
+      "id": "PAGE-618",
+      "name": "Responsible Data Center Development",
+      "url": "/insights/responsible-data-center-development/",
+      "title": "Responsible Data Center Development Guide | Evolve",
+      "decision": "READY AFTER REVIEW"
+    }
+  ],
+  "redirects": {
+    "/index.php": "/",
+    "/index.php/": "/",
+    "/services/design-build/": "/design-build/",
+    "/design-and-build/": "/design-build/",
+    "/services/power-generation/": "/power-generation/",
+    "/services/facility-management/": "/maintenance/",
+    "/service-and-maintenance/": "/maintenance/",
+    "/preventative-maintenance/": "/maintenance/preventive-maintenance/",
+    "/services/elert-monitoring/": "/maintenance/",
+    "/elert-tm-monitoring/": "/maintenance/",
+    "/industries/": "/data-center-markets/",
+    "/markets-we-serve/": "/data-center-markets/",
+    "/markets-we-serve/colocation/": "/data-center-markets/colocation/",
+    "/markets-we-serve/modular-data-centers/": "/design-build/modular-data-centers/",
+    "/solutions/": "/design-build/",
+    "/solutions/ai-hpc/": "/design-build/ai-data-centers/",
+    "/solutions/ai-hpc-data-centers/": "/design-build/ai-data-centers/",
+    "/ai-ready-data-centers/": "/design-build/ai-data-centers/",
+    "/solutions/modular/": "/design-build/modular-data-centers/",
+    "/solutions/modular-data-centers/": "/design-build/modular-data-centers/",
+    "/solutions/colocation/": "/data-center-markets/colocation/",
+    "/solutions/colocation-data-centers/": "/data-center-markets/colocation/",
+    "/solutions/edge/": "/data-center-markets/",
+    "/solutions/edge-data-centers/": "/data-center-markets/",
+    "/industries/colocation-providers/": "/data-center-markets/colocation/",
+    "/solutions/greenfield/": "/design-build/planning-feasibility/",
+    "/solutions/greenfield-new-builds/": "/design-build/planning-feasibility/",
+    "/solutions/brownfield/": "/design-build/expansions-retrofits/",
+    "/solutions/brownfield-retrofit/": "/design-build/expansions-retrofits/",
+    "/company-news/": "/insights/",
+    "/leadership/": "/about/"
+  },
+  "excluded": [
+    {
+      "id": "PAGE-210",
+      "url": "/power-generation/evolution-series/",
+      "decision": "DO NOT PUBLISH"
+    },
+    {
+      "id": "PAGE-230",
+      "url": "/power-generation/power-planning-integration/",
+      "decision": "DO NOT PUBLISH"
+    },
+    {
+      "id": "PAGE-240",
+      "url": "/power-generation/onsite-bridge-power/",
+      "decision": "DO NOT PUBLISH"
+    },
+    {
+      "id": "PAGE-320",
+      "url": "/maintenance/power-generation-maintenance/",
+      "decision": "DO NOT PUBLISH UNTIL SCOPE APPROVAL"
+    },
+    {
+      "id": "PAGE-330",
+      "url": "/maintenance/critical-infrastructure-maintenance/",
+      "decision": "DO NOT PUBLISH UNTIL SCOPE APPROVAL"
+    },
+    {
+      "id": "PAGE-340",
+      "url": "/maintenance/facility-assessments/",
+      "decision": "DO NOT PUBLISH"
+    },
+    {
+      "id": "PAGE-350",
+      "url": "/maintenance/emergency-service/",
+      "decision": "DO NOT PUBLISH"
+    },
+    {
+      "id": "PAGE-400",
+      "url": "/elert/",
+      "decision": "DO NOT PUBLISH"
+    },
+    {
+      "id": "PAGE-530",
+      "url": "/data-center-markets/edge-distributed/",
+      "decision": "DO NOT PUBLISH"
+    },
+    {
+      "id": "PAGE-540",
+      "url": "/data-center-markets/healthcare/",
+      "decision": "DO NOT PUBLISH"
+    },
+    {
+      "id": "PAGE-550",
+      "url": "/data-center-markets/financial-services/",
+      "decision": "DO NOT PUBLISH"
+    },
+    {
+      "id": "PAGE-560",
+      "url": "/data-center-markets/telecommunications/",
+      "decision": "DO NOT PUBLISH"
+    },
+    {
+      "id": "PAGE-570",
+      "url": "/data-center-markets/government-education/",
+      "decision": "DO NOT PUBLISH"
+    },
+    {
+      "id": "PAGE-580",
+      "url": "/data-center-markets/energy-industrial/",
+      "decision": "DO NOT PUBLISH"
+    },
+    {
+      "id": "PAGE-710",
+      "url": "/careers/",
+      "decision": "DO NOT PUBLISH"
+    },
+    {
+      "id": "PAGE-740",
+      "url": "/privacy-policy/",
+      "decision": "DO NOT PUBLISH GENERIC TEMPLATE"
+    },
+    {
+      "id": "PAGE-750",
+      "url": "/accessibility/",
+      "decision": "DO NOT PUBLISH UNTIL APPROVED"
+    },
+    {
+      "id": "PAGE-760",
+      "url": "/terms/",
+      "decision": "DO NOT PUBLISH GENERIC TEMPLATE"
+    },
+    {
+      "id": "PAGE-820",
+      "url": "/elert/request-assessment/",
+      "decision": "DO NOT PUBLISH"
+    }
+  ]
+}
