@@ -313,7 +313,7 @@ def main():
                        "need": "License confirmation or an Evolve-owned photo of the same subject.",
                        "prompt": STYLE + " " + im["alt"] + ", landscape 3:2.",
                        "source": "Confirm the license or reshoot.", "priority": "Medium"}
-            src_label = "Both sites (2026-09-08 import)"
+            src_label = "Both sites (on evolveincorporated.com, cleared for use 2026-09-08)"
         else:
             default = {"issue": "Imported mockup stock; approved for review use 2026-09-08 (M. Atnipp). License must be confirmed before production.",
                        "need": "License confirmation or an Evolve-owned photo of the same subject.",
@@ -322,7 +322,7 @@ def main():
             src_label = "Mockup site (stock, 2026-09-08 import)"
         b = BRIEFS.get(key, default)
         rows.append([n, key, "public/img/%s-*.jpg" % im["file"],
-                     ("Evolve site photograph (imported)" if origin == "current" else "Stock photograph (imported)") if stock else "Photograph",
+                     ("Evolve site photograph (imported)" if origin in ("current", "both") else "Stock photograph (imported)") if stock else "Photograph",
                      "; ".join(sorted(set(uses.get(key, [])))) or "unused",
                      (src_label if stock else "Evolve qualification decks (Aug 2026) and Evolve Website Build folder"),
                      "%d x %d" % (im["w"], im["h"]), b["issue"], b["need"], b["prompt"], b["source"], b["priority"]])
