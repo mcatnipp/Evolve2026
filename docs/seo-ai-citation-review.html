@@ -1,0 +1,58 @@
+<h1>Evolve website: SEO and AI-citation tooling review</h1>
+<p><em>Prepared September 8, 2026 for the Evolve Data Center Solutions rebuild (review build at evolve2026-review.netlify.app).</em></p>
+
+<h2>Recommendation in one paragraph</h2>
+<p>Evolve does not need an enterprise AI-visibility platform. Run the two free reporting sources that now show AI citations directly (Google Search Console and Bing Webmaster Tools), add GA4 with an AI-referral segment, and subscribe to one mid-priced prompt tracker so Evolve can see whether ChatGPT, Perplexity, Gemini and Copilot mention it for the buyer questions the site was written to answer. Budget: roughly $100 to $200 per month. Revisit an SEO suite add-on (Semrush or Ahrefs) only if the team also wants rank tracking, backlink data and site audits in the same place.</p>
+
+<h2>What matters for AI citation, and where the new site stands</h2>
+<table border="1" cellpadding="6" cellspacing="0">
+<tr><th>Factor</th><th>Why it matters</th><th>Status in the review build</th><th>Action before launch</th></tr>
+<tr><td>Crawlable, server-rendered content</td><td>AI engines quote what they can fetch without running scripts.</td><td>Done. Every page is static HTML; proof numbers are plain text, not animated counters.</td><td>None.</td></tr>
+<tr><td>Direct answers near the top of each section</td><td>Engines lift self-contained 40 to 60 word answers.</td><td>Done. Every page has a Direct Answers block written to the AEO question set in the copy package.</td><td>Keep answers page-specific; do not duplicate across URLs.</td></tr>
+<tr><td>Crawler access</td><td>ChatGPT uses OAI-SearchBot and Bing's index; Claude uses Brave; Google uses its own index and Google-Extended for training.</td><td>Blocked on purpose. The review build sends noindex and robots Disallow.</td><td>At launch: allow Googlebot, Bingbot, OAI-SearchBot, PerplexityBot and ClaudeBot; decide separately on GPTBot and Google-Extended (training, not search).</td></tr>
+<tr><td>Bing indexing</td><td>ChatGPT search and Copilot answers draw on Bing.</td><td>Not yet possible (review URL).</td><td>Verify the production domain in Bing Webmaster Tools, submit the sitemap, enable IndexNow.</td></tr>
+<tr><td>Structured data</td><td>Confirms entity, services and page relationships.</td><td>Done. Organization, WebSite, WebPage, Service and BreadcrumbList on every applicable page.</td><td>Add Article schema to the eight insights once named reviewers and dates are approved (QA ISSUE-105). Add FAQ schema only if eligibility is confirmed.</td></tr>
+<tr><td>Authorship and freshness</td><td>Engines weight named expertise and review dates.</td><td>Insights show sources and retrieval dates but no author or reviewer.</td><td>Assign the reviewers listed in the approval ledger and print name, title, publish date and last-reviewed date.</td></tr>
+<tr><td>Third-party corroboration</td><td>ChatGPT citations correlate strongly with mentions on trusted external sites, Wikipedia and Reddit.</td><td>Not part of the website build.</td><td>Publish the approved aggregate facts consistently on LinkedIn, industry directories, press releases and partner pages. Keep one set of numbers everywhere.</td></tr>
+<tr><td>llms.txt</td><td>A plain-text index of key pages some crawlers read; unproven but zero risk.</td><td>Not present.</td><td>Add /llms.txt listing the 31 indexable pages with one-line summaries at launch.</td></tr>
+<tr><td>Consistent facts</td><td>Conflicting numbers make engines skip a source.</td><td>Done. Only the governed claims appear, each tagged with a claim ID.</td><td>Apply the same discipline to the old site's pages until they are redirected.</td></tr>
+</table>
+
+<h2>Free reporting to switch on at launch</h2>
+<ul>
+<li><strong>Google Search Console, Generative AI performance report.</strong> Launched June 3, 2026 and available to all sites since August 31, 2026. Shows impressions when a page is cited in AI Overviews or AI Mode. No clicks, position or query data, so treat it as a citation counter.</li>
+<li><strong>Bing Webmaster Tools, AI Performance report.</strong> Released February 9, 2026. Shows citations across Copilot and Bing AI answers, with grounding queries and intent classification. This is the closest thing to seeing why ChatGPT-class engines cite a page.</li>
+<li><strong>GA4 referral segment.</strong> Group referrals from chatgpt.com, perplexity.ai, copilot.microsoft.com, claude.ai and gemini.google.com into one channel to measure visits that AI answers actually send.</li>
+</ul>
+
+<h2>Paid tracker options</h2>
+<table border="1" cellpadding="6" cellspacing="0">
+<tr><th>Tool</th><th>Entry price (2026)</th><th>What it does well</th><th>Fit for Evolve</th></tr>
+<tr><td>Otterly.ai</td><td>$29/mo starter; $189/mo Standard for 100 prompts, unlimited seats</td><td>Lowest-cost monitoring of brand mentions and citations across ChatGPT, Perplexity, Gemini, Copilot and AI Overviews.</td><td><strong>Recommended starting point.</strong> Enough prompts to cover the site's buyer questions.</td></tr>
+<tr><td>Peec AI</td><td>$95/mo for 50 prompts, unlimited seats</td><td>Fast-growing challenger with strong competitor share-of-voice views.</td><td>Good alternative if competitor comparison matters more than prompt volume.</td></tr>
+<tr><td>Semrush AI SEO toolkit</td><td>$199/mo Starter, $299/mo Pro+, $549/mo Advanced</td><td>AI visibility inside a full SEO suite (rankings, backlinks, audits).</td><td>Choose if FDI Creative wants one suite for all Evolve SEO work.</td></tr>
+<tr><td>Ahrefs Brand Radar</td><td>$199/mo per AI platform up to $699/mo for all</td><td>Large historical dataset of AI answers; strong for one-off research.</td><td>Useful for a single baseline study, expensive as an ongoing subscription.</td></tr>
+<tr><td>Scrunch AI</td><td>$299/mo</td><td>Mid-market monitoring with content recommendations.</td><td>More than Evolve needs at this stage.</td></tr>
+<tr><td>Profound, Conductor</td><td>$1,500 to $2,000+/mo enterprise</td><td>Ten-engine coverage, SOC 2, workflow integration.</td><td>Not warranted for a 34-page site.</td></tr>
+</table>
+
+<h2>Measurement plan</h2>
+<ol>
+<li>Build a baseline prompt set of 25 to 40 questions from the sitewide AEO question set in the copy package, for example "what does a full-lifecycle data center partner do", "is modular delivery always faster", "how should a hyperscale campus be phased", plus the branded query "Evolve Data Center Solutions".</li>
+<li>Run the set in the chosen tracker before launch to record a zero baseline, then monthly.</li>
+<li>Report four numbers monthly: AI citations (Search Console plus Bing), AI-referral sessions (GA4), share of prompts where Evolve is mentioned (tracker), and the approved-claim consistency check across external profiles.</li>
+<li>Feed gaps back into the Insights calendar: each unanswered prompt becomes a new governed guide.</li>
+</ol>
+
+<h2>Sources</h2>
+<ul>
+<li>Writesonic, AI Visibility Tools 2026: 12 Compared. https://writesonic.com/blog/ai-visibility-tools</li>
+<li>Surmado, Best AI Visibility Tools 2026: Profound vs Peec vs Otterly. https://www.surmado.com/blog/best-ai-visibility-tools-2026</li>
+<li>Industry Lens, AI Search Visibility Tools 2026: 10 Compared and Priced. https://industry-lens.com/intelligence/ai-search</li>
+<li>Tim Soulo, 14 Scrunch AI Alternatives (2026). https://blog.timsoulo.com/14-scrunch-ai-alternatives-for-tracking-your-brand-in-ai-search-2026/</li>
+<li>Search Engine Journal, Google Search Console AI Reports Rolled Out Worldwide. https://www.searchenginejournal.com/google-search-console-ai-reports-rolled-out-worldwide/587836/</li>
+<li>CrawlRaven, Google Search Console AI Performance Reports. https://crawlraven.com/blog/gsc-ai-performance-reports</li>
+<li>Otterly.ai, Bing Webmaster Tools AI Performance Report. https://otterly.ai/blog/bing-webmaster-tools-ai-performance-report/</li>
+<li>Pressonify, How to Get Cited by ChatGPT Search in 2026. https://pressonify.ai/blog/how-to-get-cited-chatgpt-search-2026</li>
+<li>The HOTH, How to Get Cited in AI Overviews (2026). https://www.thehoth.com/blog/how-to-get-cited-in-ai-overviews/</li>
+</ul>
