@@ -40,7 +40,7 @@ Evolve specializes in data centers. We connect planning, design, construction, p
 **2,200+**  
 Mission-critical projects completed
 
-**5,300+ MW**  
+**5.3+ GW**  
 Power deployed
 
 **20+ years**  
@@ -108,7 +108,7 @@ AI infrastructure puts electrical, thermal, structural, controls and operational
 
 The power strategy affects site viability, equipment decisions, facility design, construction sequencing, commissioning and ongoing maintenance. Evolve brings power into the project conversation alongside Design & Build—not after the major assumptions have already been fixed.
 
-Evolve has deployed more than 5,300 MW of power across its aggregate mission-critical work.
+Evolve has deployed more than 5.3 GW of power across its aggregate mission-critical work.
 
 [Discuss a Power Requirement](/power-generation/)
 
@@ -122,7 +122,7 @@ Operating teams inherit every choice made during planning, design and constructi
 
 Data-center programs often require discretion. Evolve does not rely on public project histories or customer-logo displays to establish credibility. We use approved aggregate experience, a clearly defined scope and direct technical conversations.
 
-Across more than 20 years in business, Evolve has completed more than 2,200 mission-critical projects and deployed more than 5,300 MW of power.
+Across more than 20 years in business, Evolve has completed more than 2,200 mission-critical projects and deployed more than 5.3 GW of power.
 
 ### Direct answers
 
@@ -411,7 +411,7 @@ Modular describes a delivery approach. AI and hyperscale describe facility and w
 
 ### Proof without project disclosure
 
-Evolve has completed more than 2,200 mission-critical projects and deployed more than 5,300 MW of power. Project-specific customer and facility histories remain confidential.
+Evolve has completed more than 2,200 mission-critical projects and deployed more than 5.3 GW of power. Project-specific customer and facility histories remain confidential.
 
 ### Direct answers
 
@@ -534,7 +534,7 @@ Consider monitoring, maintenance access and future changes while the facility is
 
 ### Approved aggregate experience
 
-Evolve has completed more than 2,200 mission-critical projects and deployed more than 5,300 MW of power. These are aggregate company figures; Evolve does not publish customer or project histories.
+Evolve has completed more than 2,200 mission-critical projects and deployed more than 5.3 GW of power. These are aggregate company figures; Evolve does not publish customer or project histories.
 
 ### Related decisions
 
@@ -664,7 +664,7 @@ Power availability and the path to energization can control the project before t
 
 ### Approved aggregate experience
 
-Evolve has completed more than 2,200 mission-critical projects and deployed more than 5,300 MW of power. Customer identities and project histories remain confidential.
+Evolve has completed more than 2,200 mission-critical projects and deployed more than 5.3 GW of power. Customer identities and project histories remain confidential.
 
 ### Direct answers
 

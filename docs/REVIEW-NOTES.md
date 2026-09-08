@@ -51,3 +51,33 @@ ISSUE-101 page approvals · ISSUE-102 form routing, privacy notice, retention an
 - Headshot template (`scripts/headshot-template.swift`, macOS Vision + Core Image): face-aware 4:5 crop, subject lifted onto a neutral studio backdrop, black-and-white grade, 800x1000 and 400x500 outputs in `public/img/team/`. The template cannot change clothing or remove hats; those items are flagged per person in the image catalog for a retoucher or a reshoot.
 - Navigation: About is now a mega menu (Company, Connect, Insights). Legacy `/leadership` and `/leadership/<name>` URLs redirect to the new page.
 - Structured data: Person entries (name, jobTitle, image, sameAs LinkedIn) inside an ItemList, plus the Organization node.
+
+## Fact audit against the current site and the handoff (September 8, 2026)
+
+Sources compared: evolveincorporated.com as served on 2026-09-08 (its statistics are animated counters, so the target values were read from the page scripts), the handoff claims ledger (GOV-001 recovery report) and the August 2026 qualification decks it cites.
+
+| Fact | Current site | Handoff claims ledger | Review site | Result |
+|---|---|---|---|---|
+| Power deployed | "5.3 GW+ Deployed"; "over 5.3 gigawatts" (Design & Build page) | CLM-007: 5,300+ MW, with a note not to restate as GW | 5.3+ GW / "more than 5.3 GW" | Changed to GW on 2026-09-08 at Marc Atnipp's direction (CHG-002). Same quantity as CLM-007 |
+| Projects completed | 2,000+ (About counter); 50+ (Design & Build counter) | CLM-006: 2,200+ mission-critical projects (decks, Aug 2026) | 2,200+ | Review site follows the newer approved decks; the current site is internally inconsistent |
+| Years in business | 25+ Years Experience (About counter) | CLM-008: 20+ years; CLM-009: founded 2004 | 20+ years; founded 2004 | Conflict on the current site (25+ vs a 2004 founding). Evolve to confirm the founding year and the years figure |
+| Safety | not stated | CLM-010: zero injuries since 2010 | Zero injuries since 2010 | Asset-sourced; reconfirm at launch (ISSUE-104) |
+| Address | 10555 Cossey Road, Houston, Texas 77070 | CLM-039 | Same | Match |
+| Main phone | (832) 375-0099 | CLM-039 | 832-375-0099 | Match |
+| Second phone | (832) 375-0097 in the footer | not in ledger | not shown | Confirm purpose (fax or support line) before adding |
+| Email addresses | Sales@EvolveIncorporated.com, support@evolveincorporated.com | not in ledger | not shown; forms only | Decision needed: publish addresses or keep forms only |
+| $1B projects managed and partnered | About counter | CLM-023: do not publish | not shown | Excluded per ledger |
+| 24/7 or 24/7/365 support | all service pages | CLM-031: do not publish | not shown | Excluded per ledger |
+| 1,000+ customers or facilities maintained | Power Generation and Preventative Maintenance pages | CLM-015/017: conflicted, do not publish | not shown | Excluded pending a defined metric (ISSUE-111) |
+| 0% downtime focus | Power Generation page | CLM-029: do not publish | not shown | Excluded per ledger |
+| Contract number 25/033MR-15 and CP seal | footer | CLM-038: do not publish | not shown | Excluded per ledger; confirm whether the cooperative contract must be displayed |
+| Leadership names, titles, LinkedIn | 13 people on /leadership | CLM-040 flags Clay Bludau's title as "to be confirmed" | 13 people; titles as on the current site with two edits | Names and links match. Confirm Clay Bludau's title (President on the current site), Doug Herron's wording and Krista Bouquet's title |
+| Services and markets named on the current site | Design & Build, Power Generation, Preventative Maintenance, eLERT Monitoring, Evolve Energy; Telecom, Energy, Hospitals, Colocation, Crypto-Mining, Schools & Government, Modular | Held items AD-002 to AD-006 | Design & Build, Power Generation, Service & Maintenance, Solutions, Markets (Colocation, Enterprise) | Structure follows the approved architecture; eLERT, Evolve Energy and five markets remain held |
+| Lifecycle | not used as a framework | CLM-004: Plan, Design, Build, Power, Maintain | Used throughout | Approved |
+
+## Change log
+
+| Change ID | Date | Change | Reason | Directed by |
+|---|---|---|---|---|
+| CHG-002 | 2026-09-08 | CLM-007 wording changed from "5,300+ MW of power deployed" to "5.3+ GW of power deployed" in `data.py`, all copy packages and the README. | Matches the current site's "5.3 GW+ Deployed"; the ledger note against GW restatement is superseded by this direction. | Marc Atnipp, FDI Creative |
+| CHG-003 | 2026-09-08 | Leadership headshot grid reduced to six across on desktop (four on tablet), with the 400 px derivative served on high-density screens. | Larger tiles upscaled low-resolution source photos and looked soft. | Marc Atnipp, FDI Creative |

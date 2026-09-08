@@ -767,7 +767,7 @@ def render_leaders(sec, top, page):
     cards = []
     for p in D.LEADERSHIP:
         if p["photo"]:
-            photo = '<figure class="leader-photo">%s</figure>' % img_tag("team-" + p["slug"], "(min-width: 64rem) 18rem, (min-width: 40rem) 45vw, 100vw")
+            photo = '<figure class="leader-photo">%s</figure>' % img_tag("team-" + p["slug"], "(min-width: 64rem) 12.5rem, (min-width: 48rem) 22vw, (min-width: 40rem) 30vw, 45vw")
         else:
             initials = "".join(w[0] for w in p["name"].split()[:2])
             photo = ('<div class="leader-photo leader-placeholder" role="img" aria-label="Portrait of %s to come"><span>%s</span><small>Portrait to come</small></div>'

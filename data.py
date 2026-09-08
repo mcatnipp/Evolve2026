@@ -27,7 +27,7 @@ SITE = {
 # Governed proof statistics. Only these values may render as statistics.
 CLAIMS = {
     "CLM-006": {"value": "2,200+", "label": "Mission-critical projects completed"},
-    "CLM-007": {"value": "5,300+ MW", "label": "Power deployed"},
+    "CLM-007": {"value": "5.3+ GW", "label": "Power deployed"},
     "CLM-008": {"value": "20+ years", "label": "In business"},
     "CLM-010": {"value": "Zero injuries", "label": "Recorded since 2010"},
 }

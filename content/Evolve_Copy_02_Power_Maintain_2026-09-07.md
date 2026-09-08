@@ -42,7 +42,7 @@ When the power strategy develops separately from the building and operating plan
 
 ### Evolve's applicable capability
 
-Evolve has deployed more than 5,300 MW of power across its aggregate mission-critical work. Its approved capability includes power conversions, new builds, upgrades, expansions, retrofits, planning, procurement, commissioning, monitoring and maintenance.
+Evolve has deployed more than 5.3 GW of power across its aggregate mission-critical work. Its approved capability includes power conversions, new builds, upgrades, expansions, retrofits, planning, procurement, commissioning, monitoring and maintenance.
 
 The specific generation technology, operating mode, interconnection approach, fuel strategy, performance criteria and service boundary must be established for the individual engagement. This page does not present one configuration as the answer for every facility.
 
@@ -113,7 +113,7 @@ Yes. Evolve's approved lifecycle includes Plan, Design, Build, Power and Maintai
 
 #### What proof can Evolve publish?
 
-Evolve has deployed more than 5,300 MW of power across its aggregate mission-critical work. Customer and project details remain confidential.
+Evolve has deployed more than 5.3 GW of power across its aggregate mission-critical work. Customer and project details remain confidential.
 
 ### Related paths
 

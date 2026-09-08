@@ -76,7 +76,7 @@ Coordinate modernization, expansion, power and long-term support for facilities 
 
 ### Approved proof
 
-Evolve specializes in data centers, serves a nationwide market and has completed more than 2,200 mission-critical projects. Evolve has deployed more than 5,300 MW of power across its aggregate work.
+Evolve specializes in data centers, serves a nationwide market and has completed more than 2,200 mission-critical projects. Evolve has deployed more than 5.3 GW of power across its aggregate work.
 
 ### Direct answers
 
@@ -194,7 +194,7 @@ No. Customer and project histories remain confidential. Evolve uses approved agg
 
 ### Proof
 
-Evolve has completed more than 2,200 mission-critical projects and deployed more than 5,300 MW of power. These are aggregate company figures and do not identify customers or facilities.
+Evolve has completed more than 2,200 mission-critical projects and deployed more than 5.3 GW of power. These are aggregate company figures and do not identify customers or facilities.
 
 ### Final CTA
 
@@ -442,7 +442,7 @@ Evolve also provides self-performed modular fabrication and remains engaged afte
 
 **20+ years in business**  
 **2,200+ mission-critical projects completed**  
-**5,300+ MW of power deployed**
+**5.3+ GW of power deployed**
 
 These figures represent aggregate company experience. Evolve does not publish customer identities or project histories.
 

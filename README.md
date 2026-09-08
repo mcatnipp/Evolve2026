@@ -27,7 +27,7 @@ No dependencies beyond Python 3.8+. The generated `dist/` folder is committed so
 
 ## Governance rules encoded in the build
 
-- Proof statistics render only from `CLAIMS` in `data.py` (2,200+ mission-critical projects, 5,300+ MW deployed, 20+ years in business, zero injuries since 2010) and carry `data-claim-id` attributes.
+- Proof statistics render only from `CLAIMS` in `data.py` (2,200+ mission-critical projects, 5.3+ GW deployed, 20+ years in business, zero injuries since 2010) and carry `data-claim-id` attributes.
 - Pages marked DO NOT PUBLISH in the ledger (eLERT, Evolution Series, sector market pages, Careers, legal pages) are never generated, linked, or listed in the sitemap.
 - `check.py` scans every page for retired figures, product superlatives, customer names, international claims, compliance credentials and editorial leakage.
 - Editorial and implementation language in the copy packages is stripped or softened in `prepare_public_body()`; the copy files themselves are never edited.

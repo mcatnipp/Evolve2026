@@ -85,7 +85,7 @@ Change an existing facility while the systems around the work keep running.
 
 ### Approved proof
 
-Evolve specializes in data centers, serves a nationwide market and has completed more than 2,200 mission-critical projects with more than 5,300 MW of power deployed.
+Evolve specializes in data centers, serves a nationwide market and has completed more than 2,200 mission-critical projects with more than 5.3 GW of power deployed.
 
 ### Direct answers
 
@@ -178,7 +178,7 @@ Evolve does not present a universal rack density, cooling architecture or perfor
 
 ### Approved proof
 
-Evolve has completed more than 2,200 mission-critical projects and deployed more than 5,300 MW of power. Customer identities and project histories remain confidential.
+Evolve has completed more than 2,200 mission-critical projects and deployed more than 5.3 GW of power. Customer identities and project histories remain confidential.
 
 ### Direct answers
 
@@ -358,7 +358,7 @@ Evolve provides self-performed modular fabrication. Modular systems can be facto
 
 ### Approved proof
 
-Evolve has completed more than 2,200 mission-critical projects and deployed more than 5,300 MW of power. Project-specific customer and facility histories remain confidential.
+Evolve has completed more than 2,200 mission-critical projects and deployed more than 5.3 GW of power. Project-specific customer and facility histories remain confidential.
 
 ### Direct answers
 
