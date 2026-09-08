@@ -209,10 +209,10 @@ def main():
         n += 1
         stock = key not in BRIEFS
         b = BRIEFS.get(key, {
-            "issue": "Stock or reference-site photograph imported 2026-09-08; license not yet confirmed.",
-            "need": "Confirm the license, or replace with Evolve-owned photography of the same subject.",
+            "issue": "Imported stock; license unconfirmed.",
+            "need": "License confirmation or an Evolve-owned photo of the same subject.",
             "prompt": STYLE + " " + im["alt"] + ", landscape 3:2.",
-            "source": "Confirm rights with the mockup vendor or license the image; prefer an Evolve reshoot.",
+            "source": "Confirm the license or reshoot.",
             "priority": "Medium",
         })
         rows.append([n, key, "public/img/%s-*.jpg" % im["file"], "Stock photograph (imported)" if stock else "Photograph",
@@ -227,7 +227,10 @@ def main():
                  "Brand owner", "Low"])
     for url, name, current, need, prompt in PAGE_NEEDS:
         n += 1
-        rows.append([n, "NEEDED: %s" % name, "", "Missing hero or asset", "%s (%s)" % (name, url), "n/a", "n/a",
+        media = D.PAGE_MEDIA.get(url, {})
+        if media.get("hero"):
+            current = "stock hero '%s'%s (imported 2026-09-08, license unconfirmed)" % (media["hero"], (" with support image '%s'" % media["support"]) if media.get("support") else "")
+        rows.append([n, "REPLACE WITH EVOLVE PHOTO: %s" % name, "", "Evolve-owned replacement wanted", "%s (%s)" % (name, url), "n/a", "n/a",
                      "Currently: %s" % current, need, prompt,
                      "Prefer Evolve-owned photography; the brand guideline bans stock and renders. Use generated images only as review placeholders labeled conceptual.",
                      "Medium" if "optional" in name.lower() or url == "/insights/" else "High"])
