@@ -190,6 +190,22 @@ HEADSHOTS = {
                        "source": "Request from Evolve marketing or schedule with the leadership photo session."},
 }
 
+BRIEFS["evolve-groundbreaking-ceremony-team"] = {
+    "issue": "Evolve-owned team photograph from the current site (also used on the mockup); 1,320 px; identifiable people, so confirm they approve continued web use.",
+    "need": "Original file from Evolve and confirmation of photo consent; a higher-resolution version if one exists.",
+    "prompt": "No generation needed; this is a real Evolve team photograph.",
+    "source": "Request the original and consent confirmation from Evolve marketing.", "priority": "Low"}
+BRIEFS["evolve-generator-enclosure"] = {
+    "issue": "Evolve-branded generator enclosure from the current site; 1,200 px is adequate for the split hero only.",
+    "need": "Higher-resolution original, 3,000 px or wider, ideally with a technician at the enclosure.",
+    "prompt": STYLE + " White Evolve-branded generator enclosure with intake louvers on a concrete pad, a technician opening the access door, landscape 3:2.",
+    "source": "Request the original from Evolve or reshoot at the yard.", "priority": "Medium"}
+BRIEFS["data-center-construction-site-crew-sunset"] = {
+    "issue": "Evolve site photograph of a construction crew at sunset; 1,200 px only.",
+    "need": "Higher-resolution original from Evolve's files.",
+    "prompt": "No generation needed; request the original.",
+    "source": "Request the original from Evolve marketing.", "priority": "Low"}
+
 # Pages that currently have no dedicated hero photograph.
 PAGE_NEEDS = [
     ("/design-build/planning-feasibility/", "Planning & Feasibility", "2x2 mosaic of existing photos",
@@ -276,7 +292,7 @@ def main():
     n = 0
     for key, im in D.IMAGES.items():
         n += 1
-        if key.startswith("team-"):
+        if key.startswith("team-") and key[5:] in HEADSHOTS:
             slug = key[5:]
             h = HEADSHOTS.get(slug, {})
             rows.append([n, key, "public/img/%s-*.jpg" % im["file"], "Leadership headshot (template applied)",
