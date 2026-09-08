@@ -653,9 +653,11 @@ def render_insight_cards(sec, top, page, pages_by_url):
             p = pages_by_url.get(href)
             if not p:
                 continue
-            cards.append('<a class="card card-insight" href="%s"><div class="card-body"><p class="eyebrow">%s</p><h3>%s</h3><p>%s</p><span class="card-cta">Read the guide<span class="arrow" aria-hidden="true"></span></span></div></a>'
-                         % (href, esc(sub["title"]), esc(p["name"]), esc(p["description"])))
-    return section_head(sec["title"], lead) + '<div class="cards cards-3">%s</div>' % "".join(cards)
+            img_key = D.CARD_IMAGES.get(href)
+            media = '<div class="card-media">%s</div>' % img_tag(img_key, "(min-width: 80rem) 26rem, (min-width: 48rem) 45vw, 100vw") if img_key else ""
+            cards.append('<a class="card card-insight" href="%s">%s<div class="card-body"><p class="eyebrow">%s</p><h3>%s</h3><p>%s</p><span class="card-cta">Read the guide<span class="arrow" aria-hidden="true"></span></span></div></a>'
+                         % (href, media, esc(sub["title"]), esc(p["name"]), esc(p["description"])))
+    return section_head(sec["title"], lead) + '<div class="cards cards-3 cards-media">%s</div>' % "".join(cards)
 
 
 def render_steps(sec, top, page):
@@ -719,6 +721,17 @@ def render_split(sec, top, page, img_key):
     button = '<a class="button button-primary" href="%s">%s</a>' % (links[0][1], esc(links[0][0])) if links else ""
     return ('<div class="split-inner"><div class="split-text"><h2>%s</h2>%s%s</div><div class="split-media"><figure>%s</figure></div></div>'
             % (inline(sec["title"]), body, button, img_tag(img_key, "(min-width: 80rem) 36rem, (min-width: 48rem) 48vw, 100vw")))
+
+
+def render_support(sec, top, page, img_key):
+    """First prose section with a supporting photograph beside it."""
+    lead, subs = split_subs(sec, top)
+    inner = blocks_html(lead)
+    for s in subs:
+        inner += "<h3>%s</h3>%s" % (inline(s["title"]), blocks_html(s["blocks"]))
+    return ('<div class="split-inner split-light"><div class="split-text prose"><h2>%s</h2>%s</div>'
+            '<div class="split-media"><figure>%s</figure></div></div>'
+            % (inline(sec["title"]), inner, img_tag(img_key, "(min-width: 80rem) 36rem, (min-width: 48rem) 48vw, 100vw")))
 
 
 def render_fit(sec, top, page):
@@ -861,13 +874,17 @@ def render_sections(page, pages_by_url):
             inner = render_address(sec, top, page)
         elif kind == "links":
             inner = render_links(sec, top, page)
+        elif media.get("support") and prose_count == 0 and sec["title"]:
+            inner = render_support(sec, top, page, media["support"])
+            kind = "support"
+            prose_count += 1
         else:
             inner = render_prose(sec, top, page)
             prose_count += 1
         band = "band-fog" if tone == "fog" else "band-white"
         out.append('<section class="band %s kind-%s"%s><div class="shell">%s</div></section>' % (band, kind, anchor, inner))
         tone = "fog" if tone == "white" else "white"
-        if media.get("strip") and not strip_done and kind == "prose" and prose_count == 1:
+        if media.get("strip") and not strip_done and kind in ("prose", "support") and prose_count == 1:
             out.append(photo_strip(media["strip"]))
             strip_done = True
     return "".join(out)
@@ -947,7 +964,7 @@ def schema_for(page):
         ptype = "ContactPage"
     elif url == "/about/":
         ptype = "AboutPage"
-    elif url in ("/sitemap/", "/insights/", "/data-center-markets/"):
+    elif url in ("/sitemap/", "/insights/", "/data-center-markets/", "/solutions/"):
         ptype = "CollectionPage"
     else:
         ptype = "WebPage"
@@ -959,7 +976,7 @@ def schema_for(page):
         graph.append({"@type": "Organization", "@id": base + "/#organization", "name": D.SITE["name"], "url": base,
                       "logo": base + "/assets/Evolve_Logo_Full_Black_RedE.png", "telephone": D.SITE["phone_href"], "foundingDate": "2004",
                       "address": {"@type": "PostalAddress", "streetAddress": "10555 Cossey Road", "addressLocality": "Houston", "addressRegion": "TX", "postalCode": "77070", "addressCountry": "US"}})
-    if re.match(r"^/(design-build|power-generation|maintenance|data-center-markets)/.+", url) or url in ("/design-build/", "/power-generation/", "/maintenance/"):
+    if re.match(r"^/(design-build|power-generation|maintenance|data-center-markets|solutions)/.+", url) or url in ("/design-build/", "/power-generation/", "/maintenance/"):
         graph.append({"@type": "Service", "name": page["h1"], "description": page["description"], "provider": {"@id": base + "/#organization"},
                       "areaServed": {"@type": "Country", "name": "United States"}})
     bc = breadcrumbs(url)

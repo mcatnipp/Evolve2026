@@ -207,10 +207,17 @@ def main():
     n = 0
     for key, im in D.IMAGES.items():
         n += 1
-        b = BRIEFS[key]
-        rows.append([n, key, "public/img/%s-*.jpg" % im["file"], "Photograph",
+        stock = key not in BRIEFS
+        b = BRIEFS.get(key, {
+            "issue": "Stock or reference-site photograph imported 2026-09-08; license not yet confirmed.",
+            "need": "Confirm the license, or replace with Evolve-owned photography of the same subject.",
+            "prompt": STYLE + " " + im["alt"] + ", landscape 3:2.",
+            "source": "Confirm rights with the mockup vendor or license the image; prefer an Evolve reshoot.",
+            "priority": "Medium",
+        })
+        rows.append([n, key, "public/img/%s-*.jpg" % im["file"], "Stock photograph (imported)" if stock else "Photograph",
                      "; ".join(sorted(set(uses.get(key, [])))) or "unused",
-                     "Evolve qualification decks (Aug 2026) and Evolve Website Build folder",
+                     ("Mockup or current site (2026-09-08 import)" if stock else "Evolve qualification decks (Aug 2026) and Evolve Website Build folder"),
                      "%d x %d" % (im["w"], im["h"]), b["issue"], b["need"], b["prompt"], b["source"], b["priority"]])
     n += 1
     rows.append([n, "Approved logos", "public/assets/Evolve_Logo_* and Evolve_Wordmark_*", "Logo",

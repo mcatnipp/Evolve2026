@@ -240,6 +240,55 @@
       "url": "/insights/responsible-data-center-development/",
       "title": "Responsible Data Center Development Guide | Evolve",
       "decision": "READY AFTER REVIEW"
+    },
+    {
+      "id": "PAGE-900",
+      "name": "Solutions",
+      "url": "/solutions/",
+      "title": "Data Center Solutions | Evolve",
+      "decision": "READY AFTER APPROVAL (NEW DRAFT 2026-09-08)"
+    },
+    {
+      "id": "PAGE-910",
+      "name": "AI / HPC Data Centers",
+      "url": "/solutions/ai-hpc-data-centers/",
+      "title": "AI and HPC Data Center Solutions | Evolve",
+      "decision": "READY AFTER APPROVAL (NEW DRAFT 2026-09-08)"
+    },
+    {
+      "id": "PAGE-920",
+      "name": "Edge Data Centers",
+      "url": "/solutions/edge-data-centers/",
+      "title": "Edge Data Center Solutions | Evolve",
+      "decision": "READY AFTER APPROVAL (NEW DRAFT 2026-09-08)"
+    },
+    {
+      "id": "PAGE-930",
+      "name": "Modular Data Centers",
+      "url": "/solutions/modular-data-centers/",
+      "title": "Modular Data Center Solutions | Evolve",
+      "decision": "READY AFTER APPROVAL (NEW DRAFT 2026-09-08)"
+    },
+    {
+      "id": "PAGE-940",
+      "name": "Colocation Data Centers",
+      "url": "/solutions/colocation-data-centers/",
+      "title": "Colocation Capacity Solutions | Evolve",
+      "decision": "READY AFTER APPROVAL (NEW DRAFT 2026-09-08)"
+    },
+    {
+      "id": "PAGE-950",
+      "name": "Greenfield New Builds",
+      "url": "/solutions/greenfield-new-builds/",
+      "title": "Greenfield Data Center New Builds | Evolve",
+      "decision": "READY AFTER APPROVAL (NEW DRAFT 2026-09-08)"
+    },
+    {
+      "id": "PAGE-960",
+      "name": "Brownfield & Retrofit",
+      "url": "/solutions/brownfield-retrofit/",
+      "title": "Brownfield and Retrofit Data Center Solutions | Evolve",
+      "decision": "READY AFTER APPROVAL (NEW DRAFT 2026-09-08)"
     }
   ],
   "redirects": {
@@ -257,21 +306,14 @@
     "/markets-we-serve/": "/data-center-markets/",
     "/markets-we-serve/colocation/": "/data-center-markets/colocation/",
     "/markets-we-serve/modular-data-centers/": "/design-build/modular-data-centers/",
-    "/solutions/": "/design-build/",
-    "/solutions/ai-hpc/": "/design-build/ai-data-centers/",
-    "/solutions/ai-hpc-data-centers/": "/design-build/ai-data-centers/",
-    "/ai-ready-data-centers/": "/design-build/ai-data-centers/",
-    "/solutions/modular/": "/design-build/modular-data-centers/",
-    "/solutions/modular-data-centers/": "/design-build/modular-data-centers/",
-    "/solutions/colocation/": "/data-center-markets/colocation/",
-    "/solutions/colocation-data-centers/": "/data-center-markets/colocation/",
-    "/solutions/edge/": "/data-center-markets/",
-    "/solutions/edge-data-centers/": "/data-center-markets/",
+    "/solutions/ai-hpc/": "/solutions/ai-hpc-data-centers/",
+    "/ai-ready-data-centers/": "/solutions/ai-hpc-data-centers/",
+    "/solutions/modular/": "/solutions/modular-data-centers/",
+    "/solutions/colocation/": "/solutions/colocation-data-centers/",
+    "/solutions/edge/": "/solutions/edge-data-centers/",
     "/industries/colocation-providers/": "/data-center-markets/colocation/",
-    "/solutions/greenfield/": "/design-build/planning-feasibility/",
-    "/solutions/greenfield-new-builds/": "/design-build/planning-feasibility/",
-    "/solutions/brownfield/": "/design-build/expansions-retrofits/",
-    "/solutions/brownfield-retrofit/": "/design-build/expansions-retrofits/",
+    "/solutions/greenfield/": "/solutions/greenfield-new-builds/",
+    "/solutions/brownfield/": "/solutions/brownfield-retrofit/",
     "/company-news/": "/insights/",
     "/leadership/": "/about/"
   },
